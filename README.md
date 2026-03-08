@@ -1,26 +1,30 @@
-# Sun Pharmaceutical Industries – Pharma Analytics Project
+# Pharma Industry Analysis Project
 
-This MBA project analyzes the strategic position and performance of Sun Pharmaceutical Industries in the pharmaceutical industry.
+MBA Project | Pharma & Healthcare Management
 
-## Project Sections
+This project analyzes the strategic position and performance of Sun Pharmaceutical Industries in the global pharmaceutical market using competitive benchmarking, sales analytics, and AI forecasting.
+
+## Project Components
 
 1. Competitive Analysis
-Benchmarking Sun Pharma with major pharmaceutical competitors.
+Benchmarking Sun Pharma against major pharmaceutical companies.
 
 2. Sales Data Analysis
-Sales dataset analysis and dashboard creation using Excel.
+Pharmaceutical sales dataset analysis with dashboard and insights.
 
 3. AI Forecasting
-Forecasting pharmaceutical sales trends using analytics techniques.
+Future sales forecasting using analytics models.
 
 4. Final Strategic Report
-Comprehensive report combining all project insights.
+Integrated report combining insights from competitive strategy, sales analytics, and AI forecasting.
 
 ## Tools Used
-Excel POWER BI MS WORD 
-Business Analytics
-Strategic Analysis
-AI Forecasting
+- Microsoft Excel
+- Data Analytics
+- Business Strategy Frameworks
+- Market Forecasting
 
 ## Author
-Devesh – MBA Pharma & Healthcare (Shoolini University)
+Devesh  
+MBA Pharma & Healthcare  
+Shoolini University
