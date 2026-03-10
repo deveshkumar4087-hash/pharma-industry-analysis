@@ -1,11 +1,11 @@
-Pharmaceutical Demand Forecasting Analysis
-Project Overview
+**Pharmaceutical Demand Forecasting Analysis**
+**Project Overview**
 
 This project focuses on analyzing and forecasting pharmaceutical medicine demand using data analytics techniques. The goal is to understand demand patterns across different therapeutic areas and cities and develop a forecasting model to estimate future pharmaceutical demand.
 
 The analysis uses a simulated dataset representing pharmaceutical sales across multiple cities, therapy segments, and time periods. The project demonstrates how data-driven insights can support strategic decision-making in the pharmaceutical industry.
 
-Objectives
+ Objectives -
 
 Analyze pharmaceutical demand trends across therapy areas
 
@@ -19,11 +19,11 @@ Forecast future pharmaceutical demand using trend analysis
 
 Develop an interactive Excel dashboard for visualization
 
-Dataset Description
+Dataset Description -
 
 The dataset used in this project contains simulated pharmaceutical demand data across multiple cities and therapy areas.
 
-Dataset Fields
+Dataset Fields -
 Column	Description
 Year	Year of sales data
 Month	Month of recorded demand
@@ -35,11 +35,11 @@ Revenue	Total revenue generated (Units Sold × Price)
 
 The dataset contains over 5,000 records, representing demand patterns over multiple years and geographic regions.
 
-Data Disclaimer
+Data Disclaimer -
 
 The dataset used in this project is a simulated dataset created for academic and analytical purposes only. It reflects realistic pharmaceutical market patterns but does not contain any confidential or proprietary company data.
 
-Analytical Approach
+Analytical Approach -
 
 The project follows a structured data analytics approach:
 
@@ -63,7 +63,7 @@ Revenue contribution by therapy areas and regions was evaluated to identify key 
 
 Historical demand trends were used to build a forecasting model that predicts pharmaceutical demand for upcoming years.
 
-Dashboard Visualizations
+Dashboard Visualizations -
 
 The Excel dashboard created for this project includes the following visualizations:
 
@@ -75,7 +75,7 @@ Monthly Demand Trend
 
 Revenue by Therapy Area
 
-Demand Forecast (Future Projection)
+Demand Forecast (Future Projection) -
 
 These visualizations help provide clear insights into pharmaceutical demand patterns.
 
