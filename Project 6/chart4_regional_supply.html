@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chart 4 — Regional Supply Analysis</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #f0fdf4; font-family: 'Outfit', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; }
+  .card { background: #fff; border-radius: 24px; box-shadow: 0 8px 48px rgba(16,185,129,0.10); padding: 40px 44px 36px; width: 100%; max-width: 1100px; border-top: 5px solid #10b981; }
+  .header { display: flex; align-items: flex-start; margin-bottom: 28px; gap: 16px; }
+  .chart-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #a7f3d0; flex-shrink: 0; }
+  .chart-tag { display: inline-block; background: #059669; color: #fff; font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 8px; }
+  h1 { font-size: 26px; font-weight: 700; color: #1a202c; margin-bottom: 6px; }
+  .subtitle { font-size: 14px; color: #718096; }
+  .region-cards { display: grid; grid-template-columns: repeat(5,1fr); gap: 12px; margin-bottom: 28px; }
+  .rc { border-radius: 14px; padding: 16px; text-align: center; border: 2px solid transparent; transition: transform .15s; cursor: default; }
+  .rc:hover { transform: translateY(-2px); }
+  .rc-name { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .rc-gap { font-family: 'Bebas Neue', sans-serif; font-size: 32px; line-height: 1; }
+  .rc-label { font-size: 11px; margin-top: 4px; font-weight: 500; }
+  .rc.short { background: #fff5f5; border-color: #fed7d7; }
+  .rc.short .rc-name { color: #9b2c2c; }
+  .rc.short .rc-gap { color: #dc2626; }
+  .rc.short .rc-label { color: #fc8181; }
+  .rc.sur { background: #f0fff4; border-color: #c6f6d5; }
+  .rc.sur .rc-name { color: #276749; }
+  .rc.sur .rc-gap { color: #38a169; }
+  .rc.sur .rc-label { color: #68d391; }
+  .rc.bal { background: #eff6ff; border-color: #bfdbfe; }
+  .rc.bal .rc-name { color: #1e40af; }
+  .rc.bal .rc-gap { color: #3b82f6; }
+  .rc.bal .rc-label { color: #93c5fd; }
+  .charts-row { display: grid; grid-template-columns: 3fr 2fr; gap: 20px; }
+  .chart-panel { }
+  .panel-title { font-size: 13px; font-weight: 700; color: #2d3748; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+  .chart-wrap { position: relative; height: 320px; }
+  .insight-box { margin-top: 20px; background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 14px; padding: 16px 20px; }
+  .insight-box h3 { font-size: 12px; font-weight: 700; color: #065f46; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+  .ins-row { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #1a202c; padding: 5px 0; border-bottom: 1px solid #d1fae5; }
+  .ins-row:last-child { border-bottom: none; }
+  .ins-ico { font-size: 16px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="chart-num">04</div>
+    <div>
+      <div class="chart-tag">🗺️ Bar Chart · Mandatory</div>
+      <h1>Regional Supply Analysis</h1>
+      <div class="subtitle">Demand vs Inventory breakdown by region — identifies distribution imbalances across India</div>
+    </div>
+  </div>
+
+  <div class="region-cards" id="rcards"></div>
+
+  <div class="charts-row">
+    <div class="chart-panel">
+      <div class="panel-title">📊 Demand vs Inventory by Region</div>
+      <div class="chart-wrap"><canvas id="c4main"></canvas></div>
+    </div>
+    <div class="chart-panel">
+      <div class="panel-title">📉 Inventory Gap by Region</div>
+      <div class="chart-wrap"><canvas id="c4gap"></canvas></div>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <h3>🔍 Regional Insights</h3>
+    <div class="ins-row"><span class="ins-ico">🔴</span><span><b>East India</b> faces the most critical shortage — immediate redistribution required from surplus regions</span></div>
+    <div class="ins-row"><span class="ins-ico">🟡</span><span><b>West India</b> carries significant overstock — excess inventory can be re-routed to shortage zones</span></div>
+    <div class="ins-row"><span class="ins-ico">✅</span><span><b>North & South India</b> are relatively balanced — minor fine-tuning needed for efficiency</span></div>
+    <div class="ins-row"><span class="ins-ico">💡</span><span>Implement lateral stock transfers between regions before placing new procurement orders</span></div>
+  </div>
+</div>
+
+<script>
+const regions = [
+  { region: "North", demand: 6420, inventory: 6700 },
+  { region: "South", demand: 7180, inventory: 6950 },
+  { region: "East",  demand: 8900, inventory: 6200 },
+  { region: "West",  demand: 5300, inventory: 7100 },
+  { region: "Central", demand: 6800, inventory: 6800 },
+];
+regions.forEach(r => r.gap = r.inventory - r.demand);
+
+// Region cards
+const rcards = document.getElementById('rcards');
+regions.forEach(r => {
+  const cls = r.gap < -300 ? 'short' : r.gap > 300 ? 'sur' : 'bal';
+  const label = r.gap < -300 ? 'SHORTAGE' : r.gap > 300 ? 'SURPLUS' : 'BALANCED';
+  rcards.innerHTML += `<div class="rc ${cls}">
+    <div class="rc-name">${r.region}</div>
+    <div class="rc-gap">${r.gap > 0 ? '+' : ''}${r.gap.toLocaleString()}</div>
+    <div class="rc-label">${label}</div>
+    <div style="font-size:11px;color:#a0aec0;margin-top:6px">D: ${r.demand.toLocaleString()} | I: ${r.inventory.toLocaleString()}</div>
+  </div>`;
+});
+
+const regionColors = ['#6366f1','#10b981','#f59e0b','#3b82f6','#8b5cf6'];
+
+// Main grouped bar chart
+new Chart(document.getElementById('c4main').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: regions.map(r => r.region),
+    datasets: [
+      {
+        label: 'Demand',
+        data: regions.map(r => r.demand),
+        backgroundColor: 'rgba(99,102,241,0.75)',
+        borderColor: '#6366f1', borderWidth: 1.5, borderRadius: 6,
+      },
+      {
+        label: 'Inventory',
+        data: regions.map(r => r.inventory),
+        backgroundColor: regions.map(r => r.gap < -300 ? 'rgba(220,38,38,0.75)' : r.gap > 300 ? 'rgba(245,158,11,0.75)' : 'rgba(16,185,129,0.75)'),
+        borderColor: regions.map(r => r.gap < -300 ? '#dc2626' : r.gap > 300 ? '#f59e0b' : '#10b981'),
+        borderWidth: 1.5, borderRadius: 6,
+      }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#4a5568', font: { family: 'Outfit', size: 12 }, padding: 16 } },
+      tooltip: { backgroundColor: '#1a202c', titleColor: '#6ee7b7', bodyColor: '#e2e8f0', padding: 12 }
+    },
+    scales: {
+      x: { ticks: { color: '#2d3748', font: { family: 'Outfit', size: 12, weight:'600' } }, grid: { display: false } },
+      y: { ticks: { color: '#718096', font: { family: 'Outfit', size: 11 } }, grid: { color: '#f0fdf4' } }
+    }
+  }
+});
+
+// Gap chart
+new Chart(document.getElementById('c4gap').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: regions.map(r => r.region),
+    datasets: [{
+      label: 'Inventory Gap',
+      data: regions.map(r => r.gap),
+      backgroundColor: regions.map(r => r.gap < 0 ? 'rgba(220,38,38,0.80)' : 'rgba(245,158,11,0.80)'),
+      borderColor: regions.map(r => r.gap < 0 ? '#dc2626' : '#f59e0b'),
+      borderWidth: 1.5, borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#1a202c', titleColor: '#6ee7b7', bodyColor: '#e2e8f0', padding: 12,
+        callbacks: { label: (i) => `Gap: ${i.raw > 0 ? '+' : ''}${i.raw.toLocaleString()} units` }
+      }
+    },
+    scales: {
+      x: { ticks: { color: '#2d3748', font: { family: 'Outfit', size: 12, weight:'600' } }, grid: { display: false } },
+      y: {
+        ticks: { color: '#718096', font: { family: 'Outfit', size: 11 } },
+        grid: { color: '#f0fdf4' },
+        title: { display: true, text: 'Gap (units)', color: '#4a5568', font: { family: 'Outfit', size: 12 } }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

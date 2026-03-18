@@ -1,0 +1,1001 @@
+Date,Product,Category,Region,Demand,Inventory,Lead_Time_Days,Delivery_Delay_Days,Cost_Per_Unit,Units_Sold
+2023-10-09,Omeprazole,Gastroenterology,North,1226,1816,8,1,15.45,1226
+2023-05-23,Ibuprofen,Pain Management,South,1582,2068,5,0,97.81,1582
+2023-03-31,Omeprazole,Gastroenterology,Central,1432,1903,2,0,78.95,1432
+2023-02-02,Dexamethasone,Oncology,West,847,661,11,0,146.08,661
+2023-08-12,Amoxicillin,Antibiotics,North,1906,1726,4,3,102.21,1726
+2024-09-08,Ibuprofen,Pain Management,Central,940,742,5,5,84.71,742
+2023-07-23,Amoxicillin,Antibiotics,Central,876,514,8,1,125.06,514
+2023-08-14,Cetirizine,Allergy,West,134,171,5,0,113.43,134
+2023-10-12,Azithromycin,Antibiotics,Central,1121,897,19,2,140.96,897
+2024-12-15,Amoxicillin,Antibiotics,South,1095,1127,17,0,85.78,1095
+2023-10-12,Furosemide,Cardiovascular,East,1375,754,19,1,88.22,754
+2023-12-11,Lisinopril,Cardiovascular,South,316,240,14,0,120.43,240
+2024-01-25,Omeprazole,Gastroenterology,North,164,68,9,0,122.41,68
+2023-12-19,Omeprazole,Gastroenterology,East,692,550,4,2,11.57,550
+2023-02-14,Ondansetron,Oncology,East,330,285,6,2,95.81,285
+2023-05-08,Azithromycin,Antibiotics,Central,1670,1641,6,7,127.41,1641
+2024-07-19,Levothyroxine,Endocrinology,North,1128,1121,10,2,17.08,1121
+2024-01-06,Ciprofloxacin,Antibiotics,Central,991,926,8,1,84.71,926
+2024-12-22,Dexamethasone,Oncology,South,1857,1542,5,5,90.03,1542
+2024-11-08,Atorvastatin,Cardiovascular,North,1366,1424,3,1,44.7,1366
+2023-03-23,Ibuprofen,Pain Management,East,1112,1468,12,0,18.75,1112
+2024-01-25,Ibuprofen,Pain Management,North,1596,1718,2,0,97.33,1596
+2024-10-12,Insulin Glargine,Diabetes,West,732,733,6,2,40.78,732
+2024-01-15,Sertraline,Psychiatry,South,763,1107,10,1,10.2,763
+2024-11-17,Sertraline,Psychiatry,South,541,755,18,0,149.66,541
+2024-09-15,Insulin Glargine,Diabetes,North,798,597,3,1,5.44,597
+2023-09-08,Salbutamol,Respiratory,Central,1859,2442,13,1,83.16,1859
+2024-01-24,Salbutamol,Respiratory,West,346,324,12,0,36.7,324
+2023-08-13,Insulin Glargine,Diabetes,Central,393,475,12,3,119.85,393
+2023-08-23,Amlodipine,Cardiovascular,North,1324,1600,7,2,128.82,1324
+2024-02-15,Metformin,Diabetes,East,863,864,20,0,14.88,863
+2023-08-05,Insulin Glargine,Diabetes,North,588,555,8,5,21.06,555
+2023-08-06,Dexamethasone,Oncology,East,572,561,8,2,122.67,561
+2024-10-20,Pantoprazole,Gastroenterology,West,1116,1182,18,0,14.42,1116
+2023-09-29,Azithromycin,Antibiotics,South,1775,1735,10,0,109.03,1735
+2024-07-28,Lisinopril,Cardiovascular,South,1254,1789,2,2,13.08,1254
+2024-08-21,Cetirizine,Allergy,East,1543,2228,19,0,82.54,1543
+2024-02-13,Furosemide,Cardiovascular,Central,921,822,10,0,3.2,822
+2023-05-22,Sertraline,Psychiatry,South,497,554,8,2,46.56,497
+2023-04-04,Losartan,Cardiovascular,West,787,700,20,2,37.94,700
+2023-06-06,Metformin,Diabetes,North,1793,2746,3,0,96.94,1793
+2024-09-02,Salbutamol,Respiratory,West,978,942,6,0,75.13,942
+2024-01-26,Atorvastatin,Cardiovascular,West,1639,884,15,4,55.84,884
+2024-06-25,Ondansetron,Oncology,West,1868,2750,18,1,86.06,1868
+2023-01-12,Insulin Glargine,Diabetes,Central,799,1017,2,0,25.84,799
+2023-10-01,Omeprazole,Gastroenterology,Central,1916,1480,4,1,15.03,1480
+2023-10-28,Amlodipine,Cardiovascular,North,1411,1134,11,4,111.24,1134
+2024-04-09,Furosemide,Cardiovascular,South,1516,1345,17,1,44.83,1345
+2024-05-27,Amoxicillin,Antibiotics,East,637,941,14,0,11.11,637
+2023-04-19,Salbutamol,Respiratory,Central,499,637,20,0,56.65,499
+2024-09-15,Ciprofloxacin,Antibiotics,Central,933,765,18,0,123.48,765
+2024-01-18,Paracetamol,Pain Management,South,1177,1389,6,1,115.61,1177
+2024-06-27,Salbutamol,Respiratory,Central,1103,1744,16,2,21.18,1103
+2023-11-28,Amoxicillin,Antibiotics,Central,755,1039,11,0,119.38,755
+2023-04-25,Pantoprazole,Gastroenterology,North,930,810,10,2,9.2,810
+2023-09-03,Sertraline,Psychiatry,East,733,605,3,0,14.53,605
+2024-08-03,Metformin,Diabetes,South,1724,1821,4,0,53.72,1724
+2024-05-12,Atorvastatin,Cardiovascular,North,1096,1038,15,0,14.58,1038
+2023-05-09,Atorvastatin,Cardiovascular,Central,193,263,17,3,52.27,193
+2024-07-16,Lisinopril,Cardiovascular,West,1377,1763,11,5,133.06,1377
+2024-06-24,Salbutamol,Respiratory,East,1303,1314,2,1,102.75,1303
+2023-08-05,Ondansetron,Oncology,West,1139,1198,3,0,88.07,1139
+2024-12-31,Cetirizine,Allergy,South,1598,2416,2,1,82.07,1598
+2024-11-18,Ciprofloxacin,Antibiotics,West,1736,2207,2,6,135.85,1736
+2024-06-13,Sertraline,Psychiatry,West,1679,1541,20,1,50.81,1541
+2023-09-11,Azithromycin,Antibiotics,North,189,153,11,0,122.26,153
+2023-12-13,Ibuprofen,Pain Management,North,716,603,12,4,110.39,603
+2024-07-21,Amoxicillin,Antibiotics,Central,1400,2238,5,0,112.72,1400
+2023-08-14,Ibuprofen,Pain Management,Central,291,264,18,2,51.45,264
+2024-12-25,Amoxicillin,Antibiotics,North,1313,1388,13,1,112.76,1313
+2023-03-11,Metformin,Diabetes,South,316,251,17,0,45.0,251
+2023-03-14,Metformin,Diabetes,East,1142,755,13,6,127.15,755
+2023-10-13,Losartan,Cardiovascular,South,364,468,6,0,49.64,364
+2024-07-06,Pantoprazole,Gastroenterology,South,990,851,17,3,14.14,851
+2024-08-13,Lisinopril,Cardiovascular,Central,1165,1687,12,0,21.88,1165
+2024-04-29,Pantoprazole,Gastroenterology,South,1197,1976,18,0,13.07,1197
+2023-04-07,Furosemide,Cardiovascular,South,1776,1479,3,0,13.18,1479
+2023-12-29,Omeprazole,Gastroenterology,West,438,422,14,0,122.01,422
+2024-04-23,Furosemide,Cardiovascular,West,610,694,20,3,83.98,610
+2023-03-04,Metformin,Diabetes,North,190,163,20,0,74.15,163
+2023-04-22,Levothyroxine,Endocrinology,East,752,931,9,0,97.56,752
+2023-07-14,Ibuprofen,Pain Management,South,1124,1203,18,0,79.49,1124
+2023-05-24,Cetirizine,Allergy,West,1240,1777,6,0,104.46,1240
+2023-10-13,Furosemide,Cardiovascular,South,1564,1566,10,0,44.53,1564
+2023-03-19,Azithromycin,Antibiotics,South,1636,1850,12,0,142.59,1636
+2023-04-11,Azithromycin,Antibiotics,Central,1067,1096,9,0,97.2,1067
+2023-01-16,Metformin,Diabetes,Central,1771,1569,10,0,68.26,1569
+2023-06-20,Atorvastatin,Cardiovascular,South,1058,1081,2,1,90.62,1058
+2024-05-07,Furosemide,Cardiovascular,West,851,427,19,1,25.14,427
+2023-03-02,Paracetamol,Pain Management,West,1115,1421,2,1,147.8,1115
+2023-01-03,Salbutamol,Respiratory,West,1902,1999,18,3,70.57,1902
+2024-04-10,Levothyroxine,Endocrinology,East,1222,839,17,0,103.91,839
+2024-12-14,Ciprofloxacin,Antibiotics,West,808,1131,6,2,113.68,808
+2023-06-08,Cetirizine,Allergy,West,182,128,15,0,38.09,128
+2023-08-11,Paracetamol,Pain Management,East,784,867,3,0,17.48,784
+2024-07-09,Metformin,Diabetes,Central,253,210,4,1,127.9,210
+2023-02-28,Metformin,Diabetes,East,1177,1548,16,3,96.08,1177
+2024-05-03,Metformin,Diabetes,Central,174,188,7,1,147.08,174
+2023-06-11,Losartan,Cardiovascular,Central,1429,1175,3,0,77.34,1175
+2023-03-24,Metformin,Diabetes,Central,1083,1184,11,3,142.45,1083
+2024-09-01,Salbutamol,Respiratory,North,999,1068,6,7,74.15,999
+2024-02-18,Atorvastatin,Cardiovascular,South,304,239,12,0,11.84,239
+2023-09-10,Omeprazole,Gastroenterology,Central,860,632,17,2,27.69,632
+2023-02-10,Dexamethasone,Oncology,Central,1819,2228,4,1,145.98,1819
+2024-03-05,Ondansetron,Oncology,North,160,92,7,0,69.39,92
+2024-06-19,Dexamethasone,Oncology,Central,445,585,18,1,103.71,445
+2023-07-29,Amlodipine,Cardiovascular,East,1196,1189,12,5,9.63,1189
+2023-09-29,Amlodipine,Cardiovascular,South,1149,1574,9,2,28.09,1149
+2024-11-18,Levothyroxine,Endocrinology,South,818,813,15,1,112.25,813
+2023-11-20,Ciprofloxacin,Antibiotics,West,625,442,20,2,134.33,442
+2024-04-14,Atorvastatin,Cardiovascular,North,849,700,6,0,84.81,700
+2023-04-13,Ondansetron,Oncology,Central,1396,629,13,0,51.77,629
+2023-08-07,Atorvastatin,Cardiovascular,Central,124,123,16,1,110.65,123
+2023-05-16,Losartan,Cardiovascular,East,722,882,18,1,57.13,722
+2023-09-08,Sertraline,Psychiatry,North,712,810,14,0,140.09,712
+2023-06-11,Sertraline,Psychiatry,East,1560,1538,7,0,73.43,1538
+2024-12-21,Azithromycin,Antibiotics,Central,1473,848,10,0,78.91,848
+2024-10-31,Ciprofloxacin,Antibiotics,Central,1163,1067,7,1,145.44,1067
+2024-11-14,Losartan,Cardiovascular,North,103,71,7,2,139.44,71
+2024-11-10,Cetirizine,Allergy,East,946,1010,20,3,31.16,946
+2023-09-28,Omeprazole,Gastroenterology,South,1533,1597,18,1,106.23,1533
+2024-07-20,Omeprazole,Gastroenterology,North,753,443,6,1,139.84,443
+2023-10-16,Lisinopril,Cardiovascular,East,944,922,11,1,82.56,922
+2023-12-18,Ondansetron,Oncology,South,997,936,3,0,21.25,936
+2024-06-01,Paracetamol,Pain Management,East,428,552,4,0,139.46,428
+2023-02-22,Pantoprazole,Gastroenterology,East,417,569,19,0,109.76,417
+2023-10-11,Atorvastatin,Cardiovascular,West,1260,1008,9,3,112.7,1008
+2023-12-08,Metformin,Diabetes,North,1951,1310,6,3,99.95,1310
+2023-06-15,Lisinopril,Cardiovascular,East,1533,2334,19,3,66.15,1533
+2024-12-23,Azithromycin,Antibiotics,Central,1649,1886,7,1,66.09,1649
+2023-01-10,Furosemide,Cardiovascular,Central,1092,725,15,0,34.74,725
+2024-12-08,Omeprazole,Gastroenterology,North,1162,956,7,0,109.72,956
+2023-02-06,Lisinopril,Cardiovascular,Central,653,506,8,1,149.66,506
+2024-07-19,Sertraline,Psychiatry,Central,1564,1856,6,3,21.9,1564
+2023-05-11,Lisinopril,Cardiovascular,West,295,316,2,0,80.7,295
+2024-01-09,Metformin,Diabetes,East,914,1325,16,3,22.91,914
+2023-08-04,Metformin,Diabetes,East,146,175,12,1,124.11,146
+2023-12-29,Ibuprofen,Pain Management,North,1377,2340,7,0,63.83,1377
+2024-09-27,Cetirizine,Allergy,West,445,641,19,1,3.21,445
+2023-06-16,Lisinopril,Cardiovascular,South,927,770,13,1,104.65,770
+2023-01-26,Salbutamol,Respiratory,West,987,869,10,1,110.6,869
+2024-02-26,Salbutamol,Respiratory,East,1419,2129,12,1,17.43,1419
+2023-06-13,Ibuprofen,Pain Management,East,1528,1165,2,4,78.07,1165
+2023-02-09,Omeprazole,Gastroenterology,West,1035,974,16,0,50.61,974
+2023-07-24,Pantoprazole,Gastroenterology,South,1559,1968,12,5,70.12,1559
+2023-11-09,Azithromycin,Antibiotics,East,574,595,18,1,5.41,574
+2023-01-25,Ibuprofen,Pain Management,South,862,602,7,0,47.07,602
+2023-12-03,Paracetamol,Pain Management,West,384,308,19,2,27.12,308
+2023-10-13,Insulin Glargine,Diabetes,North,1207,1407,9,1,89.51,1207
+2024-02-14,Sertraline,Psychiatry,Central,1264,1297,20,0,134.76,1264
+2023-01-29,Cetirizine,Allergy,East,131,102,17,1,10.32,102
+2023-07-02,Omeprazole,Gastroenterology,East,689,840,19,1,66.39,689
+2023-02-09,Dexamethasone,Oncology,East,213,201,9,3,141.94,201
+2024-03-20,Omeprazole,Gastroenterology,Central,899,931,20,2,61.61,899
+2024-03-22,Sertraline,Psychiatry,East,186,294,4,0,100.95,186
+2023-04-29,Ondansetron,Oncology,Central,427,159,16,1,133.18,159
+2023-07-14,Levothyroxine,Endocrinology,Central,1727,1146,15,1,121.12,1146
+2024-12-26,Insulin Glargine,Diabetes,North,551,740,15,0,134.5,551
+2024-06-16,Furosemide,Cardiovascular,North,106,116,17,0,87.66,106
+2024-01-08,Cetirizine,Allergy,South,799,854,2,3,51.6,799
+2024-11-11,Furosemide,Cardiovascular,North,845,1141,6,0,116.19,845
+2023-11-18,Amlodipine,Cardiovascular,Central,1004,989,13,0,146.19,989
+2024-06-03,Omeprazole,Gastroenterology,East,1487,1032,15,1,27.73,1032
+2023-12-01,Ciprofloxacin,Antibiotics,West,1238,1442,10,1,95.2,1238
+2024-07-21,Levothyroxine,Endocrinology,East,1482,814,14,2,102.64,814
+2024-03-06,Lisinopril,Cardiovascular,South,937,1572,11,1,41.47,937
+2024-09-22,Levothyroxine,Endocrinology,South,1140,1449,11,0,39.92,1140
+2024-02-20,Dexamethasone,Oncology,East,1410,1969,9,0,95.15,1410
+2023-11-08,Cetirizine,Allergy,North,920,622,15,0,25.36,622
+2024-03-16,Ciprofloxacin,Antibiotics,South,1486,1219,5,2,10.7,1219
+2024-11-01,Dexamethasone,Oncology,Central,1902,2284,8,1,142.42,1902
+2024-03-28,Amlodipine,Cardiovascular,West,154,133,6,1,40.85,133
+2024-06-07,Azithromycin,Antibiotics,South,850,776,14,0,93.69,776
+2024-11-05,Pantoprazole,Gastroenterology,South,1573,1129,10,0,62.21,1129
+2024-06-11,Atorvastatin,Cardiovascular,East,160,122,4,0,0.85,122
+2023-04-06,Ondansetron,Oncology,East,1558,1464,3,0,47.53,1464
+2023-08-19,Ibuprofen,Pain Management,East,916,630,16,0,143.75,630
+2023-01-26,Paracetamol,Pain Management,South,438,478,18,2,104.0,438
+2024-05-01,Metformin,Diabetes,South,809,1165,10,5,6.39,809
+2024-04-11,Ondansetron,Oncology,North,877,973,18,0,85.41,877
+2023-07-19,Furosemide,Cardiovascular,Central,349,367,20,5,145.67,349
+2024-02-14,Levothyroxine,Endocrinology,West,826,1083,8,1,78.6,826
+2024-11-02,Ibuprofen,Pain Management,South,714,349,14,0,104.6,349
+2024-03-11,Amoxicillin,Antibiotics,North,1035,1112,13,1,120.69,1035
+2024-12-13,Ibuprofen,Pain Management,South,1639,2548,17,1,131.56,1639
+2023-02-21,Losartan,Cardiovascular,West,1573,750,11,9,0.54,750
+2023-05-05,Cetirizine,Allergy,South,1904,1756,13,1,131.11,1756
+2024-04-20,Azithromycin,Antibiotics,South,1362,1649,8,1,109.97,1362
+2024-09-01,Losartan,Cardiovascular,Central,1812,902,5,2,88.57,902
+2024-09-19,Amlodipine,Cardiovascular,West,531,298,15,0,16.87,298
+2024-07-15,Losartan,Cardiovascular,West,1467,1150,8,4,141.74,1150
+2024-05-01,Azithromycin,Antibiotics,South,110,128,3,0,148.68,110
+2023-09-11,Azithromycin,Antibiotics,East,1694,1572,20,1,34.99,1572
+2024-05-11,Insulin Glargine,Diabetes,Central,325,354,10,0,117.05,325
+2024-03-26,Ibuprofen,Pain Management,East,1897,2300,10,5,149.24,1897
+2023-08-29,Atorvastatin,Cardiovascular,East,1696,1841,4,2,104.56,1696
+2023-11-24,Insulin Glargine,Diabetes,East,315,546,16,0,134.29,315
+2023-05-22,Cetirizine,Allergy,North,1480,888,10,0,41.31,888
+2024-01-28,Lisinopril,Cardiovascular,South,1664,2465,6,2,42.57,1664
+2023-03-07,Lisinopril,Cardiovascular,South,1247,1449,9,2,7.79,1247
+2023-12-05,Furosemide,Cardiovascular,West,1013,814,6,9,9.7,814
+2024-03-01,Cetirizine,Allergy,West,1424,1197,20,3,52.5,1197
+2024-03-06,Metformin,Diabetes,South,1989,2111,20,4,37.17,1989
+2024-12-13,Levothyroxine,Endocrinology,Central,670,1002,10,0,36.18,670
+2024-01-25,Amoxicillin,Antibiotics,Central,1816,2192,8,4,144.22,1816
+2023-12-27,Pantoprazole,Gastroenterology,North,860,685,11,0,50.6,685
+2024-03-05,Ciprofloxacin,Antibiotics,West,1793,2292,3,0,92.73,1793
+2024-09-09,Cetirizine,Allergy,Central,1236,1395,9,0,95.28,1236
+2023-08-13,Ibuprofen,Pain Management,West,955,1280,8,1,144.47,955
+2024-05-12,Insulin Glargine,Diabetes,West,1954,1757,16,5,15.83,1757
+2023-12-11,Amoxicillin,Antibiotics,West,1319,1020,18,1,52.21,1020
+2024-04-23,Levothyroxine,Endocrinology,South,573,349,19,4,146.04,349
+2024-06-30,Lisinopril,Cardiovascular,Central,384,447,13,0,3.81,384
+2024-08-29,Amoxicillin,Antibiotics,West,1769,2226,20,0,0.65,1769
+2023-03-27,Dexamethasone,Oncology,North,1605,1308,12,0,12.82,1308
+2024-04-17,Furosemide,Cardiovascular,South,1073,722,12,0,142.65,722
+2023-09-24,Salbutamol,Respiratory,North,847,647,6,2,59.94,647
+2023-08-05,Levothyroxine,Endocrinology,East,1576,2263,2,0,108.8,1576
+2023-12-12,Azithromycin,Antibiotics,East,1285,913,13,1,70.99,913
+2024-03-07,Levothyroxine,Endocrinology,East,1662,2269,15,0,14.13,1662
+2024-04-26,Insulin Glargine,Diabetes,North,619,909,4,3,44.48,619
+2023-02-23,Amoxicillin,Antibiotics,Central,1659,2473,4,0,69.58,1659
+2024-10-27,Sertraline,Psychiatry,South,833,629,5,1,34.22,629
+2023-02-01,Atorvastatin,Cardiovascular,North,1055,618,3,3,46.9,618
+2023-01-21,Ibuprofen,Pain Management,South,1840,1829,19,1,90.2,1829
+2023-09-02,Ondansetron,Oncology,South,1667,1570,2,6,136.22,1570
+2024-11-16,Lisinopril,Cardiovascular,West,878,843,15,0,75.08,843
+2023-08-12,Omeprazole,Gastroenterology,Central,1209,773,2,1,1.96,773
+2024-01-13,Azithromycin,Antibiotics,East,1988,1914,2,3,53.99,1914
+2024-09-13,Salbutamol,Respiratory,Central,1226,732,8,0,104.13,732
+2023-11-15,Omeprazole,Gastroenterology,South,242,220,7,1,92.68,220
+2023-01-27,Omeprazole,Gastroenterology,Central,322,366,19,5,142.13,322
+2024-11-24,Ciprofloxacin,Antibiotics,Central,1983,3088,8,2,83.17,1983
+2023-07-23,Levothyroxine,Endocrinology,West,1513,1996,4,0,25.02,1513
+2024-12-08,Atorvastatin,Cardiovascular,Central,113,61,20,0,3.62,61
+2024-12-14,Ibuprofen,Pain Management,North,1846,1145,10,1,12.69,1145
+2023-05-04,Ciprofloxacin,Antibiotics,Central,854,821,6,0,55.97,821
+2023-12-22,Dexamethasone,Oncology,North,631,473,19,4,87.01,473
+2024-11-08,Cetirizine,Allergy,West,519,485,16,4,63.55,485
+2024-06-02,Sertraline,Psychiatry,North,854,656,13,0,70.14,656
+2024-03-06,Amlodipine,Cardiovascular,North,120,127,17,1,95.06,120
+2024-03-19,Pantoprazole,Gastroenterology,North,625,810,6,3,74.1,625
+2024-12-25,Sertraline,Psychiatry,West,417,392,8,0,89.15,392
+2023-06-30,Lisinopril,Cardiovascular,West,937,705,3,3,1.85,705
+2024-09-22,Losartan,Cardiovascular,East,1572,1833,4,1,49.97,1572
+2024-04-21,Cetirizine,Allergy,West,1728,1657,10,1,37.68,1657
+2023-10-02,Furosemide,Cardiovascular,Central,1806,2327,12,2,99.74,1806
+2023-03-30,Amlodipine,Cardiovascular,South,264,317,13,1,129.7,264
+2023-09-07,Insulin Glargine,Diabetes,West,719,684,2,0,68.1,684
+2024-09-16,Azithromycin,Antibiotics,Central,1880,1188,2,1,6.72,1188
+2023-01-30,Levothyroxine,Endocrinology,East,589,763,3,0,145.98,589
+2023-07-06,Pantoprazole,Gastroenterology,East,1162,1124,16,1,51.73,1124
+2023-12-30,Pantoprazole,Gastroenterology,South,1417,792,9,7,14.54,792
+2023-10-14,Insulin Glargine,Diabetes,East,1899,1512,7,4,26.98,1512
+2024-07-23,Ondansetron,Oncology,East,1925,1910,19,0,124.72,1910
+2023-07-15,Amoxicillin,Antibiotics,Central,402,413,13,0,119.43,402
+2024-02-21,Atorvastatin,Cardiovascular,South,900,1013,3,14,7.71,900
+2023-09-04,Pantoprazole,Gastroenterology,Central,1708,2856,17,2,14.03,1708
+2024-04-03,Pantoprazole,Gastroenterology,West,1282,1235,15,5,66.01,1235
+2023-10-29,Amoxicillin,Antibiotics,North,1605,2479,10,0,130.4,1605
+2024-12-09,Ibuprofen,Pain Management,West,1764,1189,16,1,91.67,1189
+2024-11-10,Ibuprofen,Pain Management,East,242,242,2,0,56.3,242
+2024-04-29,Dexamethasone,Oncology,East,201,190,11,2,75.32,190
+2023-12-19,Cetirizine,Allergy,Central,184,285,17,3,137.18,184
+2023-12-05,Furosemide,Cardiovascular,Central,1344,1063,6,0,71.77,1063
+2023-10-05,Sertraline,Psychiatry,West,142,163,7,2,107.47,142
+2023-08-25,Ciprofloxacin,Antibiotics,East,526,428,5,5,9.51,428
+2023-11-20,Omeprazole,Gastroenterology,South,888,925,20,0,73.14,888
+2024-12-07,Omeprazole,Gastroenterology,Central,1107,1193,4,1,13.9,1107
+2023-08-10,Salbutamol,Respiratory,South,769,792,18,7,123.56,769
+2024-08-26,Pantoprazole,Gastroenterology,East,449,249,14,0,44.64,249
+2023-10-17,Losartan,Cardiovascular,Central,1364,1476,11,4,63.97,1364
+2023-10-31,Omeprazole,Gastroenterology,South,1898,2793,16,6,90.44,1898
+2023-07-03,Ibuprofen,Pain Management,East,1241,817,10,3,97.17,817
+2024-12-26,Ciprofloxacin,Antibiotics,North,1083,880,6,0,109.93,880
+2023-10-08,Cetirizine,Allergy,South,1735,1554,11,3,115.12,1554
+2024-07-20,Metformin,Diabetes,North,1092,1018,13,3,32.9,1018
+2024-10-15,Ciprofloxacin,Antibiotics,South,761,465,16,0,31.32,465
+2023-01-13,Pantoprazole,Gastroenterology,North,1646,1512,3,0,89.76,1512
+2024-04-25,Dexamethasone,Oncology,East,1781,1330,8,2,2.87,1330
+2023-12-15,Pantoprazole,Gastroenterology,West,1403,1045,11,4,116.01,1045
+2023-09-16,Salbutamol,Respiratory,North,135,83,2,1,60.48,83
+2023-03-08,Pantoprazole,Gastroenterology,North,1476,903,18,3,100.61,903
+2023-03-17,Levothyroxine,Endocrinology,West,527,353,9,4,97.81,353
+2023-06-05,Dexamethasone,Oncology,North,1113,552,3,10,99.44,552
+2023-11-08,Lisinopril,Cardiovascular,Central,1332,1827,9,1,13.77,1332
+2023-05-02,Atorvastatin,Cardiovascular,South,552,304,17,1,63.69,304
+2024-09-12,Cetirizine,Allergy,West,154,230,18,0,147.19,154
+2023-08-20,Ondansetron,Oncology,Central,614,810,9,0,110.71,614
+2024-04-06,Losartan,Cardiovascular,West,1371,1081,7,0,118.29,1081
+2024-08-25,Azithromycin,Antibiotics,East,899,697,3,0,18.09,697
+2024-08-05,Furosemide,Cardiovascular,East,1786,1942,3,0,52.28,1786
+2024-09-16,Ondansetron,Oncology,North,860,750,5,4,24.68,750
+2024-10-02,Omeprazole,Gastroenterology,South,505,383,6,0,75.42,383
+2024-11-07,Paracetamol,Pain Management,East,660,418,11,4,120.99,418
+2023-09-03,Atorvastatin,Cardiovascular,South,1971,1724,15,0,60.75,1724
+2023-03-18,Salbutamol,Respiratory,Central,677,546,3,0,129.37,546
+2024-02-23,Salbutamol,Respiratory,North,263,267,2,1,114.84,263
+2024-04-26,Azithromycin,Antibiotics,Central,480,422,3,1,35.27,422
+2023-08-26,Ciprofloxacin,Antibiotics,North,1296,1364,14,5,131.48,1296
+2024-12-20,Ciprofloxacin,Antibiotics,East,1088,564,3,2,23.23,564
+2024-12-04,Azithromycin,Antibiotics,North,1110,1209,3,1,9.2,1110
+2024-10-02,Ibuprofen,Pain Management,East,1902,2236,20,0,11.66,1902
+2024-03-11,Dexamethasone,Oncology,South,1279,1448,20,0,103.9,1279
+2023-08-19,Omeprazole,Gastroenterology,Central,708,545,5,1,64.2,545
+2023-05-26,Lisinopril,Cardiovascular,East,1186,1822,4,0,62.41,1186
+2023-06-19,Atorvastatin,Cardiovascular,North,1649,1257,3,0,63.08,1257
+2024-08-05,Ciprofloxacin,Antibiotics,Central,841,828,11,2,28.86,828
+2023-05-08,Ciprofloxacin,Antibiotics,West,1000,697,4,0,97.09,697
+2024-12-17,Azithromycin,Antibiotics,East,407,442,5,3,36.9,407
+2024-05-27,Levothyroxine,Endocrinology,East,693,550,7,0,143.46,550
+2024-03-24,Cetirizine,Allergy,West,724,838,18,2,141.45,724
+2023-02-10,Atorvastatin,Cardiovascular,Central,1253,1380,9,1,95.76,1253
+2024-09-10,Furosemide,Cardiovascular,East,901,835,9,0,133.46,835
+2023-04-04,Insulin Glargine,Diabetes,North,1978,2114,2,1,7.65,1978
+2024-08-24,Ibuprofen,Pain Management,Central,1323,791,12,2,120.42,791
+2024-08-13,Amoxicillin,Antibiotics,East,1606,799,12,7,141.38,799
+2024-04-26,Metformin,Diabetes,South,598,331,12,1,82.67,331
+2023-10-12,Losartan,Cardiovascular,West,1475,855,17,6,44.67,855
+2024-03-22,Salbutamol,Respiratory,Central,1891,1282,10,0,31.25,1282
+2024-04-26,Pantoprazole,Gastroenterology,North,1684,1630,19,0,19.22,1630
+2023-12-08,Sertraline,Psychiatry,West,1982,2739,14,1,112.34,1982
+2023-06-14,Amlodipine,Cardiovascular,North,1411,1459,10,0,65.1,1411
+2024-12-11,Amlodipine,Cardiovascular,West,223,192,19,5,36.48,192
+2024-11-09,Pantoprazole,Gastroenterology,East,1848,1759,4,2,47.88,1759
+2023-02-07,Levothyroxine,Endocrinology,Central,138,193,10,1,95.59,138
+2023-11-19,Azithromycin,Antibiotics,North,1121,1203,8,0,8.55,1121
+2023-04-29,Insulin Glargine,Diabetes,East,355,394,12,0,81.16,355
+2023-01-02,Levothyroxine,Endocrinology,Central,1904,1446,19,0,76.12,1446
+2024-02-28,Cetirizine,Allergy,West,187,168,12,2,111.64,168
+2024-06-14,Metformin,Diabetes,South,614,780,8,1,131.63,614
+2024-05-25,Sertraline,Psychiatry,Central,1352,1072,11,1,121.86,1072
+2023-07-28,Azithromycin,Antibiotics,North,1999,2385,12,0,111.48,1999
+2023-05-15,Insulin Glargine,Diabetes,Central,401,375,3,0,117.68,375
+2024-12-16,Ciprofloxacin,Antibiotics,West,599,619,13,2,30.77,599
+2023-01-30,Pantoprazole,Gastroenterology,North,1541,2212,12,2,126.37,1541
+2024-12-27,Ondansetron,Oncology,South,1193,1979,4,0,99.62,1193
+2024-07-18,Salbutamol,Respiratory,East,921,865,11,1,53.65,865
+2024-02-22,Amoxicillin,Antibiotics,Central,1180,1353,15,2,16.07,1180
+2023-04-27,Atorvastatin,Cardiovascular,South,797,766,5,0,73.25,766
+2024-10-25,Azithromycin,Antibiotics,North,1793,2719,18,2,22.78,1793
+2023-10-26,Lisinopril,Cardiovascular,West,763,699,7,0,123.86,699
+2024-03-01,Losartan,Cardiovascular,East,118,110,2,0,33.48,110
+2023-09-07,Pantoprazole,Gastroenterology,West,862,1092,16,12,140.0,862
+2023-05-29,Azithromycin,Antibiotics,Central,1936,1336,16,0,61.78,1336
+2024-09-05,Levothyroxine,Endocrinology,South,177,237,8,1,88.37,177
+2023-03-13,Losartan,Cardiovascular,South,1628,1803,14,2,139.48,1628
+2023-12-15,Insulin Glargine,Diabetes,West,662,1093,11,3,34.22,662
+2023-01-03,Losartan,Cardiovascular,East,680,1004,11,5,106.05,680
+2024-08-24,Ciprofloxacin,Antibiotics,East,1725,1069,8,4,136.45,1069
+2023-06-02,Dexamethasone,Oncology,West,891,810,13,0,112.83,810
+2024-05-10,Azithromycin,Antibiotics,Central,1787,1912,13,0,5.92,1787
+2024-07-19,Sertraline,Psychiatry,East,1002,667,17,0,64.62,667
+2024-04-11,Cetirizine,Allergy,West,1852,2694,13,0,128.04,1852
+2024-12-15,Amlodipine,Cardiovascular,South,1742,585,8,0,35.9,585
+2024-01-28,Ibuprofen,Pain Management,Central,771,873,16,4,59.32,771
+2023-02-14,Ibuprofen,Pain Management,West,1789,2026,19,0,108.91,1789
+2024-12-23,Amlodipine,Cardiovascular,West,1083,933,20,7,91.47,933
+2024-11-10,Levothyroxine,Endocrinology,West,544,345,11,0,102.72,345
+2023-02-07,Lisinopril,Cardiovascular,West,388,356,3,1,81.61,356
+2024-08-27,Lisinopril,Cardiovascular,Central,522,457,7,3,64.58,457
+2024-03-26,Amlodipine,Cardiovascular,North,1640,2317,17,0,15.09,1640
+2024-04-12,Omeprazole,Gastroenterology,Central,1267,1384,16,1,121.06,1267
+2024-02-24,Amoxicillin,Antibiotics,South,1773,3029,20,3,30.6,1773
+2024-04-25,Lisinopril,Cardiovascular,North,490,802,16,0,131.74,490
+2024-09-30,Insulin Glargine,Diabetes,East,1849,1370,15,0,67.96,1370
+2023-12-03,Levothyroxine,Endocrinology,North,157,262,4,4,81.04,157
+2023-11-21,Cetirizine,Allergy,West,1111,1891,8,2,123.4,1111
+2023-02-06,Pantoprazole,Gastroenterology,Central,1301,645,13,1,43.43,645
+2023-08-29,Ondansetron,Oncology,North,575,782,6,2,119.79,575
+2023-04-03,Ciprofloxacin,Antibiotics,South,658,465,7,3,47.86,465
+2024-10-10,Furosemide,Cardiovascular,North,486,555,19,0,76.3,486
+2023-06-20,Omeprazole,Gastroenterology,West,319,177,5,3,145.18,177
+2023-02-17,Ciprofloxacin,Antibiotics,North,1910,2795,13,2,48.29,1910
+2023-10-28,Amlodipine,Cardiovascular,North,1252,1052,7,7,98.59,1052
+2024-03-17,Sertraline,Psychiatry,East,1763,1347,4,1,108.04,1347
+2024-06-27,Lisinopril,Cardiovascular,South,1029,765,10,3,81.35,765
+2024-11-29,Furosemide,Cardiovascular,Central,310,430,12,4,97.92,310
+2023-06-29,Salbutamol,Respiratory,South,556,664,17,2,123.98,556
+2024-01-27,Atorvastatin,Cardiovascular,Central,289,288,4,0,52.52,288
+2024-05-24,Ondansetron,Oncology,South,1042,550,18,3,70.96,550
+2023-08-26,Dexamethasone,Oncology,South,1906,2482,2,0,101.59,1906
+2024-04-15,Azithromycin,Antibiotics,East,1189,1272,2,3,42.25,1189
+2024-04-21,Insulin Glargine,Diabetes,North,290,246,16,0,32.29,246
+2023-06-11,Ciprofloxacin,Antibiotics,Central,326,527,5,4,115.03,326
+2023-12-20,Atorvastatin,Cardiovascular,West,1990,1239,16,0,136.13,1239
+2024-10-16,Dexamethasone,Oncology,East,1374,883,15,1,129.75,883
+2024-04-12,Furosemide,Cardiovascular,East,939,496,20,7,17.05,496
+2024-01-29,Ciprofloxacin,Antibiotics,South,695,444,7,0,128.82,444
+2023-08-31,Pantoprazole,Gastroenterology,North,182,252,4,2,120.83,182
+2024-01-03,Levothyroxine,Endocrinology,Central,1079,1672,20,4,17.33,1079
+2024-12-17,Dexamethasone,Oncology,East,1033,1041,5,0,36.66,1033
+2024-11-05,Ciprofloxacin,Antibiotics,North,419,471,4,0,109.67,419
+2023-01-09,Levothyroxine,Endocrinology,East,140,86,5,4,131.65,86
+2024-09-12,Dexamethasone,Oncology,North,1760,1732,18,0,64.66,1732
+2023-08-24,Pantoprazole,Gastroenterology,East,878,1206,19,1,98.99,878
+2023-08-13,Ondansetron,Oncology,East,1427,1799,10,4,100.55,1427
+2023-09-14,Paracetamol,Pain Management,Central,1076,791,2,0,104.32,791
+2024-10-04,Lisinopril,Cardiovascular,North,1547,1889,10,0,25.14,1547
+2024-03-27,Metformin,Diabetes,East,505,478,20,1,118.43,478
+2024-01-09,Metformin,Diabetes,Central,278,154,13,1,98.01,154
+2023-10-30,Lisinopril,Cardiovascular,North,293,294,10,1,95.3,293
+2023-06-29,Amlodipine,Cardiovascular,West,1385,2106,20,0,145.74,1385
+2024-07-06,Paracetamol,Pain Management,South,192,197,4,0,91.81,192
+2024-05-28,Sertraline,Psychiatry,Central,848,970,18,0,33.25,848
+2023-09-21,Insulin Glargine,Diabetes,South,654,1147,2,0,120.49,654
+2023-12-13,Pantoprazole,Gastroenterology,East,803,848,10,3,43.04,803
+2023-03-19,Omeprazole,Gastroenterology,West,1652,1111,20,4,86.43,1111
+2024-11-23,Lisinopril,Cardiovascular,South,1674,1573,2,0,109.61,1573
+2024-01-10,Levothyroxine,Endocrinology,Central,683,889,14,1,46.75,683
+2023-01-15,Atorvastatin,Cardiovascular,West,1424,1597,18,1,103.15,1424
+2023-05-07,Insulin Glargine,Diabetes,Central,1447,1563,5,0,18.59,1447
+2024-11-19,Azithromycin,Antibiotics,East,511,495,20,0,141.29,495
+2024-01-26,Insulin Glargine,Diabetes,Central,1058,1194,11,0,89.25,1058
+2024-11-22,Sertraline,Psychiatry,North,1389,1326,7,0,135.42,1326
+2023-01-26,Ibuprofen,Pain Management,West,1801,2435,9,3,104.38,1801
+2023-12-02,Ondansetron,Oncology,Central,367,514,6,0,84.02,367
+2024-10-25,Ondansetron,Oncology,South,322,298,7,3,104.03,298
+2024-12-18,Atorvastatin,Cardiovascular,West,1781,1802,7,3,67.24,1781
+2023-04-30,Ciprofloxacin,Antibiotics,West,1989,1748,4,3,137.54,1748
+2023-02-08,Lisinopril,Cardiovascular,North,1186,781,2,1,77.0,781
+2023-04-29,Ciprofloxacin,Antibiotics,West,1791,1770,5,0,114.41,1770
+2024-07-04,Omeprazole,Gastroenterology,South,658,465,4,0,11.22,465
+2024-04-09,Lisinopril,Cardiovascular,West,225,219,18,2,91.06,219
+2024-03-05,Sertraline,Psychiatry,Central,1029,1674,5,0,145.82,1029
+2024-02-29,Dexamethasone,Oncology,South,1025,1030,4,6,57.94,1025
+2024-09-22,Omeprazole,Gastroenterology,West,1278,866,20,0,113.55,866
+2023-02-03,Furosemide,Cardiovascular,East,1010,1121,11,4,17.86,1010
+2024-03-30,Sertraline,Psychiatry,South,269,163,19,3,147.61,163
+2024-01-07,Azithromycin,Antibiotics,South,176,143,18,0,51.39,143
+2024-07-11,Omeprazole,Gastroenterology,East,167,299,14,2,125.13,167
+2024-02-12,Sertraline,Psychiatry,North,1046,762,3,0,29.6,762
+2023-05-06,Insulin Glargine,Diabetes,South,1620,1349,12,1,52.42,1349
+2024-11-09,Azithromycin,Antibiotics,North,1727,1920,4,0,122.61,1727
+2023-01-22,Paracetamol,Pain Management,Central,1095,1275,20,0,59.57,1095
+2023-09-07,Metformin,Diabetes,East,1407,2383,6,1,34.55,1407
+2023-07-30,Lisinopril,Cardiovascular,Central,163,121,16,4,20.03,121
+2023-08-01,Atorvastatin,Cardiovascular,Central,494,578,6,3,41.73,494
+2023-08-27,Dexamethasone,Oncology,South,657,370,7,1,56.61,370
+2024-09-02,Amlodipine,Cardiovascular,South,1225,1230,16,1,137.85,1225
+2023-05-29,Amoxicillin,Antibiotics,East,598,705,16,1,143.43,598
+2023-09-14,Lisinopril,Cardiovascular,Central,1171,1580,9,3,66.15,1171
+2024-11-07,Salbutamol,Respiratory,North,980,865,4,1,76.81,865
+2023-01-16,Amoxicillin,Antibiotics,South,1617,870,17,2,139.42,870
+2024-08-25,Sertraline,Psychiatry,South,1849,1634,17,3,50.34,1634
+2023-06-28,Amlodipine,Cardiovascular,North,1670,1270,16,9,30.5,1270
+2023-05-10,Insulin Glargine,Diabetes,North,893,1347,2,0,1.35,893
+2023-04-27,Furosemide,Cardiovascular,Central,747,1103,10,2,126.97,747
+2024-04-04,Atorvastatin,Cardiovascular,West,293,272,15,1,61.36,272
+2024-08-30,Sertraline,Psychiatry,Central,1481,1326,9,0,121.33,1326
+2024-05-30,Omeprazole,Gastroenterology,West,1808,1913,18,1,119.28,1808
+2023-02-14,Ibuprofen,Pain Management,Central,1779,1990,3,0,60.73,1779
+2024-04-14,Losartan,Cardiovascular,East,210,138,15,0,40.29,138
+2024-05-05,Amoxicillin,Antibiotics,North,1753,2023,8,0,96.25,1753
+2024-12-03,Levothyroxine,Endocrinology,West,536,342,18,2,130.11,342
+2024-12-30,Omeprazole,Gastroenterology,West,1197,948,9,1,95.75,948
+2023-03-24,Azithromycin,Antibiotics,North,1137,1006,16,1,78.27,1006
+2023-06-01,Amlodipine,Cardiovascular,Central,1328,1653,9,0,74.76,1328
+2023-10-09,Atorvastatin,Cardiovascular,South,1413,878,13,1,15.86,878
+2024-07-15,Ondansetron,Oncology,Central,1364,1395,19,0,106.19,1364
+2024-09-03,Amlodipine,Cardiovascular,West,1466,1010,13,2,47.78,1010
+2024-04-09,Losartan,Cardiovascular,East,1774,2369,12,0,126.49,1774
+2024-03-16,Losartan,Cardiovascular,Central,527,378,13,2,17.85,378
+2024-11-01,Omeprazole,Gastroenterology,North,570,468,2,5,126.72,468
+2024-03-16,Cetirizine,Allergy,South,1050,817,14,0,42.13,817
+2024-02-28,Azithromycin,Antibiotics,South,622,794,16,5,40.71,622
+2024-02-13,Amlodipine,Cardiovascular,West,1975,2635,6,1,58.08,1975
+2023-11-17,Furosemide,Cardiovascular,North,1123,1146,16,0,95.35,1123
+2024-11-12,Furosemide,Cardiovascular,East,326,386,3,0,98.77,326
+2023-06-06,Insulin Glargine,Diabetes,East,1582,1506,2,3,113.23,1506
+2023-04-04,Pantoprazole,Gastroenterology,North,1872,1977,19,2,146.2,1872
+2024-03-18,Atorvastatin,Cardiovascular,North,1039,898,9,1,87.09,898
+2023-05-14,Omeprazole,Gastroenterology,East,1656,1520,11,1,15.43,1520
+2024-08-23,Cetirizine,Allergy,North,1709,1154,6,4,125.82,1154
+2023-12-04,Cetirizine,Allergy,Central,1972,1315,16,0,135.96,1315
+2023-12-29,Omeprazole,Gastroenterology,West,983,299,12,4,6.73,299
+2023-10-22,Furosemide,Cardiovascular,North,957,1108,16,0,20.16,957
+2023-12-27,Ondansetron,Oncology,East,1918,1709,11,2,121.17,1709
+2024-06-03,Omeprazole,Gastroenterology,Central,1797,749,2,2,33.88,749
+2024-11-03,Paracetamol,Pain Management,South,1948,1736,17,1,99.62,1736
+2023-04-21,Pantoprazole,Gastroenterology,South,1072,1528,9,0,23.27,1072
+2024-01-12,Sertraline,Psychiatry,Central,715,526,10,5,90.69,526
+2024-08-10,Omeprazole,Gastroenterology,East,1328,1189,9,5,117.89,1189
+2024-07-28,Ibuprofen,Pain Management,West,707,702,12,6,11.8,702
+2024-11-22,Ondansetron,Oncology,Central,332,270,11,0,41.8,270
+2024-09-15,Cetirizine,Allergy,North,560,905,9,4,25.0,560
+2023-07-04,Insulin Glargine,Diabetes,North,590,812,16,0,103.65,590
+2023-12-14,Insulin Glargine,Diabetes,East,893,680,6,1,34.92,680
+2023-07-05,Sertraline,Psychiatry,North,347,244,16,0,142.39,244
+2024-11-04,Lisinopril,Cardiovascular,Central,1681,1324,7,5,114.25,1324
+2023-05-26,Levothyroxine,Endocrinology,North,1713,1568,7,1,31.77,1568
+2024-06-27,Amoxicillin,Antibiotics,North,1358,1341,18,7,119.07,1341
+2024-03-05,Paracetamol,Pain Management,West,1646,1457,5,6,149.23,1457
+2023-06-11,Azithromycin,Antibiotics,East,1955,2827,13,0,65.83,1955
+2023-11-29,Sertraline,Psychiatry,East,1142,658,18,6,78.46,658
+2023-03-28,Dexamethasone,Oncology,Central,549,877,9,0,71.8,549
+2023-06-11,Metformin,Diabetes,South,1475,1421,18,0,84.98,1421
+2024-11-21,Ondansetron,Oncology,North,1977,2309,13,0,1.85,1977
+2024-03-29,Atorvastatin,Cardiovascular,East,1736,2091,11,0,127.28,1736
+2024-09-13,Furosemide,Cardiovascular,West,555,796,6,0,60.71,555
+2023-10-07,Azithromycin,Antibiotics,West,1999,1891,3,9,7.21,1891
+2023-04-27,Paracetamol,Pain Management,Central,704,635,4,0,113.26,635
+2023-04-24,Sertraline,Psychiatry,West,1798,798,18,3,38.02,798
+2024-05-13,Ciprofloxacin,Antibiotics,Central,792,741,5,3,135.38,741
+2023-02-16,Losartan,Cardiovascular,East,253,354,12,2,34.69,253
+2024-09-05,Ibuprofen,Pain Management,West,1316,732,3,2,34.12,732
+2023-07-29,Metformin,Diabetes,North,1703,2207,4,0,126.03,1703
+2023-05-21,Ciprofloxacin,Antibiotics,South,1232,942,16,4,126.95,942
+2023-12-02,Insulin Glargine,Diabetes,East,1768,1734,16,1,31.07,1734
+2024-05-24,Omeprazole,Gastroenterology,North,652,799,17,3,31.46,652
+2023-05-13,Furosemide,Cardiovascular,South,1628,1793,2,1,121.73,1628
+2024-12-21,Levothyroxine,Endocrinology,Central,139,89,5,2,115.78,89
+2024-07-26,Ibuprofen,Pain Management,Central,1127,807,14,0,19.62,807
+2024-02-11,Sertraline,Psychiatry,North,1953,2261,7,0,145.98,1953
+2023-01-20,Metformin,Diabetes,West,490,340,20,0,29.07,340
+2023-11-17,Azithromycin,Antibiotics,North,943,628,5,2,127.34,628
+2024-08-10,Dexamethasone,Oncology,West,1466,1278,17,4,121.1,1278
+2023-10-24,Levothyroxine,Endocrinology,West,1674,939,9,2,12.23,939
+2023-01-22,Omeprazole,Gastroenterology,West,1922,2186,11,1,54.58,1922
+2024-09-24,Amlodipine,Cardiovascular,South,1683,1716,6,0,77.32,1683
+2023-04-01,Azithromycin,Antibiotics,East,1852,1282,3,2,107.29,1282
+2023-09-07,Furosemide,Cardiovascular,North,1321,1938,8,3,52.02,1321
+2024-02-15,Furosemide,Cardiovascular,Central,1541,2028,7,2,24.02,1541
+2024-02-10,Losartan,Cardiovascular,North,1460,1219,13,2,65.58,1219
+2023-08-15,Ciprofloxacin,Antibiotics,East,291,243,5,0,4.27,243
+2023-03-20,Amlodipine,Cardiovascular,South,1542,989,2,7,65.93,989
+2024-06-27,Losartan,Cardiovascular,North,827,850,18,1,64.72,827
+2023-12-24,Losartan,Cardiovascular,South,1576,1887,7,0,144.25,1576
+2023-08-30,Sertraline,Psychiatry,South,1606,2349,5,1,47.82,1606
+2023-09-20,Omeprazole,Gastroenterology,South,1145,1092,6,0,47.27,1092
+2024-09-08,Paracetamol,Pain Management,South,474,478,12,0,62.04,474
+2023-07-01,Lisinopril,Cardiovascular,North,1001,904,15,1,37.45,904
+2024-07-31,Pantoprazole,Gastroenterology,West,1156,1470,6,0,31.21,1156
+2024-11-28,Dexamethasone,Oncology,West,1802,2345,14,3,110.16,1802
+2023-11-27,Dexamethasone,Oncology,Central,314,291,19,5,137.25,291
+2024-03-26,Amlodipine,Cardiovascular,South,1515,948,11,0,145.62,948
+2024-03-28,Atorvastatin,Cardiovascular,West,1448,1736,10,0,78.2,1448
+2024-08-28,Ciprofloxacin,Antibiotics,East,1706,1767,11,1,111.15,1706
+2024-06-03,Metformin,Diabetes,East,1637,1687,12,1,26.23,1637
+2024-04-17,Atorvastatin,Cardiovascular,East,1618,2282,10,0,90.06,1618
+2023-02-28,Azithromycin,Antibiotics,North,695,699,4,0,84.77,695
+2023-03-20,Sertraline,Psychiatry,East,172,191,17,1,79.1,172
+2024-08-31,Atorvastatin,Cardiovascular,Central,1182,1143,5,2,102.18,1143
+2024-04-18,Losartan,Cardiovascular,West,383,398,14,1,38.34,383
+2023-02-12,Dexamethasone,Oncology,Central,1287,1941,15,0,101.03,1287
+2024-10-29,Azithromycin,Antibiotics,Central,275,238,11,0,65.32,238
+2024-09-11,Paracetamol,Pain Management,East,1542,2219,10,1,149.44,1542
+2023-06-04,Pantoprazole,Gastroenterology,Central,959,1001,10,0,107.25,959
+2023-04-16,Metformin,Diabetes,West,1803,1539,2,2,12.63,1539
+2024-05-31,Amlodipine,Cardiovascular,North,1427,1025,19,3,123.54,1025
+2023-09-11,Salbutamol,Respiratory,North,1566,1454,7,2,110.82,1454
+2024-06-20,Azithromycin,Antibiotics,West,1873,2245,15,0,138.15,1873
+2023-06-12,Losartan,Cardiovascular,Central,489,747,2,4,100.14,489
+2023-10-17,Sertraline,Psychiatry,East,667,894,3,1,37.63,667
+2023-12-13,Levothyroxine,Endocrinology,West,1311,2476,12,5,10.07,1311
+2024-10-08,Ondansetron,Oncology,North,1989,1973,12,1,30.56,1973
+2023-12-04,Amlodipine,Cardiovascular,North,1337,1334,5,0,42.52,1334
+2024-11-25,Omeprazole,Gastroenterology,Central,1126,1009,19,1,138.64,1009
+2023-09-16,Levothyroxine,Endocrinology,East,1464,1198,14,3,67.21,1198
+2023-12-08,Ondansetron,Oncology,South,1063,1117,5,5,66.77,1063
+2024-11-10,Atorvastatin,Cardiovascular,Central,845,673,14,0,137.11,673
+2023-11-14,Lisinopril,Cardiovascular,East,1987,2387,15,0,76.09,1987
+2024-09-01,Levothyroxine,Endocrinology,South,906,720,7,1,75.72,720
+2024-07-26,Atorvastatin,Cardiovascular,East,761,728,6,2,125.77,728
+2023-05-11,Levothyroxine,Endocrinology,East,570,551,10,0,101.21,551
+2024-10-23,Losartan,Cardiovascular,North,752,747,16,1,64.73,747
+2024-01-06,Furosemide,Cardiovascular,Central,1370,1159,19,0,81.43,1159
+2023-11-13,Amoxicillin,Antibiotics,East,1537,1287,12,2,132.31,1287
+2023-12-16,Salbutamol,Respiratory,South,733,709,10,0,46.99,709
+2023-08-20,Pantoprazole,Gastroenterology,South,1802,1178,20,0,112.53,1178
+2023-03-21,Lisinopril,Cardiovascular,South,1787,1226,2,1,104.62,1226
+2024-06-03,Ciprofloxacin,Antibiotics,North,274,441,19,0,82.23,274
+2023-02-08,Cetirizine,Allergy,Central,1029,740,8,0,103.97,740
+2023-05-15,Amlodipine,Cardiovascular,Central,170,126,18,2,116.06,126
+2023-06-07,Ondansetron,Oncology,West,1226,1217,16,4,33.67,1217
+2024-12-10,Salbutamol,Respiratory,South,893,790,10,1,125.5,790
+2024-03-24,Ondansetron,Oncology,South,604,814,10,1,76.83,604
+2024-01-09,Metformin,Diabetes,West,758,1029,14,1,2.5,758
+2024-09-17,Ibuprofen,Pain Management,West,1041,997,9,6,10.45,997
+2023-08-28,Ciprofloxacin,Antibiotics,West,924,1423,19,0,120.67,924
+2023-11-13,Cetirizine,Allergy,South,434,254,15,0,10.77,254
+2024-01-12,Pantoprazole,Gastroenterology,South,673,663,12,2,106.46,663
+2024-04-17,Dexamethasone,Oncology,West,1982,2075,10,0,120.77,1982
+2024-05-29,Ciprofloxacin,Antibiotics,West,416,310,17,0,115.09,310
+2023-06-15,Losartan,Cardiovascular,West,349,235,18,0,31.48,235
+2023-05-22,Paracetamol,Pain Management,Central,143,149,8,2,52.37,143
+2024-10-18,Insulin Glargine,Diabetes,North,1024,814,5,3,81.48,814
+2024-07-21,Pantoprazole,Gastroenterology,East,1697,814,11,1,107.06,814
+2023-05-08,Omeprazole,Gastroenterology,Central,627,336,3,1,136.22,336
+2023-06-14,Ciprofloxacin,Antibiotics,North,399,352,17,0,104.58,352
+2024-06-09,Insulin Glargine,Diabetes,West,495,537,18,0,104.01,495
+2023-04-04,Lisinopril,Cardiovascular,West,338,334,4,2,49.01,334
+2023-12-24,Ibuprofen,Pain Management,West,784,890,5,3,9.94,784
+2023-02-24,Amoxicillin,Antibiotics,West,1560,2115,5,1,147.5,1560
+2024-01-18,Levothyroxine,Endocrinology,Central,1463,1907,9,0,39.31,1463
+2023-03-25,Ibuprofen,Pain Management,West,1193,1274,4,3,94.69,1193
+2023-01-29,Sertraline,Psychiatry,South,1937,2134,9,2,65.74,1937
+2024-10-27,Amlodipine,Cardiovascular,North,176,238,3,2,122.0,176
+2023-05-21,Amlodipine,Cardiovascular,South,992,867,11,0,70.14,867
+2024-04-28,Metformin,Diabetes,East,450,260,14,0,3.85,260
+2024-04-04,Lisinopril,Cardiovascular,West,1822,2498,17,0,2.85,1822
+2023-03-23,Ondansetron,Oncology,North,1538,2144,19,2,46.69,1538
+2023-08-09,Amoxicillin,Antibiotics,East,1818,2837,17,1,60.65,1818
+2024-09-15,Lisinopril,Cardiovascular,Central,438,570,20,1,106.26,438
+2023-04-24,Losartan,Cardiovascular,West,1038,1202,12,5,51.61,1038
+2023-11-05,Ciprofloxacin,Antibiotics,South,1832,1886,6,10,147.18,1832
+2023-09-02,Omeprazole,Gastroenterology,North,1881,2828,12,5,125.01,1881
+2024-04-13,Furosemide,Cardiovascular,Central,1278,1584,19,0,138.79,1278
+2024-05-26,Atorvastatin,Cardiovascular,North,1039,1212,10,0,83.43,1039
+2023-01-17,Ondansetron,Oncology,Central,932,1082,5,1,31.02,932
+2023-09-05,Losartan,Cardiovascular,Central,505,577,15,0,102.97,505
+2024-03-15,Lisinopril,Cardiovascular,East,474,365,16,3,120.52,365
+2023-12-28,Amoxicillin,Antibiotics,Central,1345,1971,14,0,86.1,1345
+2024-03-02,Ibuprofen,Pain Management,Central,841,857,12,1,53.56,841
+2024-06-20,Salbutamol,Respiratory,North,1273,1312,17,2,89.72,1273
+2024-06-22,Sertraline,Psychiatry,North,1075,1624,16,2,56.63,1075
+2024-06-03,Cetirizine,Allergy,Central,1338,1395,9,5,116.5,1338
+2024-02-04,Cetirizine,Allergy,North,465,470,8,1,59.7,465
+2024-10-12,Pantoprazole,Gastroenterology,North,1908,2480,13,0,71.51,1908
+2023-09-17,Levothyroxine,Endocrinology,East,149,145,11,0,66.05,145
+2023-03-11,Amoxicillin,Antibiotics,East,1207,1381,9,0,94.77,1207
+2024-11-03,Sertraline,Psychiatry,South,1216,766,11,0,53.62,766
+2023-12-07,Omeprazole,Gastroenterology,Central,736,758,7,3,23.66,736
+2023-12-27,Lisinopril,Cardiovascular,North,1594,1184,12,1,120.67,1184
+2024-10-20,Cetirizine,Allergy,East,552,493,4,0,26.55,493
+2024-12-13,Salbutamol,Respiratory,West,1466,1247,11,3,9.02,1247
+2023-05-19,Pantoprazole,Gastroenterology,South,283,260,19,2,116.67,260
+2023-02-07,Atorvastatin,Cardiovascular,West,1522,816,16,1,126.1,816
+2023-02-14,Ciprofloxacin,Antibiotics,South,948,965,10,1,72.74,948
+2023-11-20,Paracetamol,Pain Management,North,1334,1731,4,3,18.92,1334
+2024-02-12,Ciprofloxacin,Antibiotics,Central,1930,1787,14,4,122.77,1787
+2023-09-17,Cetirizine,Allergy,West,1513,1591,15,2,34.86,1513
+2023-10-20,Metformin,Diabetes,South,1674,2123,7,3,25.21,1674
+2024-11-02,Sertraline,Psychiatry,North,1574,1328,14,1,135.53,1328
+2023-05-08,Amlodipine,Cardiovascular,East,707,996,7,0,119.76,707
+2024-02-14,Sertraline,Psychiatry,West,486,712,13,1,126.85,486
+2023-12-14,Azithromycin,Antibiotics,West,1378,1405,8,1,112.88,1378
+2024-12-09,Salbutamol,Respiratory,West,1680,1931,19,0,56.79,1680
+2024-06-15,Pantoprazole,Gastroenterology,East,436,168,18,0,35.94,168
+2024-03-10,Insulin Glargine,Diabetes,North,1854,1135,15,1,138.72,1135
+2024-09-08,Atorvastatin,Cardiovascular,West,1234,1313,17,1,114.18,1234
+2023-10-28,Salbutamol,Respiratory,Central,1634,1114,8,5,56.68,1114
+2023-03-23,Amlodipine,Cardiovascular,North,337,441,9,0,100.67,337
+2023-11-10,Amlodipine,Cardiovascular,East,1303,1086,2,3,139.29,1086
+2024-03-12,Azithromycin,Antibiotics,Central,1490,1032,10,0,70.12,1032
+2023-12-26,Salbutamol,Respiratory,West,1360,865,9,0,26.44,865
+2023-12-28,Azithromycin,Antibiotics,North,1444,1858,2,0,101.77,1444
+2023-10-09,Ondansetron,Oncology,West,1976,3022,7,0,48.05,1976
+2024-11-18,Metformin,Diabetes,North,592,965,4,1,44.23,592
+2024-06-09,Levothyroxine,Endocrinology,East,1272,1807,9,5,40.19,1272
+2023-05-27,Salbutamol,Respiratory,North,372,338,7,5,132.79,338
+2023-02-05,Ondansetron,Oncology,West,1703,1468,18,0,144.52,1468
+2023-08-30,Lisinopril,Cardiovascular,North,407,281,15,3,42.08,281
+2024-01-28,Sertraline,Psychiatry,East,1873,1473,2,0,148.76,1473
+2024-09-11,Dexamethasone,Oncology,North,708,941,5,0,25.15,708
+2024-01-15,Lisinopril,Cardiovascular,West,466,245,13,0,51.54,245
+2023-03-20,Sertraline,Psychiatry,West,848,638,11,4,97.3,638
+2024-06-26,Dexamethasone,Oncology,South,1483,1485,4,0,17.66,1483
+2023-11-18,Sertraline,Psychiatry,West,1406,784,3,3,53.84,784
+2023-04-27,Insulin Glargine,Diabetes,South,239,397,17,2,41.11,239
+2024-05-26,Amoxicillin,Antibiotics,South,1724,1761,18,3,26.41,1724
+2024-07-29,Losartan,Cardiovascular,West,1604,1271,16,5,20.99,1271
+2023-09-24,Omeprazole,Gastroenterology,East,1074,1220,17,0,2.77,1074
+2024-09-18,Azithromycin,Antibiotics,South,190,269,4,1,98.73,190
+2023-07-24,Ciprofloxacin,Antibiotics,West,1675,1792,6,0,11.81,1675
+2023-03-17,Omeprazole,Gastroenterology,South,648,502,14,1,34.33,502
+2024-12-31,Azithromycin,Antibiotics,South,1694,1801,13,4,118.53,1694
+2024-11-29,Azithromycin,Antibiotics,North,1059,1813,10,0,117.42,1059
+2024-12-27,Amlodipine,Cardiovascular,East,1819,1706,9,9,86.38,1706
+2024-07-09,Atorvastatin,Cardiovascular,Central,860,1103,11,3,123.19,860
+2023-06-11,Ciprofloxacin,Antibiotics,East,777,1030,18,0,31.75,777
+2024-06-04,Salbutamol,Respiratory,East,756,1106,17,1,126.22,756
+2023-07-25,Ibuprofen,Pain Management,North,465,341,14,1,45.84,341
+2024-05-20,Lisinopril,Cardiovascular,South,774,416,6,5,102.74,416
+2024-07-21,Amoxicillin,Antibiotics,East,1340,1304,7,0,98.63,1304
+2024-04-23,Dexamethasone,Oncology,East,245,260,15,3,33.99,245
+2024-09-18,Cetirizine,Allergy,South,655,518,13,2,97.41,518
+2023-11-13,Atorvastatin,Cardiovascular,North,1735,1775,17,0,48.29,1735
+2024-06-22,Levothyroxine,Endocrinology,West,480,446,5,1,101.54,446
+2024-08-11,Furosemide,Cardiovascular,West,497,475,16,1,27.68,475
+2023-11-21,Atorvastatin,Cardiovascular,South,286,204,3,1,35.09,204
+2024-04-22,Atorvastatin,Cardiovascular,West,891,1044,10,0,125.56,891
+2023-05-12,Losartan,Cardiovascular,East,682,977,17,1,112.98,682
+2023-07-06,Cetirizine,Allergy,Central,757,608,8,2,123.76,608
+2024-05-29,Lisinopril,Cardiovascular,West,272,255,7,0,126.71,255
+2024-06-14,Metformin,Diabetes,North,1547,1485,10,0,86.17,1485
+2023-06-18,Lisinopril,Cardiovascular,East,723,1147,12,7,144.88,723
+2024-12-27,Salbutamol,Respiratory,East,1575,1155,20,0,100.83,1155
+2024-06-15,Ibuprofen,Pain Management,East,553,527,12,1,117.14,527
+2023-09-14,Ciprofloxacin,Antibiotics,North,1516,1295,15,2,18.5,1295
+2023-10-09,Paracetamol,Pain Management,Central,1356,927,3,0,63.01,927
+2024-09-21,Lisinopril,Cardiovascular,East,1148,1141,11,0,59.27,1141
+2024-05-29,Cetirizine,Allergy,North,474,622,12,0,125.32,474
+2024-08-17,Salbutamol,Respiratory,Central,784,757,18,0,130.33,757
+2024-11-05,Lisinopril,Cardiovascular,South,943,637,4,0,87.7,637
+2023-12-12,Ondansetron,Oncology,Central,361,504,12,0,6.52,361
+2023-01-30,Dexamethasone,Oncology,North,175,171,16,0,135.68,171
+2024-10-18,Atorvastatin,Cardiovascular,North,674,473,13,1,24.92,473
+2024-10-28,Dexamethasone,Oncology,East,1186,943,6,0,29.39,943
+2024-03-02,Paracetamol,Pain Management,Central,729,668,13,0,42.32,668
+2024-05-24,Ondansetron,Oncology,North,1905,2663,6,2,72.92,1905
+2024-10-19,Cetirizine,Allergy,East,1554,1400,20,0,31.68,1400
+2023-09-08,Ciprofloxacin,Antibiotics,West,264,362,7,0,61.45,264
+2024-04-09,Levothyroxine,Endocrinology,East,323,314,6,3,87.93,314
+2023-06-11,Atorvastatin,Cardiovascular,North,1910,2060,5,4,134.41,1910
+2024-05-10,Azithromycin,Antibiotics,West,1031,545,20,1,36.46,545
+2023-12-15,Azithromycin,Antibiotics,South,338,480,19,1,23.87,338
+2023-11-17,Ondansetron,Oncology,South,737,612,5,0,12.64,612
+2024-02-13,Amlodipine,Cardiovascular,East,1933,1633,11,3,99.08,1633
+2024-06-11,Lisinopril,Cardiovascular,East,540,541,20,8,115.32,540
+2023-11-23,Cetirizine,Allergy,North,286,207,18,1,96.91,207
+2023-05-06,Ibuprofen,Pain Management,West,522,669,12,0,19.81,522
+2023-09-11,Insulin Glargine,Diabetes,West,440,659,3,1,76.99,440
+2023-02-21,Lisinopril,Cardiovascular,North,630,372,9,0,144.59,372
+2024-09-22,Ciprofloxacin,Antibiotics,West,1318,1496,3,2,1.31,1318
+2023-06-13,Furosemide,Cardiovascular,South,793,993,7,0,3.25,793
+2023-11-17,Amlodipine,Cardiovascular,Central,877,958,10,2,38.04,877
+2024-05-25,Paracetamol,Pain Management,South,1369,688,19,0,110.26,688
+2024-05-25,Losartan,Cardiovascular,West,261,120,10,1,2.55,120
+2023-01-24,Ciprofloxacin,Antibiotics,West,1987,3286,17,0,94.89,1987
+2024-06-01,Atorvastatin,Cardiovascular,West,420,416,3,2,144.81,416
+2023-08-09,Azithromycin,Antibiotics,South,1408,2349,6,1,84.81,1408
+2023-02-19,Dexamethasone,Oncology,East,379,448,15,3,129.52,379
+2024-05-21,Metformin,Diabetes,East,1273,923,5,9,109.16,923
+2023-10-20,Ondansetron,Oncology,West,738,750,2,3,92.37,738
+2023-04-21,Cetirizine,Allergy,North,393,401,14,0,33.07,393
+2023-09-28,Furosemide,Cardiovascular,South,1575,1536,15,2,48.87,1536
+2024-01-10,Sertraline,Psychiatry,West,1104,1371,8,0,122.11,1104
+2023-02-22,Metformin,Diabetes,West,1524,2186,14,4,96.91,1524
+2023-07-19,Dexamethasone,Oncology,Central,867,1297,16,4,2.54,867
+2023-10-23,Sertraline,Psychiatry,Central,1478,1737,4,4,83.19,1478
+2024-05-31,Atorvastatin,Cardiovascular,West,1634,1666,3,1,58.61,1634
+2023-10-14,Azithromycin,Antibiotics,Central,1724,1431,12,3,146.53,1431
+2023-05-02,Ondansetron,Oncology,Central,153,212,4,4,69.84,153
+2024-02-08,Lisinopril,Cardiovascular,North,157,154,7,1,104.35,154
+2024-07-25,Sertraline,Psychiatry,East,1796,1255,4,2,18.37,1255
+2023-07-23,Sertraline,Psychiatry,South,311,335,20,2,93.07,311
+2024-02-16,Ondansetron,Oncology,Central,752,792,16,1,127.57,752
+2023-02-16,Losartan,Cardiovascular,North,310,274,20,1,88.04,274
+2024-12-31,Metformin,Diabetes,South,1023,1844,20,3,146.33,1023
+2024-06-15,Amlodipine,Cardiovascular,West,1330,1461,12,0,74.97,1330
+2024-09-12,Azithromycin,Antibiotics,South,1571,1271,7,2,23.51,1271
+2023-12-02,Losartan,Cardiovascular,South,1990,3260,8,2,70.19,1990
+2023-06-16,Ondansetron,Oncology,East,1789,2658,13,0,136.75,1789
+2023-11-03,Levothyroxine,Endocrinology,Central,145,133,5,1,113.56,133
+2024-06-03,Dexamethasone,Oncology,East,465,525,10,0,18.51,465
+2024-05-16,Losartan,Cardiovascular,Central,1663,1929,20,0,25.32,1663
+2024-05-01,Dexamethasone,Oncology,East,1670,1539,18,0,17.56,1539
+2023-12-06,Amoxicillin,Antibiotics,East,599,437,16,1,68.89,437
+2024-08-20,Omeprazole,Gastroenterology,West,605,300,11,2,20.74,300
+2024-09-03,Ciprofloxacin,Antibiotics,North,1108,1181,19,1,51.04,1108
+2024-11-02,Pantoprazole,Gastroenterology,East,612,378,3,0,93.19,378
+2023-08-22,Dexamethasone,Oncology,Central,601,615,10,0,17.91,601
+2024-05-06,Metformin,Diabetes,Central,1019,1608,19,1,101.92,1019
+2024-10-06,Salbutamol,Respiratory,Central,1667,1939,17,1,130.56,1667
+2023-06-01,Ondansetron,Oncology,West,1154,1015,18,1,48.21,1015
+2024-08-09,Ibuprofen,Pain Management,North,1162,1053,3,1,124.38,1053
+2023-01-20,Omeprazole,Gastroenterology,South,1653,1402,8,2,48.8,1402
+2024-03-04,Azithromycin,Antibiotics,East,1981,2939,9,3,70.69,1981
+2024-12-08,Lisinopril,Cardiovascular,West,706,902,11,1,121.55,706
+2024-05-28,Paracetamol,Pain Management,West,1753,1974,13,3,42.41,1753
+2023-03-05,Ondansetron,Oncology,West,1825,1727,3,2,57.45,1727
+2023-08-01,Lisinopril,Cardiovascular,Central,373,359,6,4,125.39,359
+2024-11-09,Cetirizine,Allergy,East,1730,2631,5,0,40.04,1730
+2024-01-21,Pantoprazole,Gastroenterology,Central,1221,1941,7,1,67.09,1221
+2024-04-15,Amlodipine,Cardiovascular,South,1208,1246,17,4,25.11,1208
+2024-07-13,Cetirizine,Allergy,East,323,279,14,3,123.82,279
+2024-09-16,Sertraline,Psychiatry,East,296,500,11,1,56.38,296
+2023-09-10,Pantoprazole,Gastroenterology,South,1024,783,16,1,58.07,783
+2023-11-02,Insulin Glargine,Diabetes,Central,1417,1281,20,4,40.96,1281
+2023-10-23,Ibuprofen,Pain Management,East,221,130,14,1,78.31,130
+2023-11-21,Paracetamol,Pain Management,West,1318,1847,15,6,7.78,1318
+2024-07-27,Pantoprazole,Gastroenterology,East,114,114,11,5,126.4,114
+2023-05-05,Insulin Glargine,Diabetes,East,1051,1264,19,0,19.48,1051
+2024-01-24,Dexamethasone,Oncology,Central,1789,2256,12,2,109.45,1789
+2023-05-30,Levothyroxine,Endocrinology,East,1148,889,14,0,43.24,889
+2023-10-22,Ciprofloxacin,Antibiotics,North,1438,1255,16,1,98.12,1255
+2024-03-28,Atorvastatin,Cardiovascular,East,831,1003,15,8,6.69,831
+2023-08-08,Insulin Glargine,Diabetes,West,1021,880,14,0,15.0,880
+2023-10-05,Paracetamol,Pain Management,Central,1241,1452,19,2,82.27,1241
+2023-05-21,Cetirizine,Allergy,East,1493,1420,16,0,117.47,1420
+2024-08-23,Omeprazole,Gastroenterology,Central,134,163,15,6,109.67,134
+2023-02-21,Ibuprofen,Pain Management,South,1851,1940,20,0,109.77,1851
+2024-10-15,Losartan,Cardiovascular,South,1983,1964,2,3,120.72,1964
+2023-04-13,Ibuprofen,Pain Management,North,352,217,7,1,78.18,217
+2024-04-28,Furosemide,Cardiovascular,East,409,413,17,2,149.12,409
+2023-01-06,Omeprazole,Gastroenterology,South,939,575,12,2,88.56,575
+2024-02-21,Cetirizine,Allergy,South,1712,1410,16,0,71.03,1410
+2024-10-28,Pantoprazole,Gastroenterology,West,1018,936,8,3,84.8,936
+2023-11-25,Paracetamol,Pain Management,East,745,825,14,1,29.77,745
+2023-04-02,Ciprofloxacin,Antibiotics,North,395,329,6,4,9.61,329
+2024-07-01,Dexamethasone,Oncology,South,127,126,19,1,136.25,126
+2024-03-03,Metformin,Diabetes,South,1120,1130,9,0,86.29,1120
+2024-02-11,Salbutamol,Respiratory,North,1348,870,19,2,54.57,870
+2023-10-24,Pantoprazole,Gastroenterology,South,443,440,14,1,18.69,440
+2023-11-02,Metformin,Diabetes,North,1605,2258,3,1,121.36,1605
+2023-04-20,Dexamethasone,Oncology,Central,1148,1172,20,0,27.59,1148
+2024-04-10,Amlodipine,Cardiovascular,East,971,800,3,1,89.31,800
+2024-05-20,Cetirizine,Allergy,Central,120,106,8,2,116.01,106
+2024-04-24,Lisinopril,Cardiovascular,Central,855,880,10,1,58.42,855
+2023-04-26,Insulin Glargine,Diabetes,South,1291,1270,16,2,102.02,1270
+2024-04-14,Amlodipine,Cardiovascular,South,624,530,14,2,43.44,530
+2023-01-15,Insulin Glargine,Diabetes,South,1131,1064,12,0,21.15,1064
+2024-08-04,Amlodipine,Cardiovascular,East,1287,1256,13,0,136.8,1256
+2024-09-17,Paracetamol,Pain Management,South,172,219,8,7,97.02,172
+2024-06-11,Levothyroxine,Endocrinology,West,1274,950,20,4,23.13,950
+2024-02-15,Amlodipine,Cardiovascular,North,898,1124,3,6,64.51,898
+2023-05-24,Omeprazole,Gastroenterology,South,831,546,7,0,22.51,546
+2023-09-12,Pantoprazole,Gastroenterology,East,1710,1495,20,1,138.27,1495
+2024-01-28,Amoxicillin,Antibiotics,East,483,731,5,3,48.9,483
+2023-10-01,Ibuprofen,Pain Management,West,1670,1960,17,1,16.8,1670
+2024-08-19,Amlodipine,Cardiovascular,East,1707,898,17,3,131.39,898
+2023-09-25,Dexamethasone,Oncology,North,1826,2642,5,0,103.7,1826
+2023-03-05,Sertraline,Psychiatry,South,314,458,18,2,35.08,314
+2023-11-11,Omeprazole,Gastroenterology,West,1506,1277,7,0,67.09,1277
+2024-12-03,Salbutamol,Respiratory,West,787,714,8,2,121.89,714
+2024-12-07,Losartan,Cardiovascular,East,1911,2091,14,2,111.43,1911
+2024-01-12,Omeprazole,Gastroenterology,East,1435,1561,4,4,25.74,1435
+2023-08-13,Ondansetron,Oncology,South,715,1058,2,0,108.2,715
+2023-06-06,Lisinopril,Cardiovascular,West,1822,2089,4,3,147.2,1822
+2024-01-18,Azithromycin,Antibiotics,Central,102,120,18,0,21.32,102
+2024-04-27,Furosemide,Cardiovascular,Central,1973,2285,15,0,11.1,1973
+2023-09-11,Cetirizine,Allergy,South,1150,911,4,1,129.59,911
+2024-06-22,Ondansetron,Oncology,North,1989,3021,18,0,8.9,1989
+2024-12-21,Azithromycin,Antibiotics,Central,178,185,8,4,76.08,178
+2024-07-31,Sertraline,Psychiatry,North,864,587,15,8,37.87,587
+2024-07-14,Omeprazole,Gastroenterology,North,1332,1349,4,4,128.06,1332
+2024-08-09,Losartan,Cardiovascular,South,1251,1455,18,0,7.39,1251
+2023-06-18,Cetirizine,Allergy,South,1255,1423,8,3,39.31,1255
+2024-03-28,Amlodipine,Cardiovascular,Central,547,409,10,1,72.07,409
+2024-08-20,Omeprazole,Gastroenterology,South,1549,1195,7,2,131.49,1195
+2024-06-06,Pantoprazole,Gastroenterology,North,426,639,2,2,46.5,426
+2024-04-09,Azithromycin,Antibiotics,North,224,272,11,0,5.82,224
+2024-03-01,Lisinopril,Cardiovascular,Central,1705,816,3,0,28.89,816
+2023-03-01,Azithromycin,Antibiotics,Central,1179,1162,18,1,101.5,1162
+2024-11-19,Cetirizine,Allergy,West,525,670,19,4,1.98,525
+2024-02-10,Ciprofloxacin,Antibiotics,North,861,944,7,0,80.99,861
+2023-08-12,Insulin Glargine,Diabetes,North,593,427,19,0,106.1,427
+2023-02-16,Dexamethasone,Oncology,North,1969,2848,20,0,135.67,1969
+2024-12-18,Furosemide,Cardiovascular,East,1534,1046,2,6,20.98,1046
+2023-03-03,Atorvastatin,Cardiovascular,Central,1507,1108,4,0,66.08,1108
+2023-02-02,Atorvastatin,Cardiovascular,West,558,670,20,0,16.47,558
+2023-07-04,Ciprofloxacin,Antibiotics,West,1666,1947,16,3,18.81,1666
+2024-01-19,Lisinopril,Cardiovascular,West,1691,1386,13,0,114.25,1386
+2024-01-22,Levothyroxine,Endocrinology,West,996,1274,20,1,110.81,996
+2024-11-30,Levothyroxine,Endocrinology,North,1651,1176,9,0,17.78,1176
+2024-10-31,Cetirizine,Allergy,South,1735,2386,8,1,131.82,1735
+2023-07-02,Sertraline,Psychiatry,North,1104,1139,15,1,89.04,1104
+2024-06-25,Cetirizine,Allergy,West,101,71,7,2,61.98,71
+2023-01-04,Lisinopril,Cardiovascular,South,228,92,7,3,33.47,92
+2024-04-19,Amoxicillin,Antibiotics,East,1220,829,16,2,128.01,829
+2024-06-28,Cetirizine,Allergy,West,1342,1961,3,2,16.75,1342
+2023-09-11,Levothyroxine,Endocrinology,South,698,453,4,1,29.21,453
+2023-06-08,Azithromycin,Antibiotics,East,645,414,10,4,133.18,414
+2023-04-26,Insulin Glargine,Diabetes,South,131,168,7,0,22.7,131
+2024-09-21,Metformin,Diabetes,West,325,358,18,1,145.18,325
+2023-07-31,Amoxicillin,Antibiotics,South,1805,1842,16,2,107.04,1805
+2024-08-31,Atorvastatin,Cardiovascular,North,1955,2157,19,1,57.04,1955
+2024-09-04,Metformin,Diabetes,West,213,339,2,3,108.93,213
+2023-02-15,Metformin,Diabetes,South,275,146,7,0,82.05,146
+2023-08-28,Levothyroxine,Endocrinology,West,465,464,10,0,17.17,464
+2023-02-27,Cetirizine,Allergy,South,917,1254,9,2,36.41,917
+2023-10-24,Lisinopril,Cardiovascular,Central,794,683,14,0,56.13,683
+2023-11-23,Ibuprofen,Pain Management,Central,1556,1338,5,6,110.82,1338
+2024-11-19,Dexamethasone,Oncology,Central,658,769,20,0,73.36,658
+2023-11-06,Amlodipine,Cardiovascular,South,1277,1239,18,1,73.61,1239
+2023-08-15,Lisinopril,Cardiovascular,Central,549,619,13,3,51.61,549
+2023-10-09,Furosemide,Cardiovascular,East,1998,2941,4,8,118.8,1998
+2024-08-28,Metformin,Diabetes,Central,1753,1959,2,0,60.58,1753
+2024-07-23,Salbutamol,Respiratory,West,563,615,9,2,53.87,563
+2023-12-19,Pantoprazole,Gastroenterology,North,247,183,15,0,112.42,183
+2023-11-23,Levothyroxine,Endocrinology,Central,400,497,4,6,107.41,400
+2023-06-02,Furosemide,Cardiovascular,West,558,506,13,1,92.93,506
+2023-07-08,Ciprofloxacin,Antibiotics,West,993,1132,17,0,6.37,993
+2023-09-04,Cetirizine,Allergy,West,1580,1326,17,1,23.4,1326
+2024-12-25,Ibuprofen,Pain Management,East,1822,2117,13,2,128.4,1822
+2023-03-01,Lisinopril,Cardiovascular,West,177,210,7,1,27.17,177
+2024-03-02,Cetirizine,Allergy,West,1141,912,20,0,83.55,912
+2023-05-18,Cetirizine,Allergy,Central,1142,1234,12,0,124.24,1142
+2023-09-19,Levothyroxine,Endocrinology,South,680,723,6,0,21.51,680
+2024-10-24,Paracetamol,Pain Management,East,628,692,7,3,100.21,628
+2024-01-15,Atorvastatin,Cardiovascular,West,646,694,15,2,29.33,646
+2023-07-15,Atorvastatin,Cardiovascular,Central,218,205,20,1,9.07,205
+2024-01-22,Metformin,Diabetes,East,1037,616,11,2,134.8,616
+2023-02-10,Ondansetron,Oncology,Central,949,959,3,0,49.59,949
+2024-08-24,Atorvastatin,Cardiovascular,South,1390,1415,13,1,79.53,1390
+2024-05-05,Cetirizine,Allergy,South,1774,1459,17,0,13.2,1459
+2023-11-07,Paracetamol,Pain Management,East,559,608,17,1,41.87,559
+2023-07-14,Amoxicillin,Antibiotics,South,1784,843,7,3,129.44,843
+2023-09-06,Omeprazole,Gastroenterology,West,185,162,7,1,111.23,162
+2024-02-11,Ondansetron,Oncology,South,1019,838,7,1,35.87,838
+2023-11-26,Ibuprofen,Pain Management,Central,900,1069,13,0,29.65,900
+2024-04-22,Ciprofloxacin,Antibiotics,West,209,297,12,3,60.64,209
+2023-11-12,Cetirizine,Allergy,East,331,461,8,1,126.68,331
+2024-06-09,Insulin Glargine,Diabetes,East,629,589,20,1,85.85,589
+2023-04-11,Pantoprazole,Gastroenterology,West,721,564,9,0,55.34,564
+2023-07-28,Pantoprazole,Gastroenterology,East,1005,1111,14,2,43.14,1005
+2024-02-28,Sertraline,Psychiatry,East,1014,1432,20,0,40.15,1014
+2023-08-15,Metformin,Diabetes,Central,1843,2084,6,0,10.05,1843
+2023-09-25,Lisinopril,Cardiovascular,North,1462,1455,9,1,77.45,1455
+2024-08-16,Cetirizine,Allergy,Central,1711,2453,6,1,12.42,1711
+2023-06-06,Furosemide,Cardiovascular,East,1096,1370,13,0,87.47,1096
+2023-08-24,Paracetamol,Pain Management,East,1311,1861,12,4,93.71,1311
+2023-09-09,Levothyroxine,Endocrinology,Central,1816,1481,16,0,136.37,1481
+2024-11-01,Pantoprazole,Gastroenterology,Central,1163,1321,5,2,71.39,1163
+2024-05-15,Amlodipine,Cardiovascular,East,110,85,6,10,67.82,85
+2023-06-22,Pantoprazole,Gastroenterology,West,1360,892,5,3,121.38,892
+2023-05-24,Sertraline,Psychiatry,South,973,628,13,0,45.62,628
+2023-07-08,Cetirizine,Allergy,West,452,374,4,0,140.34,374
+2024-06-20,Cetirizine,Allergy,North,1968,1991,14,2,54.83,1968
+2024-11-15,Metformin,Diabetes,North,1165,946,10,2,139.45,946
+2024-02-27,Metformin,Diabetes,North,1709,1340,16,2,10.04,1340
+2023-03-11,Lisinopril,Cardiovascular,South,1718,943,3,3,65.46,943
+2023-08-12,Lisinopril,Cardiovascular,North,672,768,12,5,33.21,672
+2024-01-18,Losartan,Cardiovascular,West,325,530,14,0,44.11,325
+2024-10-15,Metformin,Diabetes,Central,1459,686,6,0,55.72,686
+2024-11-06,Ondansetron,Oncology,West,963,875,4,1,101.27,875
+2023-01-07,Pantoprazole,Gastroenterology,North,1213,1188,7,3,12.08,1188
+2024-02-26,Cetirizine,Allergy,Central,158,152,9,2,6.24,152
+2024-06-26,Amoxicillin,Antibiotics,North,1026,1436,17,1,75.54,1026
+2023-10-21,Insulin Glargine,Diabetes,Central,1851,2005,14,3,68.8,1851
+2024-12-15,Amoxicillin,Antibiotics,Central,1059,716,5,2,103.52,716
+2023-04-20,Furosemide,Cardiovascular,South,1237,1589,5,4,31.0,1237
+2023-06-02,Omeprazole,Gastroenterology,Central,1978,1374,16,3,47.05,1374
+2024-09-26,Ibuprofen,Pain Management,South,1016,1190,14,0,19.8,1016
+2023-12-29,Losartan,Cardiovascular,East,967,952,20,1,34.51,952
+2023-03-22,Insulin Glargine,Diabetes,West,527,459,11,1,49.72,459
+2024-04-15,Sertraline,Psychiatry,West,330,440,11,0,53.11,330
+2024-12-14,Dexamethasone,Oncology,South,1251,927,8,2,115.0,927
+2024-12-01,Ibuprofen,Pain Management,East,148,92,6,0,28.72,92
+2023-04-06,Atorvastatin,Cardiovascular,North,919,861,5,1,17.23,861
+2024-01-22,Levothyroxine,Endocrinology,West,1115,1550,12,1,71.81,1115
+2023-02-27,Cetirizine,Allergy,West,1389,1402,17,6,76.59,1389
+2023-03-26,Amoxicillin,Antibiotics,South,1015,1028,6,0,87.18,1015
+2024-10-22,Pantoprazole,Gastroenterology,West,1833,2718,14,0,86.99,1833
+2023-04-08,Amlodipine,Cardiovascular,Central,844,952,14,1,39.19,844
+2023-08-24,Losartan,Cardiovascular,North,1559,1072,17,5,50.56,1072
+2024-05-01,Paracetamol,Pain Management,Central,1072,1247,10,0,121.7,1072
+2023-03-18,Insulin Glargine,Diabetes,North,310,400,10,0,39.02,310
+2024-07-31,Insulin Glargine,Diabetes,Central,674,799,20,2,149.32,674
+2023-11-19,Metformin,Diabetes,South,1496,2194,9,0,146.63,1496
+2024-08-24,Amoxicillin,Antibiotics,South,1832,1197,5,1,34.48,1197
+2023-03-20,Lisinopril,Cardiovascular,West,406,251,20,1,55.96,251
+2024-07-31,Ciprofloxacin,Antibiotics,South,443,602,18,4,4.83,443
+2024-02-03,Ibuprofen,Pain Management,Central,1388,2245,20,0,105.97,1388
+2024-01-29,Cetirizine,Allergy,East,824,567,2,0,21.96,567
+2024-05-27,Lisinopril,Cardiovascular,North,1219,687,15,0,106.19,687
+2023-04-11,Sertraline,Psychiatry,North,778,1158,19,4,87.67,778
+2023-03-19,Furosemide,Cardiovascular,South,1889,1611,10,4,36.98,1611
+2024-09-20,Amlodipine,Cardiovascular,Central,1378,1316,19,0,52.53,1316
+2023-12-01,Ondansetron,Oncology,West,1127,1699,3,1,103.32,1127
+2024-04-06,Amoxicillin,Antibiotics,East,1402,912,7,0,123.35,912
+2023-12-31,Pantoprazole,Gastroenterology,South,316,311,6,2,1.52,311
+2024-03-18,Cetirizine,Allergy,West,479,527,19,3,78.61,479
+2024-11-07,Salbutamol,Respiratory,Central,1231,1867,20,1,13.74,1231
+2024-09-25,Levothyroxine,Endocrinology,North,218,116,19,1,111.07,116
+2024-12-31,Ciprofloxacin,Antibiotics,South,517,608,11,0,10.8,517
+2023-10-02,Atorvastatin,Cardiovascular,North,1216,1177,8,0,131.71,1177
+2024-12-29,Lisinopril,Cardiovascular,West,1261,1120,6,2,1.61,1120
+2023-11-21,Lisinopril,Cardiovascular,West,816,732,7,7,143.22,732
+2023-04-04,Sertraline,Psychiatry,North,358,416,4,0,76.14,358
+2024-03-31,Amoxicillin,Antibiotics,East,1419,783,15,3,54.27,783
+2023-04-15,Sertraline,Psychiatry,East,1908,1520,3,0,61.67,1520
+2023-07-11,Lisinopril,Cardiovascular,North,919,467,16,0,129.4,467
+2024-07-24,Furosemide,Cardiovascular,West,1567,1786,8,0,16.11,1567
+2024-02-22,Cetirizine,Allergy,Central,592,689,11,0,112.89,592
+2023-04-02,Omeprazole,Gastroenterology,North,1459,1851,11,1,78.05,1459
+2023-04-06,Sertraline,Psychiatry,Central,1835,1325,14,1,46.88,1325
+2023-11-29,Ondansetron,Oncology,Central,1932,1222,17,1,20.43,1222
+2023-10-26,Levothyroxine,Endocrinology,North,1780,1820,7,2,16.38,1780
+2023-03-28,Furosemide,Cardiovascular,West,1193,1238,16,2,125.23,1193
+2024-08-08,Cetirizine,Allergy,South,1800,2734,2,1,79.54,1800
+2024-12-02,Losartan,Cardiovascular,South,1098,1224,16,0,103.9,1098
+2023-05-23,Levothyroxine,Endocrinology,South,181,126,17,0,22.25,126
+2023-10-02,Insulin Glargine,Diabetes,East,1791,1465,6,2,130.27,1465
+2023-03-06,Pantoprazole,Gastroenterology,South,1424,1609,14,0,38.99,1424
+2023-10-10,Salbutamol,Respiratory,West,1549,2097,3,6,68.36,1549
+2024-05-10,Furosemide,Cardiovascular,East,659,364,10,5,128.8,364
+2023-09-15,Atorvastatin,Cardiovascular,East,1117,1170,2,12,11.71,1117
+2024-08-31,Ibuprofen,Pain Management,West,1092,1501,7,7,10.26,1092
+2024-04-13,Ondansetron,Oncology,South,1234,1071,8,2,112.89,1071
+2023-11-08,Omeprazole,Gastroenterology,South,695,522,20,0,10.1,522
+2023-12-07,Amoxicillin,Antibiotics,West,1632,1606,7,5,96.34,1606
+2023-12-04,Ondansetron,Oncology,West,1199,1084,18,0,137.12,1084
+2024-03-16,Azithromycin,Antibiotics,East,486,585,14,2,46.39,486
+2023-11-04,Ondansetron,Oncology,South,1149,961,16,2,6.45,961
+2024-12-12,Amlodipine,Cardiovascular,Central,1544,1079,3,2,123.28,1079
+2023-11-18,Paracetamol,Pain Management,West,1821,1922,7,3,131.63,1821
+2023-11-23,Salbutamol,Respiratory,West,875,718,9,4,123.17,718
+2024-08-12,Ciprofloxacin,Antibiotics,West,1571,1862,9,3,65.99,1571
+2024-01-21,Ibuprofen,Pain Management,East,1372,1729,11,1,28.4,1372
+2024-01-09,Insulin Glargine,Diabetes,West,1207,986,6,0,88.38,986
+2023-07-24,Omeprazole,Gastroenterology,Central,1867,1030,15,12,81.43,1030
+2023-07-04,Dexamethasone,Oncology,Central,1372,1385,14,0,110.42,1372
+2024-04-17,Cetirizine,Allergy,North,1087,1224,8,2,42.93,1087
+2023-10-26,Paracetamol,Pain Management,West,1181,1032,10,3,144.43,1032
+2024-11-20,Atorvastatin,Cardiovascular,West,941,758,7,1,92.93,758
+2024-10-10,Pantoprazole,Gastroenterology,South,1701,889,19,3,8.9,889
+2023-09-16,Ciprofloxacin,Antibiotics,South,904,890,2,0,143.72,890
+2024-01-22,Lisinopril,Cardiovascular,West,727,1041,10,0,106.98,727

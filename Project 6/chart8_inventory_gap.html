@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chart 8 — Inventory Gap Chart</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #f0f9ff; font-family: 'Outfit', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; }
+  .card { background: #fff; border-radius: 24px; box-shadow: 0 8px 48px rgba(14,165,233,0.10); padding: 40px 44px 36px; width: 100%; max-width: 1100px; border-top: 5px solid #0ea5e9; }
+  .header { display: flex; align-items: flex-start; margin-bottom: 28px; gap: 16px; }
+  .chart-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #bae6fd; flex-shrink: 0; }
+  .bonus-badge { display: inline-flex; align-items: center; gap: 6px; background: linear-gradient(135deg,#0ea5e9,#6366f1); color: #fff; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 5px 14px; border-radius: 20px; margin-bottom: 8px; }
+  h1 { font-size: 26px; font-weight: 700; color: #1a202c; margin-bottom: 6px; }
+  .subtitle { font-size: 14px; color: #718096; }
+  .formula-strip { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 12px 20px; margin-bottom: 24px; display: flex; align-items: center; gap: 20px; }
+  .formula-strip .f { font-family: 'Bebas Neue', sans-serif; font-size: 20px; color: #0284c7; letter-spacing: 1px; }
+  .formula-strip .note { font-size: 12px; color: #64748b; }
+  .gap-summary { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 24px; }
+  .gs { border-radius: 12px; padding: 14px 16px; text-align: center; }
+  .gs.short { background: #fff5f5; border: 1px solid #fed7d7; }
+  .gs.sur { background: #f0fff4; border: 1px solid #c6f6d5; }
+  .gs.bal { background: #eff6ff; border: 1px solid #bfdbfe; }
+  .gs.tot { background: #f0f9ff; border: 1px solid #bae6fd; }
+  .gs-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 1; }
+  .gs.short .gs-val { color: #dc2626; }
+  .gs.sur .gs-val { color: #16a34a; }
+  .gs.bal .gs-val { color: #2563eb; }
+  .gs.tot .gs-val { color: #0284c7; }
+  .gs-label { font-size: 11px; color: #718096; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+  .chart-wrap { position: relative; height: 380px; }
+  .zero-line-note { text-align: center; font-size: 12px; color: #94a3b8; margin-top: 8px; }
+  .zero-line-note span { color: #0ea5e9; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="chart-num">08</div>
+    <div>
+      <div class="bonus-badge">🎯 BONUS · High Impact</div>
+      <h1>Inventory Gap Chart</h1>
+      <div class="subtitle">Exact surplus or shortage per product — positive = excess stock (wastage risk) · negative = stockout risk</div>
+    </div>
+  </div>
+
+  <div class="formula-strip">
+    <div class="f">Inventory Gap = Inventory − Demand</div>
+    <div class="note">Positive gap → overstock (holding cost) &nbsp;|&nbsp; Negative gap → stockout (lost sales) &nbsp;|&nbsp; Zero → perfect balance</div>
+  </div>
+
+  <div class="gap-summary">
+    <div class="gs short"><div class="gs-val">10</div><div class="gs-label">Understocked Products (Gap &lt; 0)</div></div>
+    <div class="gs sur"><div class="gs-val">10</div><div class="gs-label">Overstocked Products (Gap &gt; 0)</div></div>
+    <div class="gs bal"><div class="gs-val">−2,889</div><div class="gs-label">Total Shortage Units</div></div>
+    <div class="gs tot"><div class="gs-val">+2,714</div><div class="gs-label">Total Surplus Units</div></div>
+  </div>
+
+  <div class="chart-wrap">
+    <canvas id="c8"></canvas>
+  </div>
+  <div class="zero-line-note">The <span>zero baseline</span> represents perfect balance. Bars below = shortage. Bars above = surplus.</div>
+</div>
+
+<script>
+const data = [
+  {drug:"Paracetamol",demand:3364,inv:1997},
+  {drug:"Amoxicillin",demand:2065,inv:1316},
+  {drug:"Ibuprofen",demand:2832,inv:2346},
+  {drug:"Losartan",demand:2023,inv:2668},
+  {drug:"Atorvastatin",demand:1431,inv:1947},
+  {drug:"Ciprofloxacin",demand:1435,inv:948},
+  {drug:"Tramadol",demand:1871,inv:1437},
+  {drug:"Lisinopril",demand:1545,inv:1865},
+  {drug:"Amlodipine",demand:1501,inv:1721},
+  {drug:"Metformin",demand:1898,inv:2145},
+  {drug:"Insulin Glargine",demand:2540,inv:2828},
+  {drug:"Montelukast",demand:1013,inv:710},
+  {drug:"Azithromycin",demand:1369,inv:1035},
+  {drug:"Pantoprazole",demand:1373,inv:1180},
+  {drug:"Salbutamol",demand:1052,inv:905},
+  {drug:"Omeprazole",demand:1558,inv:1573},
+  {drug:"Sertraline",demand:716,inv:630},
+  {drug:"Ondansetron",demand:535,inv:642},
+  {drug:"Levothyroxine",demand:682,inv:700},
+  {drug:"Dexamethasone",demand:288,inv:323},
+].map(d => ({...d, gap: d.inv - d.demand}))
+ .sort((a,b) => a.gap - b.gap);
+
+new Chart(document.getElementById('c8').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: data.map(d => d.drug),
+    datasets: [{
+      label: 'Inventory Gap (units)',
+      data: data.map(d => d.gap),
+      backgroundColor: data.map(d => {
+        if (d.gap < -400) return 'rgba(220,38,38,0.90)';
+        if (d.gap < -100) return 'rgba(239,68,68,0.80)';
+        if (d.gap < 0)    return 'rgba(252,165,165,0.80)';
+        if (d.gap > 400)  return 'rgba(245,158,11,0.90)';
+        if (d.gap > 100)  return 'rgba(251,191,36,0.80)';
+        return 'rgba(16,185,129,0.75)';
+      }),
+      borderColor: data.map(d => d.gap < 0 ? '#ef4444' : d.gap > 200 ? '#f59e0b' : '#10b981'),
+      borderWidth: 1.5,
+      borderRadius: 5,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#0f172a',
+        titleColor: '#e2e8f0', bodyColor: '#94a3b8', padding: 14,
+        callbacks: {
+          label: (i) => {
+            const d = data[i.dataIndex];
+            const g = d.gap;
+            return [
+              `Gap: ${g > 0 ? '+' : ''}${g.toLocaleString()} units`,
+              `Demand: ${d.demand.toLocaleString()} | Inventory: ${d.inv.toLocaleString()}`,
+              g < -400 ? '🔴 CRITICAL SHORTAGE' : g < -100 ? '🟠 UNDERSTOCKED' : g < 0 ? '🟡 SLIGHT DEFICIT' : g > 400 ? '🟡 EXCESS STOCK' : '✅ BALANCED'
+            ];
+          }
+        }
+      },
+      annotation: {}
+    },
+    scales: {
+      x: {
+        ticks: { color: '#718096', font: { family: 'Outfit', size: 10 }, maxRotation: 45 },
+        grid: { display: false }
+      },
+      y: {
+        ticks: { color: '#718096', font: { family: 'Outfit', size: 11 } },
+        grid: {
+          color: (ctx) => ctx.tick.value === 0 ? '#0ea5e9' : '#f0f9ff',
+          lineWidth: (ctx) => ctx.tick.value === 0 ? 2 : 1,
+        },
+        title: { display: true, text: 'Inventory − Demand (units)', color: '#0284c7', font: { family: 'Outfit', size: 12 } }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

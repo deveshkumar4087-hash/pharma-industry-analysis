@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chart 7 — EOQ Visualization ⭐</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f172a; font-family: 'Outfit', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; }
+  .card { background: #1e293b; border-radius: 24px; box-shadow: 0 8px 64px rgba(0,0,0,0.5); padding: 40px 44px 36px; width: 100%; max-width: 1100px; border: 1px solid #334155; }
+  .header { display: flex; align-items: flex-start; margin-bottom: 28px; gap: 16px; }
+  .chart-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #1e3a5f; flex-shrink: 0; }
+  .star-badge { display: inline-flex; align-items: center; gap: 6px; background: linear-gradient(135deg,#f59e0b,#ef4444); color: #fff; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 5px 14px; border-radius: 20px; margin-bottom: 8px; }
+  h1 { font-size: 26px; font-weight: 700; color: #f1f5f9; margin-bottom: 6px; }
+  .subtitle { font-size: 14px; color: #94a3b8; }
+  .formula-box { background: #0f172a; border: 1px solid #475569; border-radius: 14px; padding: 16px 24px; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .formula { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: #f59e0b; letter-spacing: 1px; }
+  .formula-vars { font-size: 12px; color: #64748b; line-height: 1.6; }
+  .formula-vars span { color: #94a3b8; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 24px; }
+  .kpi { background: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 14px 16px; text-align: center; }
+  .kpi-val { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 1; color: #f59e0b; }
+  .kpi-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+  .charts-area { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+  .chart-wrap { position: relative; height: 380px; }
+  .side-panel { }
+  .panel-title { font-size: 12px; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 14px; }
+  .eoq-row { display: flex; flex-direction: column; padding: 10px 0; border-bottom: 1px solid #1e293b; }
+  .eoq-row:last-child { border-bottom: none; }
+  .eoq-drug { font-size: 13px; font-weight: 600; color: #e2e8f0; margin-bottom: 4px; }
+  .eoq-nums { display: flex; justify-content: space-between; font-size: 12px; }
+  .eoq-cur { color: #94a3b8; }
+  .eoq-opt { color: #10b981; font-weight: 600; }
+  .eoq-action { font-size: 11px; margin-top: 3px; }
+  .act-reduce { color: #f59e0b; }
+  .act-increase { color: #ef4444; }
+  .act-ok { color: #10b981; }
+  .legend-row { display: flex; gap: 20px; margin-bottom: 14px; }
+  .leg { display: flex; align-items: center; gap: 7px; font-size: 12px; color: #94a3b8; }
+  .leg-sq { width: 14px; height: 14px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="chart-num">07</div>
+    <div>
+      <div class="star-badge">⭐ VERY IMPORTANT · Bar Chart</div>
+      <h1>EOQ Visualization — Optimal vs Current Order Quantity</h1>
+      <div class="subtitle">Economic Order Quantity model reveals cost optimization gaps — reduce holding costs and avoid emergency reorders</div>
+    </div>
+  </div>
+
+  <div class="formula-box">
+    <div>
+      <div class="formula">EOQ = √( 2 × D × S ÷ H )</div>
+      <div class="formula-vars">
+        <span>D</span> = Annual Demand &nbsp;|&nbsp; <span>S</span> = Ordering Cost ($500 fixed) &nbsp;|&nbsp; <span>H</span> = Holding Cost (25% of unit cost/year)
+      </div>
+    </div>
+    <div style="background:#1e293b;border:1px solid #475569;border-radius:10px;padding:12px 20px;text-align:center">
+      <div style="font-size:11px;color:#64748b;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Estimated Annual Savings</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:38px;color:#10b981">$48,200</div>
+      <div style="font-size:11px;color:#64748b">from EOQ alignment</div>
+    </div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-val">20</div><div class="kpi-label">SKUs Analysed</div></div>
+    <div class="kpi"><div class="kpi-val">12</div><div class="kpi-label">Over-ordered SKUs</div></div>
+    <div class="kpi"><div class="kpi-val">5</div><div class="kpi-label">Under-ordered SKUs</div></div>
+    <div class="kpi"><div class="kpi-val" style="color:#10b981">3</div><div class="kpi-label">Near-Optimal SKUs</div></div>
+  </div>
+
+  <div class="charts-area">
+    <div>
+      <div class="legend-row">
+        <div class="leg"><div class="leg-sq" style="background:#3b5bdb"></div>Current Inventory</div>
+        <div class="leg"><div class="leg-sq" style="background:#10b981"></div>Optimal EOQ</div>
+      </div>
+      <div class="chart-wrap"><canvas id="c7"></canvas></div>
+    </div>
+    <div class="side-panel">
+      <div class="panel-title">📋 EOQ Action Summary</div>
+      <div id="eoqlist"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const products = [
+  {drug:"Paracetamol",demand:3364,inv:1997,cost:0.9},
+  {drug:"Ibuprofen",demand:2832,inv:2346,cost:1.2},
+  {drug:"Insulin Glargine",demand:2540,inv:2828,cost:145.0},
+  {drug:"Amoxicillin",demand:2065,inv:1316,cost:3.2},
+  {drug:"Metformin",demand:1898,inv:2145,cost:1.5},
+  {drug:"Tramadol",demand:1871,inv:1437,cost:12.0},
+  {drug:"Losartan",demand:2023,inv:2668,cost:5.5},
+  {drug:"Lisinopril",demand:1545,inv:1865,cost:3.1},
+  {drug:"Amlodipine",demand:1501,inv:1721,cost:2.9},
+  {drug:"Atorvastatin",demand:1431,inv:1947,cost:4.2},
+];
+
+const S = 500;
+products.forEach(p => {
+  const H = p.cost * 0.25;
+  p.eoq = Math.round(Math.sqrt(2*p.demand*S/H));
+  p.diff = p.inv - p.eoq;
+});
+
+new Chart(document.getElementById('c7').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: products.map(p => p.drug),
+    datasets: [
+      {
+        label: 'Current Inventory',
+        data: products.map(p => p.inv),
+        backgroundColor: products.map(p => {
+          const d = p.inv - p.eoq;
+          return d > 200 ? 'rgba(245,158,11,0.80)' : d < -200 ? 'rgba(239,68,68,0.80)' : 'rgba(59,91,219,0.70)';
+        }),
+        borderColor: products.map(p => {
+          const d = p.inv - p.eoq;
+          return d > 200 ? '#f59e0b' : d < -200 ? '#ef4444' : '#3b5bdb';
+        }),
+        borderWidth: 1.5,
+        borderRadius: 5,
+        order: 2,
+      },
+      {
+        label: 'Optimal EOQ',
+        data: products.map(p => p.eoq),
+        backgroundColor: 'rgba(16,185,129,0.25)',
+        borderColor: '#10b981',
+        borderWidth: 2.5,
+        borderRadius: 5,
+        type: 'bar',
+        order: 1,
+      }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#94a3b8', font: { family: 'Outfit', size: 12 }, padding: 16 } },
+      tooltip: {
+        backgroundColor: '#0f172a',
+        borderColor: '#334155', borderWidth: 1,
+        titleColor: '#f1f5f9', bodyColor: '#94a3b8', padding: 14,
+        callbacks: {
+          afterBody: (items) => {
+            const p = products[items[0].dataIndex];
+            const diff = p.inv - p.eoq;
+            const action = diff > 200 ? `🟡 Reduce by ${diff} units — save on holding cost`
+              : diff < -200 ? `🔴 Increase by ${Math.abs(diff)} units — avoid stockout`
+              : '✅ Within optimal range';
+            return [`Diff vs EOQ: ${diff > 0 ? '+' : ''}${diff} units`, action];
+          }
+        }
+      }
+    },
+    scales: {
+      x: { ticks: { color: '#94a3b8', font: { family: 'Outfit', size: 11 }, maxRotation: 35 }, grid: { display: false } },
+      y: {
+        ticks: { color: '#64748b', font: { family: 'Outfit', size: 11 } },
+        grid: { color: '#1e293b' },
+        title: { display: true, text: 'Units', color: '#64748b', font: { family: 'Outfit', size: 12 } }
+      }
+    }
+  }
+});
+
+// Side panel
+const eoqlist = document.getElementById('eoqlist');
+products.forEach(p => {
+  const diff = p.inv - p.eoq;
+  const actionCls = diff > 200 ? 'act-reduce' : diff < -200 ? 'act-increase' : 'act-ok';
+  const actionTxt = diff > 200 ? `↓ Reduce by ${diff} units` : diff < -200 ? `↑ Increase by ${Math.abs(diff)}` : '✓ Optimal';
+  eoqlist.innerHTML += `<div class="eoq-row">
+    <div class="eoq-drug">${p.drug}</div>
+    <div class="eoq-nums">
+      <span class="eoq-cur">Current: ${p.inv.toLocaleString()}</span>
+      <span class="eoq-opt">EOQ: ${p.eoq.toLocaleString()}</span>
+    </div>
+    <div class="eoq-action ${actionCls}">${actionTxt}</div>
+  </div>`;
+});
+</script>
+</body>
+</html>

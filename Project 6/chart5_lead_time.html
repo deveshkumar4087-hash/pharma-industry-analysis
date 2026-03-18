@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chart 5 — Lead Time Distribution</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #faf5ff; font-family: 'Outfit', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 24px; }
+  .card { background: #fff; border-radius: 24px; box-shadow: 0 8px 48px rgba(139,92,246,0.10); padding: 40px 44px 36px; width: 100%; max-width: 1080px; border-top: 5px solid #8b5cf6; }
+  .header { display: flex; align-items: flex-start; margin-bottom: 28px; gap: 16px; }
+  .chart-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #ede9fe; flex-shrink: 0; }
+  .chart-tag { display: inline-block; background: #7c3aed; color: #fff; font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 8px; }
+  h1 { font-size: 26px; font-weight: 700; color: #1a202c; margin-bottom: 6px; }
+  .subtitle { font-size: 14px; color: #718096; }
+  .stat-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-bottom: 28px; }
+  .stat { border-radius: 14px; padding: 16px 18px; text-align: center; }
+  .stat.s1 { background: #f0fdf4; border: 1px solid #bbf7d0; }
+  .stat.s2 { background: #fffbeb; border: 1px solid #fde68a; }
+  .stat.s3 { background: #fff7ed; border: 1px solid #fed7aa; }
+  .stat.s4 { background: #fff5f5; border: 1px solid #fed7d7; }
+  .stat-val { font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; }
+  .stat.s1 .stat-val { color: #16a34a; }
+  .stat.s2 .stat-val { color: #d97706; }
+  .stat.s3 .stat-val { color: #ea580c; }
+  .stat.s4 .stat-val { color: #dc2626; }
+  .stat-label { font-size: 11px; color: #718096; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+  .two-col { display: grid; grid-template-columns: 3fr 2fr; gap: 20px; }
+  .chart-wrap { position: relative; height: 340px; }
+  .drug-list { }
+  .drug-row { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid #f3f4f6; font-size: 13px; }
+  .drug-row:last-child { border-bottom: none; }
+  .lt-badge { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; }
+  .lt-fast { background: #d1fae5; color: #065f46; }
+  .lt-med  { background: #fef3c7; color: #92400e; }
+  .lt-slow { background: #fee2e2; color: #991b1b; }
+  .panel-title { font-size: 13px; font-weight: 700; color: #2d3748; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="chart-num">05</div>
+    <div>
+      <div class="chart-tag">📦 Histogram · Mandatory</div>
+      <h1>Lead Time Distribution</h1>
+      <div class="subtitle">Delivery delay frequency across all 20 SKUs — reveals supply chain bottlenecks and their stockout impact</div>
+    </div>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat s1">
+      <div class="stat-val">3d</div>
+      <div class="stat-label">Fastest Lead Time</div>
+    </div>
+    <div class="stat s2">
+      <div class="stat-val">7–10d</div>
+      <div class="stat-label">Most Common Range</div>
+    </div>
+    <div class="stat s3">
+      <div class="stat-val">21d</div>
+      <div class="stat-label">Longest Lead Time</div>
+    </div>
+    <div class="stat s4">
+      <div class="stat-val">8.7d</div>
+      <div class="stat-label">Average Lead Time</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <div class="panel-title">📊 Frequency Distribution of Lead Times</div>
+      <div class="chart-wrap"><canvas id="c5hist"></canvas></div>
+    </div>
+    <div>
+      <div class="panel-title">📋 Lead Time by Drug</div>
+      <div class="drug-list" id="druglist"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const drugs = [
+  {drug:"Amoxicillin",lead:5,delay:2},
+  {drug:"Ciprofloxacin",lead:7,delay:3},
+  {drug:"Azithromycin",lead:10,delay:1},
+  {drug:"Metformin",lead:5,delay:0},
+  {drug:"Insulin Glargine",lead:14,delay:4},
+  {drug:"Atorvastatin",lead:7,delay:1},
+  {drug:"Amlodipine",lead:3,delay:0},
+  {drug:"Lisinopril",lead:7,delay:2},
+  {drug:"Losartan",lead:10,delay:3},
+  {drug:"Paracetamol",lead:3,delay:0},
+  {drug:"Ibuprofen",lead:5,delay:1},
+  {drug:"Tramadol",lead:21,delay:5},
+  {drug:"Omeprazole",lead:7,delay:1},
+  {drug:"Pantoprazole",lead:10,delay:2},
+  {drug:"Salbutamol",lead:14,delay:3},
+  {drug:"Montelukast",lead:14,delay:4},
+  {drug:"Sertraline",lead:21,delay:6},
+  {drug:"Levothyroxine",lead:10,delay:2},
+  {drug:"Dexamethasone",lead:7,delay:1},
+  {drug:"Ondansetron",lead:5,delay:0},
+];
+
+// Histogram buckets
+const buckets = {3:0, 5:0, 7:0, 10:0, 14:0, 21:0};
+drugs.forEach(d => buckets[d.lead] = (buckets[d.lead]||0)+1);
+const bucketLabels = Object.keys(buckets).map(k => `${k} days`);
+const bucketVals = Object.values(buckets);
+const bucketColors = [
+  'rgba(16,185,129,0.80)','rgba(16,185,129,0.75)',
+  'rgba(245,158,11,0.80)','rgba(245,158,11,0.75)',
+  'rgba(239,68,68,0.80)','rgba(239,68,68,0.85)'
+];
+
+new Chart(document.getElementById('c5hist').getContext('2d'), {
+  type: 'bar',
+  data: {
+    labels: bucketLabels,
+    datasets: [{
+      label: 'Number of SKUs',
+      data: bucketVals,
+      backgroundColor: bucketColors,
+      borderColor: ['#10b981','#10b981','#f59e0b','#f59e0b','#ef4444','#ef4444'],
+      borderWidth: 2,
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#1a202c', titleColor: '#c4b5fd', bodyColor: '#e2e8f0', padding: 12,
+        callbacks: {
+          label: (i) => `${i.raw} SKU${i.raw!==1?'s':''} with this lead time`,
+          afterLabel: (i) => {
+            const days = parseInt(i.label);
+            return days <= 5 ? '✅ Fast — low stockout risk' : days <= 10 ? '⚠️ Moderate — monitor closely' : '🔴 Slow — high stockout risk';
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { color: '#2d3748', font: { family: 'Outfit', size: 13, weight:'600' } },
+        grid: { display: false },
+        title: { display: true, text: 'Lead Time Bucket', color: '#6b7280', font: { family: 'Outfit', size: 12 } }
+      },
+      y: {
+        ticks: { color: '#718096', font: { family: 'Outfit', size: 11 }, stepSize: 1 },
+        grid: { color: '#faf5ff' },
+        title: { display: true, text: 'Number of SKUs', color: '#7c3aed', font: { family: 'Outfit', size: 12 } }
+      }
+    }
+  }
+});
+
+// Drug list sorted by lead time desc
+const sorted = [...drugs].sort((a,b) => b.lead - a.lead);
+const dl = document.getElementById('druglist');
+sorted.forEach(d => {
+  const cls = d.lead <= 5 ? 'lt-fast' : d.lead <= 10 ? 'lt-med' : 'lt-slow';
+  const icon = d.lead <= 5 ? '✅' : d.lead <= 10 ? '⚠️' : '🔴';
+  dl.innerHTML += `<div class="drug-row">
+    <span style="font-weight:500;color:#2d3748">${d.drug}</span>
+    <span class="lt-badge ${cls}">${icon} ${d.lead}d lead</span>
+  </div>`;
+});
+</script>
+</body>
+</html>

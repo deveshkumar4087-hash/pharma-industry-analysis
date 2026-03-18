@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PharmaSCO — Chart Gallery</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f172a; font-family: 'Outfit', sans-serif; min-height: 100vh; padding: 40px 32px; }
+
+  .top-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .pill { display: inline-block; background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.3); color: #a5b4fc; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 16px; }
+  h1 { font-family: 'Bebas Neue', sans-serif; font-size: 56px; letter-spacing: 2px; color: #f1f5f9; line-height: 1; margin-bottom: 8px; }
+  h1 span { color: #6366f1; }
+  .tagline { font-size: 16px; color: #64748b; }
+
+  .section-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+    color: #4b5563; border-bottom: 1px solid #1e293b;
+    padding-bottom: 10px; margin-bottom: 24px; margin-top: 36px;
+  }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .bonus-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+
+  .chart-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 24px 26px;
+    text-decoration: none;
+    display: block;
+    transition: transform .18s, border-color .18s, box-shadow .18s;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 4px;
+    background: var(--accent, #6366f1);
+    border-radius: 18px 18px 0 0;
+  }
+  .chart-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent, #6366f1);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+  .card-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: #1e3a5f; margin-bottom: 8px; }
+  .card-type { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px; background: rgba(255,255,255,0.06); color: #94a3b8; border: 1px solid #334155; }
+  .card-title { font-size: 16px; font-weight: 700; color: #e2e8f0; margin-bottom: 6px; line-height: 1.3; }
+  .card-desc { font-size: 13px; color: #64748b; line-height: 1.5; }
+  .card-arrow { position: absolute; bottom: 20px; right: 22px; font-size: 18px; color: #334155; transition: color .18s, transform .18s; }
+  .chart-card:hover .card-arrow { color: var(--accent, #6366f1); transform: translateX(3px); }
+  .mandatory-badge { position: absolute; top: 18px; right: 18px; background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.3); color: #a5b4fc; font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 2px 8px; border-radius: 10px; }
+  .bonus-badge2 { position: absolute; top: 18px; right: 18px; background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); color: #34d399; font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 2px 8px; border-radius: 10px; }
+  .star-badge2 { position: absolute; top: 18px; right: 18px; background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); color: #fbbf24; font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 2px 8px; border-radius: 10px; }
+
+  .footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid #1e293b; font-size: 12px; color: #334155; font-family: 'Outfit', monospace; }
+</style>
+</head>
+<body>
+
+<div class="top-header">
+  <div class="pill">Pharmaceutical Supply Chain Optimization</div>
+  <h1>Chart <span>Gallery</span></h1>
+  <div class="tagline">9 standalone analytics charts — each built for maximum insight clarity</div>
+</div>
+
+<div class="section-label">📊 Core Charts — 7 Mandatory</div>
+
+<div class="grid">
+
+  <a href="chart1_demand_vs_inventory.html" class="chart-card" style="--accent:#3b5bdb">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">01</div>
+    <div class="card-type">📊 Bar Chart</div>
+    <div class="card-title">Demand vs Inventory Comparison</div>
+    <div class="card-desc">Side-by-side comparison of demand and stock for all 20 drug SKUs. Instantly identifies understocked and overstocked products.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart2_stockout_risk.html" class="chart-card" style="--accent:#dc2626">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">02</div>
+    <div class="card-type">🔴 Bar Chart + Table</div>
+    <div class="card-title">Stockout Risk Analysis</div>
+    <div class="card-desc">Highlights all products where Demand &gt; Inventory with priority ranking, shortage magnitude, and risk classification.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart3_overstock_analysis.html" class="chart-card" style="--accent:#f59e0b">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">03</div>
+    <div class="card-type">🟡 Bar Chart</div>
+    <div class="card-title">Overstock Analysis</div>
+    <div class="card-desc">Identifies products where Inventory &gt;&gt; Demand — revealing excess holding costs and capital waste across the portfolio.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart4_regional_supply.html" class="chart-card" style="--accent:#10b981">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">04</div>
+    <div class="card-type">🗺️ Bar + Region Cards</div>
+    <div class="card-title">Regional Supply Analysis</div>
+    <div class="card-desc">Demand vs Inventory breakdown by region (North/South/East/West/Central) — exposes distribution imbalances across India.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart5_lead_time.html" class="chart-card" style="--accent:#8b5cf6">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">05</div>
+    <div class="card-type">📦 Histogram</div>
+    <div class="card-title">Lead Time Distribution</div>
+    <div class="card-desc">Frequency histogram of delivery lead times across all SKUs. Shows which products face supply delays and their stockout impact.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart6_abc_analysis.html" class="chart-card" style="--accent:#0f172a">
+    <div class="mandatory-badge">MANDATORY</div>
+    <div class="card-num">06</div>
+    <div class="card-type">🏆 Pie + Bar Chart</div>
+    <div class="card-title">ABC Analysis</div>
+    <div class="card-desc">Classifies all 20 products into A/B/C tiers by demand volume. Drives tiered inventory governance and supplier priority decisions.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart7_eoq_visualization.html" class="chart-card" style="--accent:#f59e0b;background:#1a1200;border-color:#422006">
+    <div class="star-badge2">⭐ VERY IMPORTANT</div>
+    <div class="card-num" style="color:#2d1a00">07</div>
+    <div class="card-type">⭐ Bar Chart</div>
+    <div class="card-title" style="color:#fef3c7">EOQ Visualization</div>
+    <div class="card-desc" style="color:#92400e">Current order quantity vs Optimal EOQ side-by-side. Reveals cost reduction opportunities across the entire portfolio.</div>
+    <div class="card-arrow" style="color:#92400e">→</div>
+  </a>
+
+</div>
+
+<div class="section-label" style="margin-top:40px">🎯 Bonus Charts — High Impact</div>
+
+<div class="bonus-grid">
+
+  <a href="chart8_inventory_gap.html" class="chart-card" style="--accent:#0ea5e9">
+    <div class="bonus-badge2">BONUS</div>
+    <div class="card-num">08</div>
+    <div class="card-type">🎯 Bar Chart</div>
+    <div class="card-title">Inventory Gap Chart</div>
+    <div class="card-desc">Shows the exact surplus or shortage per product using the formula: Inventory − Demand. Positive bars = overstock · Negative bars = stockout. The clearest single view of portfolio balance.</div>
+    <div class="card-arrow">→</div>
+  </a>
+
+  <a href="chart9_stockout_kpi.html" class="chart-card" style="--accent:#ef4444;background:#1a0010;border-color:#3d0030">
+    <div class="bonus-badge2">BONUS</div>
+    <div class="card-num" style="color:#2d0020">09</div>
+    <div class="card-type">🔢 KPI Dashboard</div>
+    <div class="card-title" style="color:#fce7f3">Stockout % KPI Card</div>
+    <div class="card-desc" style="color:#9f6476">The single most important supply chain health metric — portfolio stockout rate with full breakdown, severity gauge, and per-product risk ranking.</div>
+    <div class="card-arrow" style="color:#3d0030">→</div>
+  </a>
+
+</div>
+
+<div class="footer">
+  PharmaSCO Analytics · Pharmaceutical Supply Chain Optimization · 9 Charts · 20 Drug SKUs · 5 Regions
+</div>
+
+</body>
+</html>

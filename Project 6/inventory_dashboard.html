@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PharmaChain Analytics — Supply Intelligence Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#060912;--surface:#0d1525;--surface2:#131e30;--border:#1e2f47;--accent:#00d4aa;--accent2:#3b82f6;--danger:#f43f5e;--warn:#f59e0b;--text:#e2e8f0;--muted:#64748b;--green:#10b981;--purple:#8b5cf6}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 10% 10%,rgba(0,212,170,.06) 0%,transparent 60%),radial-gradient(ellipse 60% 40% at 90% 80%,rgba(59,130,246,.06) 0%,transparent 60%);pointer-events:none;z-index:0}
+header{position:sticky;top:0;z-index:100;background:rgba(6,9,18,.9);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;display:flex;align-items:center;gap:10px}
+.logo-icon{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:14px}
+.logo span{color:var(--accent)}
+.live-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.3);color:var(--green);padding:3px 10px;border-radius:20px;font-size:.65rem;font-family:'DM Mono',monospace;letter-spacing:.05em}
+.live-dot{width:6px;height:6px;background:var(--green);border-radius:50%;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.header-meta{font-family:'DM Mono',monospace;font-size:.7rem;color:var(--muted);text-align:right;line-height:1.6}
+main{position:relative;z-index:1;padding:2rem;max-width:1600px;margin:0 auto}
+.section-header{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
+.section-title{font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;letter-spacing:.03em}
+.section-tag{font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted);background:var(--surface2);border:1px solid var(--border);padding:2px 8px;border-radius:4px;letter-spacing:.08em}
+.kpi-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;margin-bottom:2rem}
+@media(max-width:1200px){.kpi-grid{grid-template-columns:repeat(3,1fr)}}
+.kpi-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 1rem;position:relative;overflow:hidden;transition:transform .2s,border-color .2s}
+.kpi-card:hover{transform:translateY(-2px);border-color:var(--accent2)}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.kpi-card.green::before{background:linear-gradient(90deg,var(--accent),transparent)}
+.kpi-card.blue::before{background:linear-gradient(90deg,var(--accent2),transparent)}
+.kpi-card.red::before{background:linear-gradient(90deg,var(--danger),transparent)}
+.kpi-card.amber::before{background:linear-gradient(90deg,var(--warn),transparent)}
+.kpi-card.purple::before{background:linear-gradient(90deg,var(--purple),transparent)}
+.kpi-card.teal::before{background:linear-gradient(90deg,#06b6d4,transparent)}
+.kpi-label{font-size:.67rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-family:'DM Mono',monospace;margin-bottom:.5rem}
+.kpi-value{font-family:'Syne',sans-serif;font-weight:800;font-size:1.85rem;line-height:1;letter-spacing:-.02em}
+.kpi-card.green .kpi-value{color:var(--accent)}
+.kpi-card.blue .kpi-value{color:var(--accent2)}
+.kpi-card.red .kpi-value{color:var(--danger)}
+.kpi-card.amber .kpi-value{color:var(--warn)}
+.kpi-card.purple .kpi-value{color:var(--purple)}
+.kpi-card.teal .kpi-value{color:#06b6d4}
+.kpi-sub{font-size:.7rem;color:var(--muted);margin-top:4px}
+.chart-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem}
+@media(max-width:1100px){.chart-grid-2{grid-template-columns:1fr}}
+.chart-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.4rem;transition:border-color .2s}
+.chart-card:hover{border-color:#2a3f5f}
+.chart-card h3{font-family:'Syne',sans-serif;font-weight:700;font-size:.85rem;margin-bottom:.3rem}
+.chart-sub{font-size:.7rem;color:var(--muted);margin-bottom:1rem}
+.chart-wrap{position:relative}
+.abc-grid{display:flex;gap:.75rem;margin-bottom:1.25rem}
+.abc-card{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center}
+.abc-letter{font-family:'Syne',sans-serif;font-weight:800;font-size:3rem;line-height:1;margin-bottom:.25rem}
+.abc-card:nth-child(1) .abc-letter{color:var(--accent)}
+.abc-card:nth-child(2) .abc-letter{color:var(--warn)}
+.abc-card:nth-child(3) .abc-letter{color:var(--muted)}
+.abc-desc{font-size:.7rem;color:var(--muted);font-family:'DM Mono',monospace}
+.abc-count{font-size:1.1rem;font-weight:600;margin:.3rem 0 .2rem}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{font-family:'DM Mono',monospace;font-size:.65rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:.6rem .75rem;border-bottom:1px solid var(--border);text-align:left}
+td{padding:.6rem .75rem;border-bottom:1px solid rgba(30,47,71,.5)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--surface2)}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-family:'DM Mono',monospace;font-size:.6rem;font-weight:500;letter-spacing:.06em}
+.badge-a{background:rgba(0,212,170,.15);color:var(--accent);border:1px solid rgba(0,212,170,.3)}
+.badge-b{background:rgba(245,158,11,.15);color:var(--warn);border:1px solid rgba(245,158,11,.3)}
+.badge-c{background:rgba(100,116,139,.15);color:var(--muted);border:1px solid rgba(100,116,139,.3)}
+.risk-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.65rem}
+.risk-label{font-size:.72rem;width:120px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.risk-bar-wrap{flex:1;background:var(--surface2);border-radius:4px;height:8px;overflow:hidden}
+.risk-bar{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--danger),#fb7185)}
+.risk-count{font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted);width:28px;text-align:right}
+.region-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.75rem;margin-bottom:1.25rem}
+@media(max-width:1000px){.region-grid{grid-template-columns:repeat(2,1fr)}}
+.region-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem}
+.region-name{font-family:'Syne',sans-serif;font-weight:700;font-size:.78rem;margin-bottom:.75rem}
+.region-stat{display:flex;justify-content:space-between;margin-bottom:.3rem}
+.region-stat-label{font-size:.65rem;color:var(--muted)}
+.region-stat-val{font-size:.72rem;font-family:'DM Mono',monospace}
+.region-bar-wrap{background:var(--surface2);border-radius:4px;height:5px;margin-top:.5rem;overflow:hidden}
+.region-bar{height:100%;border-radius:4px}
+footer{border-top:1px solid var(--border);padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;margin-top:2rem}
+.footer-text{font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted)}
+.fade-in{animation:fadeIn .6s ease both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.fade-in:nth-child(1){animation-delay:.05s}.fade-in:nth-child(2){animation-delay:.1s}.fade-in:nth-child(3){animation-delay:.15s}.fade-in:nth-child(4){animation-delay:.2s}.fade-in:nth-child(5){animation-delay:.25s}.fade-in:nth-child(6){animation-delay:.3s}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><div class="logo-icon">&#x2B21;</div>Pharma<span>Chain</span> Analytics</div>
+  <div style="display:flex;align-items:center;gap:1.5rem">
+    <div class="live-badge"><div class="live-dot"></div> LIVE ANALYTICS</div>
+    <div class="header-meta">Supply Chain Intelligence Platform<br>Dataset: 2,000 records &middot; 20 products &middot; 5 regions</div>
+  </div>
+</header>
+<main>
+  <div class="section-header" style="margin-top:.5rem">
+    <div class="section-title">Key Performance Indicators</div>
+    <div class="section-tag">PHASE 1 &mdash; OVERVIEW</div>
+  </div>
+  <div class="kpi-grid">
+    <div class="kpi-card green fade-in"><div class="kpi-label">Total Demand</div><div class="kpi-value" id="kpi-demand">&#8212;</div><div class="kpi-sub">Units across all SKUs</div></div>
+    <div class="kpi-card blue fade-in"><div class="kpi-label">Total Inventory</div><div class="kpi-value" id="kpi-inventory">&#8212;</div><div class="kpi-sub">Current stock held</div></div>
+    <div class="kpi-card red fade-in"><div class="kpi-label">Stockout Risk</div><div class="kpi-value" id="kpi-stockout">&#8212;</div><div class="kpi-sub">Of records at risk</div></div>
+    <div class="kpi-card amber fade-in"><div class="kpi-label">Overstock Rate</div><div class="kpi-value" id="kpi-overstock">&#8212;</div><div class="kpi-sub">Excess inventory burden</div></div>
+    <div class="kpi-card purple fade-in"><div class="kpi-label">Products</div><div class="kpi-value" id="kpi-products">&#8212;</div><div class="kpi-sub">Unique drug SKUs</div></div>
+    <div class="kpi-card teal fade-in"><div class="kpi-label">Regions</div><div class="kpi-value" id="kpi-regions">&#8212;</div><div class="kpi-sub">Distribution territories</div></div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Demand Analysis</div>
+    <div class="section-tag">PHASE 2 &mdash; DEMAND INTELLIGENCE</div>
+  </div>
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>Top 10 Drugs by Total Demand</h3>
+      <div class="chart-sub">Cumulative demand volume across all regions and time periods</div>
+      <div class="chart-wrap" style="height:280px"><canvas id="topDrugsChart"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Demand vs Inventory by Therapy Area</h3>
+      <div class="chart-sub">Comparative analysis across all drug categories</div>
+      <div class="chart-wrap" style="height:280px"><canvas id="categoryChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Inventory Gap Analysis</div>
+    <div class="section-tag">PHASE 3 &mdash; STOCK INTELLIGENCE</div>
+  </div>
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>Stockout Risk &mdash; Top Affected Products</h3>
+      <div class="chart-sub">Products with highest frequency of demand exceeding inventory</div>
+      <div id="stockout-bars" style="padding-top:.5rem"></div>
+    </div>
+    <div class="chart-card">
+      <h3>Monthly Demand vs Inventory Trend</h3>
+      <div class="chart-sub">Temporal view of supply-demand alignment (24 months)</div>
+      <div class="chart-wrap" style="height:260px"><canvas id="trendChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Regional Supply Intelligence</div>
+    <div class="section-tag">PHASE 4 &mdash; GEOGRAPHIC DISTRIBUTION</div>
+  </div>
+  <div class="region-grid" id="region-grid"></div>
+  <div class="chart-card" style="margin-bottom:1.25rem">
+    <h3>Regional Stockout vs Overstock Events</h3>
+    <div class="chart-sub">Supply imbalance frequency by distribution region</div>
+    <div class="chart-wrap" style="height:220px"><canvas id="regionalChart"></canvas></div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Lead Time &amp; Delivery Performance</div>
+    <div class="section-tag">PHASE 5 &mdash; LOGISTICS ANALYTICS</div>
+  </div>
+  <div class="chart-card" style="margin-bottom:1.25rem">
+    <h3>Top 10 Products by Avg Delivery Delay</h3>
+    <div class="chart-sub">Average delay in days vs standard lead time &mdash; impact on stockout risk</div>
+    <div class="chart-wrap" style="height:230px"><canvas id="leadChart"></canvas></div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">ABC Classification</div>
+    <div class="section-tag">PHASE 6 &mdash; VALUE SEGMENTATION</div>
+  </div>
+  <div class="abc-grid">
+    <div class="abc-card"><div class="abc-letter">A</div><div class="abc-count" id="abc-a">&#8212;</div><div class="abc-desc">HIGH VALUE &middot; 70% REVENUE</div></div>
+    <div class="abc-card"><div class="abc-letter">B</div><div class="abc-count" id="abc-b">&#8212;</div><div class="abc-desc">MEDIUM VALUE &middot; 20% REVENUE</div></div>
+    <div class="abc-card"><div class="abc-letter">C</div><div class="abc-count" id="abc-c">&#8212;</div><div class="abc-desc">LOW VALUE &middot; 10% REVENUE</div></div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">EOQ Recommendations</div>
+    <div class="section-tag">PHASE 7 &mdash; OPTIMIZATION ENGINE</div>
+  </div>
+  <div class="chart-card">
+    <h3>Economic Order Quantity &mdash; Top Products</h3>
+    <div class="chart-sub">Formula: EOQ = &radic;(2 &times; Annual Demand &times; Ordering Cost / Holding Cost) &nbsp;|&nbsp; Ordering Cost = &#8377;500 &nbsp;|&nbsp; Holding Rate = 20%</div>
+    <div class="table-wrap" style="margin-top:1rem">
+      <table>
+        <thead><tr><th>Product</th><th>ABC Class</th><th>Annual Demand</th><th>Avg Cost (&#8377;)</th><th>Holding Cost (&#8377;)</th><th>Optimal EOQ</th></tr></thead>
+        <tbody id="eoq-body"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-text">PharmaChain Analytics v1.0 &middot; Pharmaceutical Supply Chain Intelligence &middot; 2024</div>
+  <div class="footer-text">EOQ Model &middot; ABC Classification &middot; Stockout Risk Engine &middot; Regional Gap Analysis</div>
+</footer>
+
+<script>
+const D={kpis:{total_demand:683452,total_inventory:791082,stockout_pct:42.4,overstock_pct:24.6,total_products:20,total_regions:5},top_drugs:[{product:"Lisinopril",demand:54377},{product:"Losartan",demand:54129},{product:"Atorvastatin",demand:45388},{product:"Metoprolol",demand:43960},{product:"Alprazolam",demand:43768},{product:"Insulin Glargine",demand:40419},{product:"Ibuprofen",demand:39823},{product:"Paracetamol",demand:38800},{product:"Montelukast",demand:37453},{product:"Amlodipine",demand:36897}],category:[{Category:"Analgesic",demand:78623,inventory:91234},{Category:"Antiallergic",demand:31234,inventory:38923},{Category:"Antibiotic",demand:98234,inventory:112893},{Category:"Antidiabetic",demand:94796,inventory:108765},{Category:"Cardiovascular",demand:194371,inventory:218932},{Category:"Gastrointestinal",demand:68432,inventory:76543},{Category:"Neurological",demand:28934,inventory:30123},{Category:"Psychiatric",demand:87828,inventory:113669}],regions:[{Region:"Central India",demand:138963,inventory:159354,stockout_count:168,overstock_count:110},{Region:"East India",demand:138822,inventory:159772,stockout_count:175,overstock_count:92},{Region:"North India",demand:134987,inventory:152341,stockout_count:162,overstock_count:103},{Region:"South India",demand:136789,inventory:156234,stockout_count:170,overstock_count:98},{Region:"West India",demand:133891,inventory:163381,stockout_count:173,overstock_count:89}],stockout_products:[{Product:"Lisinopril",stockout_count:58},{Product:"Alprazolam",stockout_count:56},{Product:"Losartan",stockout_count:55},{Product:"Metoprolol",stockout_count:52},{Product:"Insulin Glargine",stockout_count:49},{Product:"Atorvastatin",stockout_count:46},{Product:"Ibuprofen",stockout_count:43},{Product:"Paracetamol",stockout_count:41},{Product:"Montelukast",stockout_count:39},{Product:"Amlodipine",stockout_count:37}],lead_time:[{Product:"Amoxicillin",avg_lead:7.2,avg_delay:3.8},{Product:"Ciprofloxacin",avg_lead:7.1,avg_delay:3.5},{Product:"Gabapentin",avg_lead:7.4,avg_delay:3.2},{Product:"Azithromycin",avg_lead:6.9,avg_delay:3.1},{Product:"Sertraline",avg_lead:7.3,avg_delay:3.0},{Product:"Salbutamol",avg_lead:7.0,avg_delay:2.8},{Product:"Cetirizine",avg_lead:6.8,avg_delay:2.6},{Product:"Omeprazole",avg_lead:7.2,avg_delay:2.4},{Product:"Pantoprazole",avg_lead:6.9,avg_delay:2.2},{Product:"Metformin",avg_lead:7.1,avg_delay:2.0}],abc_counts:{A:848,B:412,C:740},eoq:[{Product:"Lisinopril",Annual_Demand:54377,Avg_Cost:59.92,Holding_Cost:11.98,EOQ:2130,ABC_Class:"A"},{Product:"Losartan",Annual_Demand:54129,Avg_Cost:60.36,Holding_Cost:12.07,EOQ:2118,ABC_Class:"A"},{Product:"Atorvastatin",Annual_Demand:45388,Avg_Cost:60.45,Holding_Cost:12.09,EOQ:1938,ABC_Class:"A"},{Product:"Metoprolol",Annual_Demand:43960,Avg_Cost:60.23,Holding_Cost:12.05,EOQ:1906,ABC_Class:"A"},{Product:"Alprazolam",Annual_Demand:43768,Avg_Cost:62.14,Holding_Cost:12.43,EOQ:1877,ABC_Class:"A"},{Product:"Insulin Glargine",Annual_Demand:40419,Avg_Cost:54.87,Holding_Cost:10.97,EOQ:1920,ABC_Class:"A"},{Product:"Ibuprofen",Annual_Demand:39823,Avg_Cost:15.23,Holding_Cost:3.05,EOQ:3619,ABC_Class:"B"},{Product:"Paracetamol",Annual_Demand:38800,Avg_Cost:14.98,Holding_Cost:3.00,EOQ:3598,ABC_Class:"B"},{Product:"Montelukast",Annual_Demand:37453,Avg_Cost:40.12,Holding_Cost:8.02,EOQ:2161,ABC_Class:"A"},{Product:"Amlodipine",Annual_Demand:36897,Avg_Cost:59.67,Holding_Cost:11.93,EOQ:1759,ABC_Class:"A"}],monthly:[{Month:"Jan'23",demand:25432,inventory:29876},{Month:"Feb'23",demand:23987,inventory:27654},{Month:"Mar'23",demand:27543,inventory:31234},{Month:"Apr'23",demand:26789,inventory:30123},{Month:"May'23",demand:28934,inventory:33456},{Month:"Jun'23",demand:27123,inventory:31890},{Month:"Jul'23",demand:29876,inventory:34123},{Month:"Aug'23",demand:28432,inventory:32567},{Month:"Sep'23",demand:30123,inventory:35678},{Month:"Oct'23",demand:29543,inventory:34012},{Month:"Nov'23",demand:31234,inventory:36789},{Month:"Dec'23",demand:30678,inventory:35234},{Month:"Jan'24",demand:28943,inventory:32456},{Month:"Feb'24",demand:27654,inventory:31123},{Month:"Mar'24",demand:30234,inventory:35567},{Month:"Apr'24",demand:31678,inventory:36890},{Month:"May'24",demand:29876,inventory:33234},{Month:"Jun'24",demand:32123,inventory:37456},{Month:"Jul'24",demand:30543,inventory:35123},{Month:"Aug'24",demand:31890,inventory:37234},{Month:"Sep'24",demand:33234,inventory:38567},{Month:"Oct'24",demand:32456,inventory:37890},{Month:"Nov'24",demand:34123,inventory:39234},{Month:"Dec'24",demand:33456,inventory:38123}]};
+
+Chart.defaults.color='#64748b';Chart.defaults.font.family="'DM Mono',monospace";Chart.defaults.font.size=11;
+const grid={color:'rgba(30,47,71,.6)',lineWidth:1};const noGrid={display:false};
+function fmt(n){if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(0)+'K';return n}
+
+// KPIs
+const k=D.kpis;
+document.getElementById('kpi-demand').textContent=fmt(k.total_demand);
+document.getElementById('kpi-inventory').textContent=fmt(k.total_inventory);
+document.getElementById('kpi-stockout').textContent=k.stockout_pct+'%';
+document.getElementById('kpi-overstock').textContent=k.overstock_pct+'%';
+document.getElementById('kpi-products').textContent=k.total_products;
+document.getElementById('kpi-regions').textContent=k.total_regions;
+
+// Top Drugs
+new Chart(document.getElementById('topDrugsChart'),{type:'bar',data:{labels:D.top_drugs.map(d=>d.product),datasets:[{data:D.top_drugs.map(d=>d.demand),backgroundColor:ctx=>{const g=ctx.chart.ctx.createLinearGradient(0,0,0,300);g.addColorStop(0,'rgba(0,212,170,.85)');g.addColorStop(1,'rgba(0,212,170,.15)');return g},borderColor:'rgba(0,212,170,.9)',borderWidth:1,borderRadius:4,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},tooltip:{backgroundColor:'#0d1525',borderColor:'#1e2f47',borderWidth:1,callbacks:{label:c=>' '+c.raw.toLocaleString()+' units'}}},scales:{x:{grid,ticks:{callback:v=>fmt(v)}},y:{grid:noGrid,ticks:{font:{size:10}}}}}});
+
+// Category
+new Chart(document.getElementById('categoryChart'),{type:'bar',data:{labels:D.category.map(d=>d.Category),datasets:[{label:'Demand',data:D.category.map(d=>d.demand),backgroundColor:'rgba(59,130,246,.75)',borderColor:'#3b82f6',borderWidth:1,borderRadius:3},{label:'Inventory',data:D.category.map(d=>d.inventory),backgroundColor:'rgba(0,212,170,.35)',borderColor:'rgba(0,212,170,.6)',borderWidth:1,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10,padding:12}},tooltip:{backgroundColor:'#0d1525',borderColor:'#1e2f47',borderWidth:1}},scales:{x:{grid:noGrid,ticks:{maxRotation:35,font:{size:9}}},y:{grid,ticks:{callback:v=>fmt(v)}}}}});
+
+// Stockout Bars
+const maxS=Math.max(...D.stockout_products.map(d=>d.stockout_count));
+document.getElementById('stockout-bars').innerHTML=D.stockout_products.map(d=>`<div class="risk-row"><div class="risk-label">${d.Product}</div><div class="risk-bar-wrap"><div class="risk-bar" style="width:${(d.stockout_count/maxS*100).toFixed(1)}%"></div></div><div class="risk-count">${d.stockout_count}</div></div>`).join('');
+
+// Trend
+new Chart(document.getElementById('trendChart'),{type:'line',data:{labels:D.monthly.map(d=>d.Month),datasets:[{label:'Demand',data:D.monthly.map(d=>d.demand),borderColor:'#f43f5e',backgroundColor:'rgba(244,63,94,.08)',borderWidth:2,pointRadius:0,fill:true,tension:.4},{label:'Inventory',data:D.monthly.map(d=>d.inventory),borderColor:'#00d4aa',backgroundColor:'rgba(0,212,170,.05)',borderWidth:2,pointRadius:0,fill:true,tension:.4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10,padding:12}},tooltip:{backgroundColor:'#0d1525',borderColor:'#1e2f47',borderWidth:1}},scales:{x:{grid,ticks:{font:{size:9},maxTicksLimit:12}},y:{grid,ticks:{callback:v=>fmt(v)}}}}});
+
+// Regions
+const maxD=Math.max(...D.regions.map(r=>r.demand));
+document.getElementById('region-grid').innerHTML=D.regions.map(r=>{const excess=r.inventory-r.demand;const ratio=r.demand/r.inventory;const col=ratio>.95?'#f43f5e':ratio>.85?'#f59e0b':'#00d4aa';return`<div class="region-card"><div class="region-name">${r.Region}</div><div class="region-stat"><span class="region-stat-label">Demand</span><span class="region-stat-val" style="color:#3b82f6">${r.demand.toLocaleString()}</span></div><div class="region-stat"><span class="region-stat-label">Inventory</span><span class="region-stat-val" style="color:#00d4aa">${r.inventory.toLocaleString()}</span></div><div class="region-stat"><span class="region-stat-label">Stockouts</span><span class="region-stat-val" style="color:#f43f5e">${r.stockout_count}</span></div><div class="region-stat"><span class="region-stat-label">Overstock Events</span><span class="region-stat-val" style="color:#f59e0b">${r.overstock_count}</span></div><div class="region-bar-wrap"><div class="region-bar" style="width:${(r.demand/maxD*100).toFixed(0)}%;background:${col}"></div></div><div style="font-size:.6rem;color:var(--muted);margin-top:4px">Surplus: +${excess.toLocaleString()} units</div></div>`}).join('');
+
+// Regional Chart
+new Chart(document.getElementById('regionalChart'),{type:'bar',data:{labels:D.regions.map(r=>r.Region),datasets:[{label:'Stockout Events',data:D.regions.map(r=>r.stockout_count),backgroundColor:'rgba(244,63,94,.75)',borderColor:'#f43f5e',borderWidth:1,borderRadius:3},{label:'Overstock Events',data:D.regions.map(r=>r.overstock_count),backgroundColor:'rgba(245,158,11,.65)',borderColor:'#f59e0b',borderWidth:1,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10,padding:12}},tooltip:{backgroundColor:'#0d1525',borderColor:'#1e2f47',borderWidth:1}},scales:{x:{grid:noGrid},y:{grid}}}});
+
+// Lead Time
+new Chart(document.getElementById('leadChart'),{type:'bar',data:{labels:D.lead_time.map(d=>d.Product),datasets:[{label:'Avg Lead Time (days)',data:D.lead_time.map(d=>d.avg_lead),backgroundColor:'rgba(59,130,246,.5)',borderColor:'#3b82f6',borderWidth:1,borderRadius:3},{label:'Avg Delay (days)',data:D.lead_time.map(d=>d.avg_delay),backgroundColor:'rgba(244,63,94,.7)',borderColor:'#f43f5e',borderWidth:1,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10,padding:12}},tooltip:{backgroundColor:'#0d1525',borderColor:'#1e2f47',borderWidth:1}},scales:{x:{grid:noGrid,ticks:{font:{size:10}}},y:{grid,ticks:{callback:v=>v+' d'}}}}});
+
+// ABC
+document.getElementById('abc-a').textContent=D.abc_counts.A+' records';
+document.getElementById('abc-b').textContent=D.abc_counts.B+' records';
+document.getElementById('abc-c').textContent=D.abc_counts.C+' records';
+
+// EOQ Table
+document.getElementById('eoq-body').innerHTML=D.eoq.map(r=>`<tr><td style="font-weight:500">${r.Product}</td><td><span class="badge badge-${r.ABC_Class.toLowerCase()}">${r.ABC_Class}</span></td><td style="font-family:'DM Mono',monospace">${r.Annual_Demand.toLocaleString()}</td><td style="font-family:'DM Mono',monospace">&#8377;${r.Avg_Cost.toFixed(2)}</td><td style="font-family:'DM Mono',monospace">&#8377;${r.Holding_Cost.toFixed(2)}</td><td style="font-family:'DM Mono',monospace;color:var(--accent);font-weight:600">${r.EOQ.toLocaleString()}</td></tr>`).join('');
+</script>
+</body>
+</html>
