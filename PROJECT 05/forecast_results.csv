@@ -1,0 +1,129 @@
+Disease,Year,Predicted_Sales_USD_B,Type
+Cardiovascular Disease,2024,93.56,Forecast
+Cardiovascular Disease,2025,81.34,Forecast
+Cardiovascular Disease,2026,65.71,Forecast
+Cardiovascular Disease,2027,46.67,Forecast
+Cardiovascular Disease,2028,24.23,Forecast
+Cardiovascular Disease,2029,0,Forecast
+Cardiovascular Disease,2030,0,Forecast
+Cardiovascular Disease,2015,53.02,Historical
+Cardiovascular Disease,2016,73.67,Historical
+Cardiovascular Disease,2017,70.57,Historical
+Cardiovascular Disease,2018,90.71,Historical
+Cardiovascular Disease,2019,111.32,Historical
+Cardiovascular Disease,2020,116.39,Historical
+Cardiovascular Disease,2021,96.11,Historical
+Cardiovascular Disease,2022,123.47,Historical
+Cardiovascular Disease,2023,94.34,Historical
+Diabetes,2024,61.97,Forecast
+Diabetes,2025,65.98,Forecast
+Diabetes,2026,70.16,Forecast
+Diabetes,2027,74.51,Forecast
+Diabetes,2028,79.02,Forecast
+Diabetes,2029,83.7,Forecast
+Diabetes,2030,88.55,Forecast
+Diabetes,2015,34.83,Historical
+Diabetes,2016,34.39,Historical
+Diabetes,2017,38.39,Historical
+Diabetes,2018,40.84,Historical
+Diabetes,2019,43.92,Historical
+Diabetes,2020,46.78,Historical
+Diabetes,2021,55.31,Historical
+Diabetes,2022,52.82,Historical
+Diabetes,2023,57.46,Historical
+Infectious Diseases,2024,35.97,Forecast
+Infectious Diseases,2025,39.33,Forecast
+Infectious Diseases,2026,43.23,Forecast
+Infectious Diseases,2027,47.68,Forecast
+Infectious Diseases,2028,52.68,Forecast
+Infectious Diseases,2029,58.22,Forecast
+Infectious Diseases,2030,64.31,Forecast
+Infectious Diseases,2015,29.88,Historical
+Infectious Diseases,2016,27.7,Historical
+Infectious Diseases,2017,27.22,Historical
+Infectious Diseases,2018,33.43,Historical
+Infectious Diseases,2019,27.25,Historical
+Infectious Diseases,2020,26.64,Historical
+Infectious Diseases,2021,23.39,Historical
+Infectious Diseases,2022,33.5,Historical
+Infectious Diseases,2023,34.25,Historical
+Mental Health Disorders,2024,66.63,Forecast
+Mental Health Disorders,2025,66.47,Forecast
+Mental Health Disorders,2026,65.68,Forecast
+Mental Health Disorders,2027,64.27,Forecast
+Mental Health Disorders,2028,62.25,Forecast
+Mental Health Disorders,2029,59.6,Forecast
+Mental Health Disorders,2030,56.33,Forecast
+Mental Health Disorders,2015,46,Historical
+Mental Health Disorders,2016,41.13,Historical
+Mental Health Disorders,2017,44.75,Historical
+Mental Health Disorders,2018,57.74,Historical
+Mental Health Disorders,2019,52.92,Historical
+Mental Health Disorders,2020,64.23,Historical
+Mental Health Disorders,2021,71.55,Historical
+Mental Health Disorders,2022,63.9,Historical
+Mental Health Disorders,2023,62.59,Historical
+Musculoskeletal,2024,31.29,Forecast
+Musculoskeletal,2025,28.91,Forecast
+Musculoskeletal,2026,25.98,Forecast
+Musculoskeletal,2027,22.5,Forecast
+Musculoskeletal,2028,18.46,Forecast
+Musculoskeletal,2029,13.88,Forecast
+Musculoskeletal,2030,8.74,Forecast
+Musculoskeletal,2015,29.51,Historical
+Musculoskeletal,2016,32.26,Historical
+Musculoskeletal,2017,28.6,Historical
+Musculoskeletal,2018,26.47,Historical
+Musculoskeletal,2019,40.55,Historical
+Musculoskeletal,2020,40.5,Historical
+Musculoskeletal,2021,34.09,Historical
+Musculoskeletal,2022,32.94,Historical
+Musculoskeletal,2023,32.62,Historical
+Neurological Disorders,2024,101.01,Forecast
+Neurological Disorders,2025,106.77,Forecast
+Neurological Disorders,2026,112.66,Forecast
+Neurological Disorders,2027,118.68,Forecast
+Neurological Disorders,2028,124.82,Forecast
+Neurological Disorders,2029,131.09,Forecast
+Neurological Disorders,2030,137.48,Forecast
+Neurological Disorders,2015,52.29,Historical
+Neurological Disorders,2016,63.19,Historical
+Neurological Disorders,2017,55.14,Historical
+Neurological Disorders,2018,81.05,Historical
+Neurological Disorders,2019,80.91,Historical
+Neurological Disorders,2020,73.25,Historical
+Neurological Disorders,2021,71.9,Historical
+Neurological Disorders,2022,94.96,Historical
+Neurological Disorders,2023,98.03,Historical
+Oncology,2024,160.8,Forecast
+Oncology,2025,166.51,Forecast
+Oncology,2026,172.13,Forecast
+Oncology,2027,177.68,Forecast
+Oncology,2028,183.14,Forecast
+Oncology,2029,188.51,Forecast
+Oncology,2030,193.81,Forecast
+Oncology,2015,115.54,Historical
+Oncology,2016,91.8,Historical
+Oncology,2017,128.41,Historical
+Oncology,2018,119.65,Historical
+Oncology,2019,136.15,Historical
+Oncology,2020,146,Historical
+Oncology,2021,144.89,Historical
+Oncology,2022,130.28,Historical
+Oncology,2023,164.21,Historical
+Respiratory Disease,2024,52.26,Forecast
+Respiratory Disease,2025,58.32,Forecast
+Respiratory Disease,2026,65.52,Forecast
+Respiratory Disease,2027,73.86,Forecast
+Respiratory Disease,2028,83.34,Forecast
+Respiratory Disease,2029,93.95,Forecast
+Respiratory Disease,2030,105.71,Forecast
+Respiratory Disease,2015,47,Historical
+Respiratory Disease,2016,43.82,Historical
+Respiratory Disease,2017,47.99,Historical
+Respiratory Disease,2018,40.68,Historical
+Respiratory Disease,2019,34.14,Historical
+Respiratory Disease,2020,41.85,Historical
+Respiratory Disease,2021,36.83,Historical
+Respiratory Disease,2022,45,Historical
+Respiratory Disease,2023,48.32,Historical

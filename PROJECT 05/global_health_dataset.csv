@@ -1,0 +1,1081 @@
+Country,Year,Disease,Prevalence_Pct,Drug_Sales_USD,Healthcare_Spending_GDP_Pct,Population_M,Region,Market_Type
+India,2015,Diabetes,7.17,8979220665,3.49,1400,South Asia,Emerging
+India,2016,Diabetes,7.65,9464080366,3.59,1400,South Asia,Emerging
+India,2017,Diabetes,7.78,10013110478,3.77,1400,South Asia,Emerging
+India,2018,Diabetes,7.52,10258764027,3.78,1400,South Asia,Emerging
+India,2019,Diabetes,7.52,9737911527,3.77,1400,South Asia,Emerging
+India,2020,Diabetes,7.33,11964726790,3.94,1400,South Asia,Emerging
+India,2021,Diabetes,7.31,13779975053,4.01,1400,South Asia,Emerging
+India,2022,Diabetes,7.68,12177591392,4.24,1400,South Asia,Emerging
+India,2023,Diabetes,7.67,13209400534,4.35,1400,South Asia,Emerging
+India,2015,Cardiovascular Disease,6.26,11223033832,3.46,1400,South Asia,Emerging
+India,2016,Cardiovascular Disease,6.32,11150039827,3.74,1400,South Asia,Emerging
+India,2017,Cardiovascular Disease,5.75,11091077423,3.69,1400,South Asia,Emerging
+India,2018,Cardiovascular Disease,11.8,20920993601,3.67,1400,South Asia,Emerging
+India,2019,Cardiovascular Disease,14.73,33170274046,3.94,1400,South Asia,Emerging
+India,2020,Cardiovascular Disease,14.29,28094641094,4.0,1400,South Asia,Emerging
+India,2021,Cardiovascular Disease,13.24,29086996357,4.02,1400,South Asia,Emerging
+India,2022,Cardiovascular Disease,11.46,27146619137,4.2,1400,South Asia,Emerging
+India,2023,Cardiovascular Disease,6.56,18642392742,4.39,1400,South Asia,Emerging
+India,2015,Oncology,11.23,28811915478,3.48,1400,South Asia,Emerging
+India,2016,Oncology,8.92,22853056742,3.59,1400,South Asia,Emerging
+India,2017,Oncology,8.93,24935668851,3.81,1400,South Asia,Emerging
+India,2018,Oncology,7.25,22960856597,3.89,1400,South Asia,Emerging
+India,2019,Oncology,10.93,27251547642,4.04,1400,South Asia,Emerging
+India,2020,Oncology,6.52,23623486269,3.91,1400,South Asia,Emerging
+India,2021,Oncology,10.68,42319234390,4.16,1400,South Asia,Emerging
+India,2022,Oncology,8.13,29512422260,4.22,1400,South Asia,Emerging
+India,2023,Oncology,8.19,31247942472,4.37,1400,South Asia,Emerging
+India,2015,Respiratory Disease,13.43,12968417037,3.6,1400,South Asia,Emerging
+India,2016,Respiratory Disease,12.86,11855329519,3.58,1400,South Asia,Emerging
+India,2017,Respiratory Disease,11.91,11649856959,3.51,1400,South Asia,Emerging
+India,2018,Respiratory Disease,7.67,7210400363,3.75,1400,South Asia,Emerging
+India,2019,Respiratory Disease,10.78,11417766929,3.85,1400,South Asia,Emerging
+India,2020,Respiratory Disease,13.4,12822267681,4.02,1400,South Asia,Emerging
+India,2021,Respiratory Disease,7.41,6906741355,4.17,1400,South Asia,Emerging
+India,2022,Respiratory Disease,8.43,8763066113,4.14,1400,South Asia,Emerging
+India,2023,Respiratory Disease,8.88,9388425637,4.27,1400,South Asia,Emerging
+India,2015,Mental Health Disorders,11.23,11075767756,3.65,1400,South Asia,Emerging
+India,2016,Mental Health Disorders,5.86,7118605215,3.73,1400,South Asia,Emerging
+India,2017,Mental Health Disorders,5.45,6005848532,3.72,1400,South Asia,Emerging
+India,2018,Mental Health Disorders,12.21,15370710079,3.86,1400,South Asia,Emerging
+India,2019,Mental Health Disorders,6.89,9920793878,3.89,1400,South Asia,Emerging
+India,2020,Mental Health Disorders,12.6,21729893326,4.13,1400,South Asia,Emerging
+India,2021,Mental Health Disorders,8.45,11571431811,4.19,1400,South Asia,Emerging
+India,2022,Mental Health Disorders,12.13,21428565371,4.29,1400,South Asia,Emerging
+India,2023,Mental Health Disorders,7.21,14141939013,4.28,1400,South Asia,Emerging
+India,2015,Infectious Diseases,11.34,7173510888,3.55,1400,South Asia,Emerging
+India,2016,Infectious Diseases,8.78,7434913033,3.7,1400,South Asia,Emerging
+India,2017,Infectious Diseases,7.2,4637810908,3.61,1400,South Asia,Emerging
+India,2018,Infectious Diseases,15.04,11367256414,3.8,1400,South Asia,Emerging
+India,2019,Infectious Diseases,11.89,9150604836,3.81,1400,South Asia,Emerging
+India,2020,Infectious Diseases,8.59,5688990411,4.01,1400,South Asia,Emerging
+India,2021,Infectious Diseases,6.49,5602707597,4.12,1400,South Asia,Emerging
+India,2022,Infectious Diseases,14.85,10189372394,4.3,1400,South Asia,Emerging
+India,2023,Infectious Diseases,8.25,6374010246,4.4,1400,South Asia,Emerging
+India,2015,Neurological Disorders,10.51,16275530020,3.44,1400,South Asia,Emerging
+India,2016,Neurological Disorders,12.03,19745712918,3.68,1400,South Asia,Emerging
+India,2017,Neurological Disorders,9.28,15255943174,3.67,1400,South Asia,Emerging
+India,2018,Neurological Disorders,14.06,31274089393,3.85,1400,South Asia,Emerging
+India,2019,Neurological Disorders,13.93,25579789140,4.0,1400,South Asia,Emerging
+India,2020,Neurological Disorders,9.17,17194479668,3.96,1400,South Asia,Emerging
+India,2021,Neurological Disorders,11.41,19809276476,4.09,1400,South Asia,Emerging
+India,2022,Neurological Disorders,11.93,27853835053,4.2,1400,South Asia,Emerging
+India,2023,Neurological Disorders,8.1,19238305778,4.35,1400,South Asia,Emerging
+India,2015,Musculoskeletal,5.92,4670759841,3.5,1400,South Asia,Emerging
+India,2016,Musculoskeletal,11.0,9170079156,3.66,1400,South Asia,Emerging
+India,2017,Musculoskeletal,8.75,7788818425,3.66,1400,South Asia,Emerging
+India,2018,Musculoskeletal,9.34,7569594025,3.94,1400,South Asia,Emerging
+India,2019,Musculoskeletal,8.04,6918388561,4.06,1400,South Asia,Emerging
+India,2020,Musculoskeletal,12.23,9108855508,4.16,1400,South Asia,Emerging
+India,2021,Musculoskeletal,9.17,7208448461,4.23,1400,South Asia,Emerging
+India,2022,Musculoskeletal,6.27,5218074829,4.39,1400,South Asia,Emerging
+India,2023,Musculoskeletal,10.29,7712585000,4.32,1400,South Asia,Emerging
+China,2015,Diabetes,11.36,13132214452,5.05,1410,East Asia,Emerging
+China,2016,Diabetes,10.76,12098131541,5.51,1410,East Asia,Emerging
+China,2017,Diabetes,11.51,14287979160,5.51,1410,East Asia,Emerging
+China,2018,Diabetes,11.33,15400597883,5.69,1410,East Asia,Emerging
+China,2019,Diabetes,11.32,17277511884,5.78,1410,East Asia,Emerging
+China,2020,Diabetes,11.86,17137729621,6.17,1410,East Asia,Emerging
+China,2021,Diabetes,12.93,21719724212,5.9,1410,East Asia,Emerging
+China,2022,Diabetes,12.25,20970144648,6.33,1410,East Asia,Emerging
+China,2023,Diabetes,11.98,21814155239,6.38,1410,East Asia,Emerging
+China,2015,Cardiovascular Disease,10.31,19307426900,5.3,1410,East Asia,Emerging
+China,2016,Cardiovascular Disease,20.61,34227613371,5.42,1410,East Asia,Emerging
+China,2017,Cardiovascular Disease,17.99,30601263300,5.31,1410,East Asia,Emerging
+China,2018,Cardiovascular Disease,19.71,38697123255,5.65,1410,East Asia,Emerging
+China,2019,Cardiovascular Disease,20.24,43763193260,5.78,1410,East Asia,Emerging
+China,2020,Cardiovascular Disease,23.03,54528003926,5.98,1410,East Asia,Emerging
+China,2021,Cardiovascular Disease,14.58,32994144791,6.1,1410,East Asia,Emerging
+China,2022,Cardiovascular Disease,23.19,54682629032,6.37,1410,East Asia,Emerging
+China,2023,Cardiovascular Disease,15.41,37264127861,6.6,1410,East Asia,Emerging
+China,2015,Oncology,18.44,46359912137,5.27,1410,East Asia,Emerging
+China,2016,Oncology,8.87,27023909605,5.13,1410,East Asia,Emerging
+China,2017,Oncology,19.46,56845848874,5.48,1410,East Asia,Emerging
+China,2018,Oncology,16.6,50566213875,5.62,1410,East Asia,Emerging
+China,2019,Oncology,19.67,55255535836,5.85,1410,East Asia,Emerging
+China,2020,Oncology,18.95,70756525660,5.9,1410,East Asia,Emerging
+China,2021,Oncology,10.68,40759383731,6.32,1410,East Asia,Emerging
+China,2022,Oncology,11.02,41673655443,6.25,1410,East Asia,Emerging
+China,2023,Oncology,16.77,70050153113,6.34,1410,East Asia,Emerging
+China,2015,Respiratory Disease,22.1,19755157224,5.05,1410,East Asia,Emerging
+China,2016,Respiratory Disease,19.91,19241963850,5.36,1410,East Asia,Emerging
+China,2017,Respiratory Disease,20.54,20330115013,5.76,1410,East Asia,Emerging
+China,2018,Respiratory Disease,20.06,20575686373,5.58,1410,East Asia,Emerging
+China,2019,Respiratory Disease,9.72,10052235637,5.81,1410,East Asia,Emerging
+China,2020,Respiratory Disease,16.98,13515882046,5.91,1410,East Asia,Emerging
+China,2021,Respiratory Disease,17.07,16844285543,5.9,1410,East Asia,Emerging
+China,2022,Respiratory Disease,20.19,17309811461,6.35,1410,East Asia,Emerging
+China,2023,Respiratory Disease,25.37,23777794810,6.44,1410,East Asia,Emerging
+China,2015,Mental Health Disorders,17.02,18188952083,5.34,1410,East Asia,Emerging
+China,2016,Mental Health Disorders,14.73,16767701514,5.34,1410,East Asia,Emerging
+China,2017,Mental Health Disorders,20.0,23368586269,5.52,1410,East Asia,Emerging
+China,2018,Mental Health Disorders,15.31,20515553702,5.51,1410,East Asia,Emerging
+China,2019,Mental Health Disorders,16.72,23376318479,5.97,1410,East Asia,Emerging
+China,2020,Mental Health Disorders,15.74,25538822910,5.99,1410,East Asia,Emerging
+China,2021,Mental Health Disorders,23.49,35232247509,6.35,1410,East Asia,Emerging
+China,2022,Mental Health Disorders,11.99,20804777502,6.48,1410,East Asia,Emerging
+China,2023,Mental Health Disorders,13.46,20950188887,6.22,1410,East Asia,Emerging
+China,2015,Infectious Diseases,17.77,11574779493,5.22,1410,East Asia,Emerging
+China,2016,Infectious Diseases,14.31,10106884661,5.39,1410,East Asia,Emerging
+China,2017,Infectious Diseases,14.66,10687816015,5.51,1410,East Asia,Emerging
+China,2018,Infectious Diseases,17.18,11851244763,5.66,1410,East Asia,Emerging
+China,2019,Infectious Diseases,10.94,7828171478,5.91,1410,East Asia,Emerging
+China,2020,Infectious Diseases,17.97,11262578880,5.92,1410,East Asia,Emerging
+China,2021,Infectious Diseases,11.36,7973562148,5.96,1410,East Asia,Emerging
+China,2022,Infectious Diseases,16.62,12408189362,6.3,1410,East Asia,Emerging
+China,2023,Infectious Diseases,22.62,16807471931,6.56,1410,East Asia,Emerging
+China,2015,Neurological Disorders,10.43,17852021783,5.07,1410,East Asia,Emerging
+China,2016,Neurological Disorders,13.08,19538321439,5.53,1410,East Asia,Emerging
+China,2017,Neurological Disorders,9.58,15508401580,5.4,1410,East Asia,Emerging
+China,2018,Neurological Disorders,16.71,26429796295,5.65,1410,East Asia,Emerging
+China,2019,Neurological Disorders,15.57,27849484576,5.72,1410,East Asia,Emerging
+China,2020,Neurological Disorders,13.59,23889162332,5.9,1410,East Asia,Emerging
+China,2021,Neurological Disorders,11.15,24665174507,6.25,1410,East Asia,Emerging
+China,2022,Neurological Disorders,17.18,34585445660,6.3,1410,East Asia,Emerging
+China,2023,Neurological Disorders,17.82,39571000515,6.65,1410,East Asia,Emerging
+China,2015,Musculoskeletal,12.54,12128640770,5.3,1410,East Asia,Emerging
+China,2016,Musculoskeletal,13.14,10702573818,5.37,1410,East Asia,Emerging
+China,2017,Musculoskeletal,10.57,8524949224,5.44,1410,East Asia,Emerging
+China,2018,Musculoskeletal,10.87,7294781359,5.61,1410,East Asia,Emerging
+China,2019,Musculoskeletal,23.08,17956142409,5.8,1410,East Asia,Emerging
+China,2020,Musculoskeletal,22.81,18025031035,6.01,1410,East Asia,Emerging
+China,2021,Musculoskeletal,18.23,16210823631,6.15,1410,East Asia,Emerging
+China,2022,Musculoskeletal,18.5,14821425036,6.2,1410,East Asia,Emerging
+China,2023,Musculoskeletal,15.08,12696872138,6.24,1410,East Asia,Emerging
+USA,2015,Diabetes,11.45,3425977462,16.79,335,North America,Established
+USA,2016,Diabetes,10.44,2846995293,17.59,335,North America,Established
+USA,2017,Diabetes,11.11,3309118175,18.14,335,North America,Established
+USA,2018,Diabetes,11.35,3671884359,19.01,335,North America,Established
+USA,2019,Diabetes,12.15,4554215501,18.72,335,North America,Established
+USA,2020,Diabetes,12.61,4497713633,18.69,335,North America,Established
+USA,2021,Diabetes,12.2,5072258096,20.1,335,North America,Established
+USA,2022,Diabetes,11.59,4899443174,20.73,335,North America,Established
+USA,2023,Diabetes,12.75,5941452531,21.31,335,North America,Established
+USA,2015,Cardiovascular Disease,11.53,4479731411,16.99,335,North America,Established
+USA,2016,Cardiovascular Disease,20.54,9284293301,18.34,335,North America,Established
+USA,2017,Cardiovascular Disease,14.35,7098889132,18.04,335,North America,Established
+USA,2018,Cardiovascular Disease,13.14,6247088020,18.51,335,North America,Established
+USA,2019,Cardiovascular Disease,13.64,7315968079,19.06,335,North America,Established
+USA,2020,Cardiovascular Disease,17.28,8127580833,19.97,335,North America,Established
+USA,2021,Cardiovascular Disease,12.12,7537237986,20.38,335,North America,Established
+USA,2022,Cardiovascular Disease,17.36,10025696997,20.79,335,North America,Established
+USA,2023,Cardiovascular Disease,12.66,8305545730,21.84,335,North America,Established
+USA,2015,Oncology,22.01,12880008382,16.93,335,North America,Established
+USA,2016,Oncology,19.03,11529471496,17.46,335,North America,Established
+USA,2017,Oncology,19.97,13860168865,18.62,335,North America,Established
+USA,2018,Oncology,13.95,9529325807,18.24,335,North America,Established
+USA,2019,Oncology,20.09,15959892630,19.73,335,North America,Established
+USA,2020,Oncology,11.54,11186848124,19.74,335,North America,Established
+USA,2021,Oncology,18.28,16102024720,20.47,335,North America,Established
+USA,2022,Oncology,19.92,16277082877,20.79,335,North America,Established
+USA,2023,Oncology,19.87,17438112238,20.99,335,North America,Established
+USA,2015,Respiratory Disease,22.25,5281858933,17.97,335,North America,Established
+USA,2016,Respiratory Disease,14.45,3025395591,17.46,335,North America,Established
+USA,2017,Respiratory Disease,15.22,3640556047,18.04,335,North America,Established
+USA,2018,Respiratory Disease,13.84,3087469310,19.26,335,North America,Established
+USA,2019,Respiratory Disease,10.46,2130314645,19.15,335,North America,Established
+USA,2020,Respiratory Disease,15.14,3959580604,19.94,335,North America,Established
+USA,2021,Respiratory Disease,10.21,2422822948,19.77,335,North America,Established
+USA,2022,Respiratory Disease,23.02,6324744254,20.23,335,North America,Established
+USA,2023,Respiratory Disease,10.64,2553539771,20.87,335,North America,Established
+USA,2015,Mental Health Disorders,20.61,5267739827,16.91,335,North America,Established
+USA,2016,Mental Health Disorders,16.38,3502027971,18.1,335,North America,Established
+USA,2017,Mental Health Disorders,16.21,4539324892,17.37,335,North America,Established
+USA,2018,Mental Health Disorders,20.83,6627280158,18.58,335,North America,Established
+USA,2019,Mental Health Disorders,12.39,4310225914,19.82,335,North America,Established
+USA,2020,Mental Health Disorders,10.41,3362843823,19.39,335,North America,Established
+USA,2021,Mental Health Disorders,18.54,6081032041,20.38,335,North America,Established
+USA,2022,Mental Health Disorders,11.38,4053834336,21.03,335,North America,Established
+USA,2023,Mental Health Disorders,21.6,8061598104,21.7,335,North America,Established
+USA,2015,Infectious Diseases,13.42,2937865513,16.53,335,North America,Established
+USA,2016,Infectious Diseases,19.03,2831392417,17.33,335,North America,Established
+USA,2017,Infectious Diseases,18.32,2610502270,18.58,335,North America,Established
+USA,2018,Infectious Diseases,14.0,2553897776,18.63,335,North America,Established
+USA,2019,Infectious Diseases,13.06,2267198972,19.98,335,North America,Established
+USA,2020,Infectious Diseases,10.64,1787581665,19.7,335,North America,Established
+USA,2021,Infectious Diseases,12.73,2546112105,20.99,335,North America,Established
+USA,2022,Infectious Diseases,13.53,2102166677,21.34,335,North America,Established
+USA,2023,Infectious Diseases,16.04,2925072133,21.06,335,North America,Established
+USA,2015,Neurological Disorders,11.42,4322667806,16.83,335,North America,Established
+USA,2016,Neurological Disorders,12.59,5521055489,17.28,335,North America,Established
+USA,2017,Neurological Disorders,18.42,7414406992,18.19,335,North America,Established
+USA,2018,Neurological Disorders,9.22,3721560884,19.59,335,North America,Established
+USA,2019,Neurological Disorders,13.77,6023570590,19.24,335,North America,Established
+USA,2020,Neurological Disorders,16.12,8442536914,19.42,335,North America,Established
+USA,2021,Neurological Disorders,13.31,5890944095,20.39,335,North America,Established
+USA,2022,Neurological Disorders,18.86,9497554341,20.39,335,North America,Established
+USA,2023,Neurological Disorders,21.38,12636989369,21.11,335,North America,Established
+USA,2015,Musculoskeletal,19.08,4132469940,17.29,335,North America,Established
+USA,2016,Musculoskeletal,18.15,3176508279,17.84,335,North America,Established
+USA,2017,Musculoskeletal,22.73,4605355986,18.28,335,North America,Established
+USA,2018,Musculoskeletal,12.25,2528580078,18.69,335,North America,Established
+USA,2019,Musculoskeletal,22.68,4767639066,19.14,335,North America,Established
+USA,2020,Musculoskeletal,21.07,3727635856,20.01,335,North America,Established
+USA,2021,Musculoskeletal,11.48,2200258324,20.27,335,North America,Established
+USA,2022,Musculoskeletal,14.24,2932744101,20.75,335,North America,Established
+USA,2023,Musculoskeletal,19.03,3342485910,21.64,335,North America,Established
+Brazil,2015,Diabetes,8.21,1509914736,9.67,215,Latin America,Emerging
+Brazil,2016,Diabetes,8.63,1861087945,9.68,215,Latin America,Emerging
+Brazil,2017,Diabetes,9.25,1831503130,10.0,215,Latin America,Emerging
+Brazil,2018,Diabetes,9.01,1878064355,10.68,215,Latin America,Emerging
+Brazil,2019,Diabetes,8.32,1712566395,10.58,215,Latin America,Emerging
+Brazil,2020,Diabetes,8.2,1882881056,10.71,215,Latin America,Emerging
+Brazil,2021,Diabetes,8.69,2530979491,11.26,215,Latin America,Emerging
+Brazil,2022,Diabetes,8.37,2259483465,11.72,215,Latin America,Emerging
+Brazil,2023,Diabetes,8.89,2356602649,11.94,215,Latin America,Emerging
+Brazil,2015,Cardiovascular Disease,16.42,4746542546,9.72,215,Latin America,Emerging
+Brazil,2016,Cardiovascular Disease,11.23,2894012078,9.68,215,Latin America,Emerging
+Brazil,2017,Cardiovascular Disease,14.0,3969674599,9.97,215,Latin America,Emerging
+Brazil,2018,Cardiovascular Disease,17.65,5020023367,10.24,215,Latin America,Emerging
+Brazil,2019,Cardiovascular Disease,15.47,4715724833,10.49,215,Latin America,Emerging
+Brazil,2020,Cardiovascular Disease,13.38,4356297677,11.32,215,Latin America,Emerging
+Brazil,2021,Cardiovascular Disease,15.93,6280870548,11.33,215,Latin America,Emerging
+Brazil,2022,Cardiovascular Disease,12.75,4364110891,11.31,215,Latin America,Emerging
+Brazil,2023,Cardiovascular Disease,14.32,5836166514,11.58,215,Latin America,Emerging
+Brazil,2015,Oncology,8.4,3218357574,9.54,215,Latin America,Emerging
+Brazil,2016,Oncology,11.96,4997095890,10.02,215,Latin America,Emerging
+Brazil,2017,Oncology,10.44,4713525083,10.44,215,Latin America,Emerging
+Brazil,2018,Oncology,14.48,6843951541,10.55,215,Latin America,Emerging
+Brazil,2019,Oncology,16.28,8561047816,10.75,215,Latin America,Emerging
+Brazil,2020,Oncology,14.04,7485689706,10.78,215,Latin America,Emerging
+Brazil,2021,Oncology,16.02,9564781311,11.24,215,Latin America,Emerging
+Brazil,2022,Oncology,8.39,4994115757,11.59,215,Latin America,Emerging
+Brazil,2023,Oncology,12.68,6909753110,11.79,215,Latin America,Emerging
+Brazil,2015,Respiratory Disease,13.11,1950072724,9.78,215,Latin America,Emerging
+Brazil,2016,Respiratory Disease,7.7,1117880524,10.09,215,Latin America,Emerging
+Brazil,2017,Respiratory Disease,13.11,1979992107,10.11,215,Latin America,Emerging
+Brazil,2018,Respiratory Disease,7.8,1152004060,10.14,215,Latin America,Emerging
+Brazil,2019,Respiratory Disease,9.96,1471276900,10.54,215,Latin America,Emerging
+Brazil,2020,Respiratory Disease,15.43,2537851709,11.01,215,Latin America,Emerging
+Brazil,2021,Respiratory Disease,14.05,1987148948,10.83,215,Latin America,Emerging
+Brazil,2022,Respiratory Disease,16.31,2468091192,10.99,215,Latin America,Emerging
+Brazil,2023,Respiratory Disease,14.18,2290697146,12.04,215,Latin America,Emerging
+Brazil,2015,Mental Health Disorders,9.43,1780714522,9.48,215,Latin America,Emerging
+Brazil,2016,Mental Health Disorders,9.91,1698957617,9.96,215,Latin America,Emerging
+Brazil,2017,Mental Health Disorders,8.37,1536101550,10.36,215,Latin America,Emerging
+Brazil,2018,Mental Health Disorders,17.39,3343849689,10.41,215,Latin America,Emerging
+Brazil,2019,Mental Health Disorders,15.13,3303939009,10.74,215,Latin America,Emerging
+Brazil,2020,Mental Health Disorders,8.78,2008364315,11.2,215,Latin America,Emerging
+Brazil,2021,Mental Health Disorders,11.58,2693757865,11.61,215,Latin America,Emerging
+Brazil,2022,Mental Health Disorders,7.17,1853392982,11.13,215,Latin America,Emerging
+Brazil,2023,Mental Health Disorders,15.31,3867770283,11.33,215,Latin America,Emerging
+Brazil,2015,Infectious Diseases,10.82,1207150965,9.69,215,Latin America,Emerging
+Brazil,2016,Infectious Diseases,14.21,1442941392,9.67,215,Latin America,Emerging
+Brazil,2017,Infectious Diseases,12.05,1362243928,10.18,215,Latin America,Emerging
+Brazil,2018,Infectious Diseases,9.57,953006425,10.36,215,Latin America,Emerging
+Brazil,2019,Infectious Diseases,12.41,1356787908,10.85,215,Latin America,Emerging
+Brazil,2020,Infectious Diseases,8.72,1034884512,10.75,215,Latin America,Emerging
+Brazil,2021,Infectious Diseases,13.9,1768586256,11.3,215,Latin America,Emerging
+Brazil,2022,Infectious Diseases,10.69,1509627816,11.71,215,Latin America,Emerging
+Brazil,2023,Infectious Diseases,12.32,1256224760,11.69,215,Latin America,Emerging
+Brazil,2015,Neurological Disorders,8.42,1938756803,9.4,215,Latin America,Emerging
+Brazil,2016,Neurological Disorders,12.11,2912207871,10.12,215,Latin America,Emerging
+Brazil,2017,Neurological Disorders,8.41,1988570958,10.18,215,Latin America,Emerging
+Brazil,2018,Neurological Disorders,7.1,1606724606,10.3,215,Latin America,Emerging
+Brazil,2019,Neurological Disorders,16.38,3858294063,10.83,215,Latin America,Emerging
+Brazil,2020,Neurological Disorders,10.22,3251727292,10.97,215,Latin America,Emerging
+Brazil,2021,Neurological Disorders,11.48,3104582804,11.61,215,Latin America,Emerging
+Brazil,2022,Neurological Disorders,12.92,4731560161,11.83,215,Latin America,Emerging
+Brazil,2023,Neurological Disorders,15.27,5475163711,11.62,215,Latin America,Emerging
+Brazil,2015,Musculoskeletal,11.1,1377961003,9.6,215,Latin America,Emerging
+Brazil,2016,Musculoskeletal,9.72,1128023125,9.83,215,Latin America,Emerging
+Brazil,2017,Musculoskeletal,10.7,1495578082,9.81,215,Latin America,Emerging
+Brazil,2018,Musculoskeletal,13.38,1424691651,10.3,215,Latin America,Emerging
+Brazil,2019,Musculoskeletal,15.44,1907630671,10.31,215,Latin America,Emerging
+Brazil,2020,Musculoskeletal,12.69,1733420158,11.04,215,Latin America,Emerging
+Brazil,2021,Musculoskeletal,12.64,1673247264,11.3,215,Latin America,Emerging
+Brazil,2022,Musculoskeletal,13.03,1623125319,11.58,215,Latin America,Emerging
+Brazil,2023,Musculoskeletal,7.53,966776233,11.95,215,Latin America,Emerging
+Germany,2015,Diabetes,9.85,707570859,11.68,84,Europe,Established
+Germany,2016,Diabetes,8.6,669092253,12.27,84,Europe,Established
+Germany,2017,Diabetes,10.09,945093008,11.68,84,Europe,Established
+Germany,2018,Diabetes,9.6,748806743,13.04,84,Europe,Established
+Germany,2019,Diabetes,10.03,858840012,12.83,84,Europe,Established
+Germany,2020,Diabetes,10.73,1042612124,13.4,84,Europe,Established
+Germany,2021,Diabetes,10.28,1053255291,13.94,84,Europe,Established
+Germany,2022,Diabetes,10.09,1077943047,14.84,84,Europe,Established
+Germany,2023,Diabetes,10.07,1246817555,14.81,84,Europe,Established
+Germany,2015,Cardiovascular Disease,10.66,1204133961,11.45,84,Europe,Established
+Germany,2016,Cardiovascular Disease,15.34,1617355819,11.87,84,Europe,Established
+Germany,2017,Cardiovascular Disease,18.03,2257433225,12.49,84,Europe,Established
+Germany,2018,Cardiovascular Disease,16.11,2100375737,13.0,84,Europe,Established
+Germany,2019,Cardiovascular Disease,16.16,2142978354,13.29,84,Europe,Established
+Germany,2020,Cardiovascular Disease,12.85,1695136130,13.49,84,Europe,Established
+Germany,2021,Cardiovascular Disease,11.72,1443599842,13.45,84,Europe,Established
+Germany,2022,Cardiovascular Disease,15.39,2194880187,13.55,84,Europe,Established
+Germany,2023,Cardiovascular Disease,9.98,1501451131,14.56,84,Europe,Established
+Germany,2015,Oncology,14.69,2376265931,12.23,84,Europe,Established
+Germany,2016,Oncology,13.38,2122824337,11.94,84,Europe,Established
+Germany,2017,Oncology,10.82,1972101820,11.99,84,Europe,Established
+Germany,2018,Oncology,16.6,3100512623,12.93,84,Europe,Established
+Germany,2019,Oncology,16.78,3203331098,13.18,84,Europe,Established
+Germany,2020,Oncology,8.51,1783520243,13.4,84,Europe,Established
+Germany,2021,Oncology,8.31,1627281946,13.78,84,Europe,Established
+Germany,2022,Oncology,16.51,3839709374,13.62,84,Europe,Established
+Germany,2023,Oncology,14.52,3196343724,14.78,84,Europe,Established
+Germany,2015,Respiratory Disease,9.56,569933569,11.47,84,Europe,Established
+Germany,2016,Respiratory Disease,13.26,660757389,12.13,84,Europe,Established
+Germany,2017,Respiratory Disease,19.22,1090964538,12.75,84,Europe,Established
+Germany,2018,Respiratory Disease,14.21,819744661,12.64,84,Europe,Established
+Germany,2019,Respiratory Disease,17.82,1050561692,13.03,84,Europe,Established
+Germany,2020,Respiratory Disease,9.6,493663171,13.93,84,Europe,Established
+Germany,2021,Respiratory Disease,16.51,900683254,14.03,84,Europe,Established
+Germany,2022,Respiratory Disease,12.53,667654764,14.24,84,Europe,Established
+Germany,2023,Respiratory Disease,16.6,892189599,14.66,84,Europe,Established
+Germany,2015,Mental Health Disorders,17.27,1113940618,11.67,84,Europe,Established
+Germany,2016,Mental Health Disorders,14.5,1008875944,11.68,84,Europe,Established
+Germany,2017,Mental Health Disorders,12.15,820694734,13.04,84,Europe,Established
+Germany,2018,Mental Health Disorders,13.75,1145212041,13.0,84,Europe,Established
+Germany,2019,Mental Health Disorders,19.91,1566144791,13.53,84,Europe,Established
+Germany,2020,Mental Health Disorders,8.75,709386398,13.16,84,Europe,Established
+Germany,2021,Mental Health Disorders,12.09,1122957490,13.59,84,Europe,Established
+Germany,2022,Mental Health Disorders,16.96,1915987480,14.29,84,Europe,Established
+Germany,2023,Mental Health Disorders,12.58,1460700443,14.16,84,Europe,Established
+Germany,2015,Infectious Diseases,13.17,608009130,11.72,84,Europe,Established
+Germany,2016,Infectious Diseases,9.18,402907890,12.2,84,Europe,Established
+Germany,2017,Infectious Diseases,15.67,666147289,12.73,84,Europe,Established
+Germany,2018,Infectious Diseases,18.01,793815359,12.39,84,Europe,Established
+Germany,2019,Infectious Diseases,13.97,663142007,12.91,84,Europe,Established
+Germany,2020,Infectious Diseases,9.57,413677571,13.61,84,Europe,Established
+Germany,2021,Infectious Diseases,8.32,367727998,13.83,84,Europe,Established
+Germany,2022,Infectious Diseases,14.01,617113546,13.84,84,Europe,Established
+Germany,2023,Infectious Diseases,20.67,1040155489,14.4,84,Europe,Established
+Germany,2015,Neurological Disorders,8.73,782074995,11.97,84,Europe,Established
+Germany,2016,Neurological Disorders,11.47,979052871,12.01,84,Europe,Established
+Germany,2017,Neurological Disorders,9.19,888401199,12.73,84,Europe,Established
+Germany,2018,Neurological Disorders,17.43,1895140751,12.75,84,Europe,Established
+Germany,2019,Neurological Disorders,14.38,1241120570,13.24,84,Europe,Established
+Germany,2020,Neurological Disorders,9.58,1082074768,13.29,84,Europe,Established
+Germany,2021,Neurological Disorders,8.39,872725944,13.82,84,Europe,Established
+Germany,2022,Neurological Disorders,13.49,1718035030,13.89,84,Europe,Established
+Germany,2023,Neurological Disorders,16.06,2023381318,14.14,84,Europe,Established
+Germany,2015,Musculoskeletal,8.47,473956440,11.65,84,Europe,Established
+Germany,2016,Musculoskeletal,8.08,391895626,11.95,84,Europe,Established
+Germany,2017,Musculoskeletal,8.54,432864307,12.31,84,Europe,Established
+Germany,2018,Musculoskeletal,12.6,655071200,12.99,84,Europe,Established
+Germany,2019,Musculoskeletal,14.22,697891715,12.75,84,Europe,Established
+Germany,2020,Musculoskeletal,12.88,689220719,13.37,84,Europe,Established
+Germany,2021,Musculoskeletal,8.31,329371828,13.65,84,Europe,Established
+Germany,2022,Musculoskeletal,8.51,428781399,13.93,84,Europe,Established
+Germany,2023,Musculoskeletal,9.96,520674703,14.5,84,Europe,Established
+Nigeria,2015,Diabetes,5.73,1174917144,3.63,220,Africa,Emerging
+Nigeria,2016,Diabetes,5.77,1057954570,3.81,220,Africa,Emerging
+Nigeria,2017,Diabetes,5.8,1201555378,3.85,220,Africa,Emerging
+Nigeria,2018,Diabetes,6.57,1273721241,3.92,220,Africa,Emerging
+Nigeria,2019,Diabetes,6.62,1480045623,4.13,220,Africa,Emerging
+Nigeria,2020,Diabetes,6.62,1898784369,4.2,220,Africa,Emerging
+Nigeria,2021,Diabetes,6.64,2064305026,4.32,220,Africa,Emerging
+Nigeria,2022,Diabetes,6.35,1828009525,4.54,220,Africa,Emerging
+Nigeria,2023,Diabetes,7.11,2125496458,4.73,220,Africa,Emerging
+Nigeria,2015,Cardiovascular Disease,5.38,1601543160,3.71,220,Africa,Emerging
+Nigeria,2016,Cardiovascular Disease,9.23,2284209388,3.83,220,Africa,Emerging
+Nigeria,2017,Cardiovascular Disease,6.88,2211733393,3.98,220,Africa,Emerging
+Nigeria,2018,Cardiovascular Disease,6.55,2205071717,4.09,220,Africa,Emerging
+Nigeria,2019,Cardiovascular Disease,9.2,2918211228,4.04,220,Africa,Emerging
+Nigeria,2020,Cardiovascular Disease,6.35,2304584605,4.3,220,Africa,Emerging
+Nigeria,2021,Cardiovascular Disease,6.05,2569897287,4.49,220,Africa,Emerging
+Nigeria,2022,Cardiovascular Disease,11.41,4362249110,4.57,220,Africa,Emerging
+Nigeria,2023,Cardiovascular Disease,12.24,4585458521,4.53,220,Africa,Emerging
+Nigeria,2015,Oncology,8.29,3197114522,3.62,220,Africa,Emerging
+Nigeria,2016,Oncology,10.69,4774445101,3.71,220,Africa,Emerging
+Nigeria,2017,Oncology,10.46,4524653073,3.94,220,Africa,Emerging
+Nigeria,2018,Oncology,11.83,5858619157,4.1,220,Africa,Emerging
+Nigeria,2019,Oncology,9.88,5056232525,4.04,220,Africa,Emerging
+Nigeria,2020,Oncology,10.85,5019203354,4.26,220,Africa,Emerging
+Nigeria,2021,Oncology,11.79,6694421713,4.51,220,Africa,Emerging
+Nigeria,2022,Oncology,8.56,5307442087,4.64,220,Africa,Emerging
+Nigeria,2023,Oncology,13.14,8131794799,4.65,220,Africa,Emerging
+Nigeria,2015,Respiratory Disease,4.34,601237664,3.76,220,Africa,Emerging
+Nigeria,2016,Respiratory Disease,11.45,1633358900,3.75,220,Africa,Emerging
+Nigeria,2017,Respiratory Disease,8.95,1493903918,3.98,220,Africa,Emerging
+Nigeria,2018,Respiratory Disease,6.58,973090035,3.98,220,Africa,Emerging
+Nigeria,2019,Respiratory Disease,10.58,1442399886,4.02,220,Africa,Emerging
+Nigeria,2020,Respiratory Disease,6.38,1086559564,4.22,220,Africa,Emerging
+Nigeria,2021,Respiratory Disease,11.72,1958141208,4.22,220,Africa,Emerging
+Nigeria,2022,Respiratory Disease,7.83,1120097506,4.59,220,Africa,Emerging
+Nigeria,2023,Respiratory Disease,11.83,1672693180,4.6,220,Africa,Emerging
+Nigeria,2015,Mental Health Disorders,9.27,1687307912,3.79,220,Africa,Emerging
+Nigeria,2016,Mental Health Disorders,6.73,1326133479,3.81,220,Africa,Emerging
+Nigeria,2017,Mental Health Disorders,5.25,1047606924,3.89,220,Africa,Emerging
+Nigeria,2018,Mental Health Disorders,11.07,2360704256,3.81,220,Africa,Emerging
+Nigeria,2019,Mental Health Disorders,5.81,1226644745,3.99,220,Africa,Emerging
+Nigeria,2020,Mental Health Disorders,9.49,2236980086,4.27,220,Africa,Emerging
+Nigeria,2021,Mental Health Disorders,8.89,2084331580,4.42,220,Africa,Emerging
+Nigeria,2022,Mental Health Disorders,11.27,2409654467,4.58,220,Africa,Emerging
+Nigeria,2023,Mental Health Disorders,9.81,2660464250,4.49,220,Africa,Emerging
+Nigeria,2015,Infectious Diseases,6.02,738298896,3.78,220,Africa,Emerging
+Nigeria,2016,Infectious Diseases,5.89,673360014,3.92,220,Africa,Emerging
+Nigeria,2017,Infectious Diseases,8.55,957480132,3.99,220,Africa,Emerging
+Nigeria,2018,Infectious Diseases,9.45,1119564813,3.99,220,Africa,Emerging
+Nigeria,2019,Infectious Diseases,6.8,721647283,4.17,220,Africa,Emerging
+Nigeria,2020,Infectious Diseases,6.98,855528627,4.39,220,Africa,Emerging
+Nigeria,2021,Infectious Diseases,5.19,531373369,4.37,220,Africa,Emerging
+Nigeria,2022,Infectious Diseases,8.07,823534640,4.48,220,Africa,Emerging
+Nigeria,2023,Infectious Diseases,10.9,1331718903,4.49,220,Africa,Emerging
+Nigeria,2015,Neurological Disorders,7.76,1629612619,3.73,220,Africa,Emerging
+Nigeria,2016,Neurological Disorders,5.62,1249358470,3.76,220,Africa,Emerging
+Nigeria,2017,Neurological Disorders,11.35,2793297151,4.13,220,Africa,Emerging
+Nigeria,2018,Neurological Disorders,10.05,2705328479,3.97,220,Africa,Emerging
+Nigeria,2019,Neurological Disorders,7.8,2130939105,4.14,220,Africa,Emerging
+Nigeria,2020,Neurological Disorders,8.96,3134504301,4.31,220,Africa,Emerging
+Nigeria,2021,Neurological Disorders,6.01,1813191875,4.37,220,Africa,Emerging
+Nigeria,2022,Neurological Disorders,11.38,3594973553,4.42,220,Africa,Emerging
+Nigeria,2023,Neurological Disorders,7.05,2229733455,4.52,220,Africa,Emerging
+Nigeria,2015,Musculoskeletal,10.61,1215685530,3.68,220,Africa,Emerging
+Nigeria,2016,Musculoskeletal,11.49,1513819859,3.75,220,Africa,Emerging
+Nigeria,2017,Musculoskeletal,8.65,1064428974,3.95,220,Africa,Emerging
+Nigeria,2018,Musculoskeletal,11.51,1286440372,3.99,220,Africa,Emerging
+Nigeria,2019,Musculoskeletal,10.91,1552149288,4.3,220,Africa,Emerging
+Nigeria,2020,Musculoskeletal,11.48,1356604415,4.24,220,Africa,Emerging
+Nigeria,2021,Musculoskeletal,10.56,1495855263,4.31,220,Africa,Emerging
+Nigeria,2022,Musculoskeletal,11.81,1478828846,4.52,220,Africa,Emerging
+Nigeria,2023,Musculoskeletal,12.18,1649044245,4.5,220,Africa,Emerging
+Indonesia,2015,Diabetes,6.95,1627638831,2.84,275,Southeast Asia,Emerging
+Indonesia,2016,Diabetes,6.86,1761124216,2.98,275,Southeast Asia,Emerging
+Indonesia,2017,Diabetes,6.17,1596208706,3.1,275,Southeast Asia,Emerging
+Indonesia,2018,Diabetes,6.95,2336863669,3.24,275,Southeast Asia,Emerging
+Indonesia,2019,Diabetes,6.93,2078302232,3.27,275,Southeast Asia,Emerging
+Indonesia,2020,Diabetes,6.73,2056375024,3.36,275,Southeast Asia,Emerging
+Indonesia,2021,Diabetes,7.03,2143070807,3.51,275,Southeast Asia,Emerging
+Indonesia,2022,Diabetes,7.49,2608739847,3.6,275,Southeast Asia,Emerging
+Indonesia,2023,Diabetes,6.44,2650169528,3.55,275,Southeast Asia,Emerging
+Indonesia,2015,Cardiovascular Disease,7.57,2309462859,2.93,275,Southeast Asia,Emerging
+Indonesia,2016,Cardiovascular Disease,11.34,3810098936,2.97,275,Southeast Asia,Emerging
+Indonesia,2017,Cardiovascular Disease,8.33,3371508423,3.12,275,Southeast Asia,Emerging
+Indonesia,2018,Cardiovascular Disease,10.75,4325346348,3.13,275,Southeast Asia,Emerging
+Indonesia,2019,Cardiovascular Disease,10.51,4066688378,3.27,275,Southeast Asia,Emerging
+Indonesia,2020,Cardiovascular Disease,7.97,3568381601,3.35,275,Southeast Asia,Emerging
+Indonesia,2021,Cardiovascular Disease,7.38,3638930255,3.39,275,Southeast Asia,Emerging
+Indonesia,2022,Cardiovascular Disease,11.21,5074833162,3.65,275,Southeast Asia,Emerging
+Indonesia,2023,Cardiovascular Disease,5.85,2729672718,3.67,275,Southeast Asia,Emerging
+Indonesia,2015,Oncology,12.35,6368230143,2.93,275,Southeast Asia,Emerging
+Indonesia,2016,Oncology,7.52,4117730308,3.0,275,Southeast Asia,Emerging
+Indonesia,2017,Oncology,9.53,5722609795,3.01,275,Southeast Asia,Emerging
+Indonesia,2018,Oncology,9.59,5578466029,3.18,275,Southeast Asia,Emerging
+Indonesia,2019,Oncology,6.12,3892585528,3.24,275,Southeast Asia,Emerging
+Indonesia,2020,Oncology,7.86,5473727621,3.31,275,Southeast Asia,Emerging
+Indonesia,2021,Oncology,13.68,8814112545,3.46,275,Southeast Asia,Emerging
+Indonesia,2022,Oncology,13.42,9597411997,3.56,275,Southeast Asia,Emerging
+Indonesia,2023,Oncology,6.87,5275351215,3.73,275,Southeast Asia,Emerging
+Indonesia,2015,Respiratory Disease,5.04,920892049,2.79,275,Southeast Asia,Emerging
+Indonesia,2016,Respiratory Disease,9.21,1853959284,2.92,275,Southeast Asia,Emerging
+Indonesia,2017,Respiratory Disease,13.23,2345944721,3.12,275,Southeast Asia,Emerging
+Indonesia,2018,Respiratory Disease,5.6,968933930,3.23,275,Southeast Asia,Emerging
+Indonesia,2019,Respiratory Disease,6.22,1223643134,3.27,275,Southeast Asia,Emerging
+Indonesia,2020,Respiratory Disease,12.42,1820356178,3.4,275,Southeast Asia,Emerging
+Indonesia,2021,Respiratory Disease,8.51,1545908237,3.52,275,Southeast Asia,Emerging
+Indonesia,2022,Respiratory Disease,10.72,2262682134,3.58,275,Southeast Asia,Emerging
+Indonesia,2023,Respiratory Disease,11.6,2305540561,3.52,275,Southeast Asia,Emerging
+Indonesia,2015,Mental Health Disorders,8.8,2173765201,2.85,275,Southeast Asia,Emerging
+Indonesia,2016,Mental Health Disorders,12.32,2882705127,3.08,275,Southeast Asia,Emerging
+Indonesia,2017,Mental Health Disorders,8.89,1975664188,3.09,275,Southeast Asia,Emerging
+Indonesia,2018,Mental Health Disorders,8.46,1769257642,3.15,275,Southeast Asia,Emerging
+Indonesia,2019,Mental Health Disorders,6.45,1725047889,3.3,275,Southeast Asia,Emerging
+Indonesia,2020,Mental Health Disorders,5.13,1376334643,3.41,275,Southeast Asia,Emerging
+Indonesia,2021,Mental Health Disorders,9.39,2766258102,3.43,275,Southeast Asia,Emerging
+Indonesia,2022,Mental Health Disorders,6.63,2141462170,3.45,275,Southeast Asia,Emerging
+Indonesia,2023,Mental Health Disorders,9.23,3563776186,3.6,275,Southeast Asia,Emerging
+Indonesia,2015,Infectious Diseases,12.51,1660317845,2.88,275,Southeast Asia,Emerging
+Indonesia,2016,Infectious Diseases,8.72,1151723169,2.98,275,Southeast Asia,Emerging
+Indonesia,2017,Infectious Diseases,12.18,1739997532,3.08,275,Southeast Asia,Emerging
+Indonesia,2018,Infectious Diseases,5.95,814504220,3.02,275,Southeast Asia,Emerging
+Indonesia,2019,Infectious Diseases,10.9,1609492773,3.28,275,Southeast Asia,Emerging
+Indonesia,2020,Infectious Diseases,11.72,1567021692,3.22,275,Southeast Asia,Emerging
+Indonesia,2021,Infectious Diseases,10.83,1484083588,3.45,275,Southeast Asia,Emerging
+Indonesia,2022,Infectious Diseases,13.39,1751847744,3.46,275,Southeast Asia,Emerging
+Indonesia,2023,Infectious Diseases,8.23,1011043542,3.79,275,Southeast Asia,Emerging
+Indonesia,2015,Neurological Disorders,5.39,1613876636,2.94,275,Southeast Asia,Emerging
+Indonesia,2016,Neurological Disorders,12.38,4202210045,2.95,275,Southeast Asia,Emerging
+Indonesia,2017,Neurological Disorders,9.98,3078690431,3.01,275,Southeast Asia,Emerging
+Indonesia,2018,Neurological Disorders,12.49,4257942752,3.18,275,Southeast Asia,Emerging
+Indonesia,2019,Neurological Disorders,11.64,3516658117,3.2,275,Southeast Asia,Emerging
+Indonesia,2020,Neurological Disorders,11.04,4516650593,3.4,275,Southeast Asia,Emerging
+Indonesia,2021,Neurological Disorders,8.6,3157573183,3.34,275,Southeast Asia,Emerging
+Indonesia,2022,Neurological Disorders,5.76,2701142863,3.6,275,Southeast Asia,Emerging
+Indonesia,2023,Neurological Disorders,8.65,4210081315,3.54,275,Southeast Asia,Emerging
+Indonesia,2015,Musculoskeletal,9.05,1410696803,2.83,275,Southeast Asia,Emerging
+Indonesia,2016,Musculoskeletal,13.93,2270155257,2.96,275,Southeast Asia,Emerging
+Indonesia,2017,Musculoskeletal,5.12,837686197,3.11,275,Southeast Asia,Emerging
+Indonesia,2018,Musculoskeletal,7.9,1105807118,3.14,275,Southeast Asia,Emerging
+Indonesia,2019,Musculoskeletal,12.45,1982081417,3.29,275,Southeast Asia,Emerging
+Indonesia,2020,Musculoskeletal,9.64,1643825121,3.24,275,Southeast Asia,Emerging
+Indonesia,2021,Musculoskeletal,6.17,1188976401,3.54,275,Southeast Asia,Emerging
+Indonesia,2022,Musculoskeletal,12.02,1799371565,3.6,275,Southeast Asia,Emerging
+Indonesia,2023,Musculoskeletal,7.13,1121957572,3.58,275,Southeast Asia,Emerging
+UK,2015,Diabetes,9.1,480864657,10.35,68,Europe,Established
+UK,2016,Diabetes,10.27,583051768,10.94,68,Europe,Established
+UK,2017,Diabetes,8.91,629663278,10.75,68,Europe,Established
+UK,2018,Diabetes,11.26,805670952,10.84,68,Europe,Established
+UK,2019,Diabetes,10.06,889721063,11.4,68,Europe,Established
+UK,2020,Diabetes,9.58,768481749,11.79,68,Europe,Established
+UK,2021,Diabetes,10.97,921750961,12.06,68,Europe,Established
+UK,2022,Diabetes,10.25,866709032,12.41,68,Europe,Established
+UK,2023,Diabetes,10.84,1028547772,12.55,68,Europe,Established
+UK,2015,Cardiovascular Disease,13.92,1220523555,10.25,68,Europe,Established
+UK,2016,Cardiovascular Disease,12.12,989839967,10.37,68,Europe,Established
+UK,2017,Cardiovascular Disease,15.41,1370936856,11.4,68,Europe,Established
+UK,2018,Cardiovascular Disease,18.8,1887325959,11.18,68,Europe,Established
+UK,2019,Cardiovascular Disease,15.83,1590609575,11.69,68,Europe,Established
+UK,2020,Cardiovascular Disease,19.96,2274505428,11.04,68,Europe,Established
+UK,2021,Cardiovascular Disease,8.65,973453383,12.51,68,Europe,Established
+UK,2022,Cardiovascular Disease,16.76,1881144743,12.44,68,Europe,Established
+UK,2023,Cardiovascular Disease,17.28,2106191200,12.42,68,Europe,Established
+UK,2015,Oncology,20.62,2648342004,10.3,68,Europe,Established
+UK,2016,Oncology,17.58,2154705979,10.59,68,Europe,Established
+UK,2017,Oncology,18.62,2610625716,10.97,68,Europe,Established
+UK,2018,Oncology,9.79,1412441867,10.94,68,Europe,Established
+UK,2019,Oncology,12.83,1841913174,11.39,68,Europe,Established
+UK,2020,Oncology,18.04,3073829266,11.74,68,Europe,Established
+UK,2021,Oncology,12.07,2187308517,11.84,68,Europe,Established
+UK,2022,Oncology,9.42,1621523388,12.3,68,Europe,Established
+UK,2023,Oncology,11.67,2406869728,12.41,68,Europe,Established
+UK,2015,Respiratory Disease,11.86,542613591,9.89,68,Europe,Established
+UK,2016,Respiratory Disease,15.97,818809437,10.56,68,Europe,Established
+UK,2017,Respiratory Disease,9.03,451234749,10.81,68,Europe,Established
+UK,2018,Respiratory Disease,14.97,703638820,11.39,68,Europe,Established
+UK,2019,Respiratory Disease,10.96,529373660,11.62,68,Europe,Established
+UK,2020,Respiratory Disease,19.24,917719048,12.38,68,Europe,Established
+UK,2021,Respiratory Disease,11.42,526723830,11.59,68,Europe,Established
+UK,2022,Respiratory Disease,9.78,422622054,12.38,68,Europe,Established
+UK,2023,Respiratory Disease,8.88,411210806,12.49,68,Europe,Established
+UK,2015,Mental Health Disorders,11.24,623290459,10.23,68,Europe,Established
+UK,2016,Mental Health Disorders,11.45,592283179,10.45,68,Europe,Established
+UK,2017,Mental Health Disorders,11.2,668260696,11.0,68,Europe,Established
+UK,2018,Mental Health Disorders,13.67,898173591,11.07,68,Europe,Established
+UK,2019,Mental Health Disorders,20.43,1079966190,11.29,68,Europe,Established
+UK,2020,Mental Health Disorders,16.04,1043540108,11.85,68,Europe,Established
+UK,2021,Mental Health Disorders,16.72,1172910369,12.08,68,Europe,Established
+UK,2022,Mental Health Disorders,17.89,1415152582,12.23,68,Europe,Established
+UK,2023,Mental Health Disorders,12.95,949739229,12.8,68,Europe,Established
+UK,2015,Infectious Diseases,9.39,263742017,9.91,68,Europe,Established
+UK,2016,Infectious Diseases,18.55,751317477,10.44,68,Europe,Established
+UK,2017,Infectious Diseases,13.15,501905905,10.75,68,Europe,Established
+UK,2018,Infectious Diseases,15.1,517787854,11.03,68,Europe,Established
+UK,2019,Infectious Diseases,17.13,529821518,11.78,68,Europe,Established
+UK,2020,Infectious Diseases,18.5,588537252,11.4,68,Europe,Established
+UK,2021,Infectious Diseases,11.08,316221739,11.67,68,Europe,Established
+UK,2022,Infectious Diseases,9.82,406713510,11.69,68,Europe,Established
+UK,2023,Infectious Diseases,8.87,315669411,12.78,68,Europe,Established
+UK,2015,Neurological Disorders,17.15,1201020705,10.05,68,Europe,Established
+UK,2016,Neurological Disorders,21.56,1659949419,10.65,68,Europe,Established
+UK,2017,Neurological Disorders,10.1,651326630,10.65,68,Europe,Established
+UK,2018,Neurological Disorders,12.94,1073182644,11.15,68,Europe,Established
+UK,2019,Neurological Disorders,19.34,1385732431,11.58,68,Europe,Established
+UK,2020,Neurological Disorders,11.48,925818364,11.71,68,Europe,Established
+UK,2021,Neurological Disorders,17.05,1749187221,12.03,68,Europe,Established
+UK,2022,Neurological Disorders,9.34,926055746,12.03,68,Europe,Established
+UK,2023,Neurological Disorders,11.06,1261521855,12.4,68,Europe,Established
+UK,2015,Musculoskeletal,10.56,466134917,10.3,68,Europe,Established
+UK,2016,Musculoskeletal,12.1,514439479,10.68,68,Europe,Established
+UK,2017,Musculoskeletal,11.58,465619686,11.03,68,Europe,Established
+UK,2018,Musculoskeletal,15.99,648831867,11.08,68,Europe,Established
+UK,2019,Musculoskeletal,11.56,468052301,11.89,68,Europe,Established
+UK,2020,Musculoskeletal,9.62,457335033,11.59,68,Europe,Established
+UK,2021,Musculoskeletal,12.43,492186543,11.69,68,Europe,Established
+UK,2022,Musculoskeletal,9.2,373487863,12.43,68,Europe,Established
+UK,2023,Musculoskeletal,11.88,428118428,13.16,68,Europe,Established
+Mexico,2015,Diabetes,9.29,1061207857,5.43,130,Latin America,Emerging
+Mexico,2016,Diabetes,9.31,1133054271,5.59,130,Latin America,Emerging
+Mexico,2017,Diabetes,10.25,1346141609,5.81,130,Latin America,Emerging
+Mexico,2018,Diabetes,8.89,1214505568,5.88,130,Latin America,Emerging
+Mexico,2019,Diabetes,10.32,1404269335,6.2,130,Latin America,Emerging
+Mexico,2020,Diabetes,9.72,1506366928,6.17,130,Latin America,Emerging
+Mexico,2021,Diabetes,10.26,1547374180,6.43,130,Latin America,Emerging
+Mexico,2022,Diabetes,10.06,1663339505,6.6,130,Latin America,Emerging
+Mexico,2023,Diabetes,11.1,1898152633,6.79,130,Latin America,Emerging
+Mexico,2015,Cardiovascular Disease,11.37,1533554078,5.35,130,Latin America,Emerging
+Mexico,2016,Cardiovascular Disease,14.38,2228833345,5.78,130,Latin America,Emerging
+Mexico,2017,Cardiovascular Disease,14.44,2259537483,5.99,130,Latin America,Emerging
+Mexico,2018,Cardiovascular Disease,10.36,1845872491,5.88,130,Latin America,Emerging
+Mexico,2019,Cardiovascular Disease,19.29,4365606590,5.97,130,Latin America,Emerging
+Mexico,2020,Cardiovascular Disease,15.71,3019179821,6.34,130,Latin America,Emerging
+Mexico,2021,Cardiovascular Disease,17.18,3646918619,6.67,130,Latin America,Emerging
+Mexico,2022,Cardiovascular Disease,12.63,2644491470,6.65,130,Latin America,Emerging
+Mexico,2023,Cardiovascular Disease,12.25,3126989914,6.77,130,Latin America,Emerging
+Mexico,2015,Oncology,7.08,1701503461,5.52,130,Latin America,Emerging
+Mexico,2016,Oncology,11.37,2963467951,5.78,130,Latin America,Emerging
+Mexico,2017,Oncology,13.58,3398942381,5.87,130,Latin America,Emerging
+Mexico,2018,Oncology,9.03,1984301669,6.08,130,Latin America,Emerging
+Mexico,2019,Oncology,7.87,2429991985,6.03,130,Latin America,Emerging
+Mexico,2020,Oncology,15.48,5243514219,6.29,130,Latin America,Emerging
+Mexico,2021,Oncology,12.11,3839078970,6.36,130,Latin America,Emerging
+Mexico,2022,Oncology,12.65,3807211126,6.85,130,Latin America,Emerging
+Mexico,2023,Oncology,16.07,5547451975,6.71,130,Latin America,Emerging
+Mexico,2015,Respiratory Disease,16.4,1461582979,5.56,130,Latin America,Emerging
+Mexico,2016,Respiratory Disease,8.17,783185157,5.49,130,Latin America,Emerging
+Mexico,2017,Respiratory Disease,15.28,1247816825,5.83,130,Latin America,Emerging
+Mexico,2018,Respiratory Disease,13.82,1273743760,5.97,130,Latin America,Emerging
+Mexico,2019,Respiratory Disease,16.64,1461810894,6.26,130,Latin America,Emerging
+Mexico,2020,Respiratory Disease,16.4,1547230533,6.38,130,Latin America,Emerging
+Mexico,2021,Respiratory Disease,9.85,785394876,6.32,130,Latin America,Emerging
+Mexico,2022,Respiratory Disease,20.04,1836355247,6.76,130,Latin America,Emerging
+Mexico,2023,Respiratory Disease,21.07,1851733456,6.49,130,Latin America,Emerging
+Mexico,2015,Mental Health Disorders,9.48,920464934,5.59,130,Latin America,Emerging
+Mexico,2016,Mental Health Disorders,16.75,1829455865,5.66,130,Latin America,Emerging
+Mexico,2017,Mental Health Disorders,10.63,1235074332,5.9,130,Latin America,Emerging
+Mexico,2018,Mental Health Disorders,8.22,976195914,6.21,130,Latin America,Emerging
+Mexico,2019,Mental Health Disorders,18.07,1878198343,6.1,130,Latin America,Emerging
+Mexico,2020,Mental Health Disorders,9.82,1201141615,6.18,130,Latin America,Emerging
+Mexico,2021,Mental Health Disorders,19.09,2840829455,6.57,130,Latin America,Emerging
+Mexico,2022,Mental Health Disorders,13.75,1951186635,6.66,130,Latin America,Emerging
+Mexico,2023,Mental Health Disorders,10.91,1518327309,6.64,130,Latin America,Emerging
+Mexico,2015,Infectious Diseases,16.31,1170621184,5.42,130,Latin America,Emerging
+Mexico,2016,Infectious Diseases,11.59,746294381,5.59,130,Latin America,Emerging
+Mexico,2017,Infectious Diseases,17.68,1354157576,5.99,130,Latin America,Emerging
+Mexico,2018,Infectious Diseases,10.63,601671023,5.94,130,Latin America,Emerging
+Mexico,2019,Infectious Diseases,12.07,919742991,6.0,130,Latin America,Emerging
+Mexico,2020,Infectious Diseases,9.78,594925604,6.25,130,Latin America,Emerging
+Mexico,2021,Infectious Diseases,11.96,766725727,6.38,130,Latin America,Emerging
+Mexico,2022,Infectious Diseases,11.67,833020347,6.48,130,Latin America,Emerging
+Mexico,2023,Infectious Diseases,9.02,560374946,6.81,130,Latin America,Emerging
+Mexico,2015,Neurological Disorders,15.02,2181311530,5.64,130,Latin America,Emerging
+Mexico,2016,Neurological Disorders,14.97,1949906924,5.54,130,Latin America,Emerging
+Mexico,2017,Neurological Disorders,14.11,2382771718,5.86,130,Latin America,Emerging
+Mexico,2018,Neurological Disorders,15.92,2505678989,5.97,130,Latin America,Emerging
+Mexico,2019,Neurological Disorders,14.18,2352429019,5.96,130,Latin America,Emerging
+Mexico,2020,Neurological Disorders,18.0,2934086084,6.4,130,Latin America,Emerging
+Mexico,2021,Neurological Disorders,18.54,3575554436,6.47,130,Latin America,Emerging
+Mexico,2022,Neurological Disorders,13.24,2301066725,6.6,130,Latin America,Emerging
+Mexico,2023,Neurological Disorders,16.76,3987422011,6.81,130,Latin America,Emerging
+Mexico,2015,Musculoskeletal,10.68,843445549,5.44,130,Latin America,Emerging
+Mexico,2016,Musculoskeletal,9.84,718489683,5.73,130,Latin America,Emerging
+Mexico,2017,Musculoskeletal,9.87,719532275,5.82,130,Latin America,Emerging
+Mexico,2018,Musculoskeletal,17.25,1378143204,6.11,130,Latin America,Emerging
+Mexico,2019,Musculoskeletal,17.57,1439797504,6.17,130,Latin America,Emerging
+Mexico,2020,Musculoskeletal,10.83,847689860,6.41,130,Latin America,Emerging
+Mexico,2021,Musculoskeletal,9.41,715537568,6.58,130,Latin America,Emerging
+Mexico,2022,Musculoskeletal,13.63,1122697645,6.69,130,Latin America,Emerging
+Mexico,2023,Musculoskeletal,15.85,1368301229,6.79,130,Latin America,Emerging
+South Africa,2015,Diabetes,6.34,307904604,8.21,60,Africa,Emerging
+South Africa,2016,Diabetes,7.49,379972410,8.68,60,Africa,Emerging
+South Africa,2017,Diabetes,6.8,377575014,8.73,60,Africa,Emerging
+South Africa,2018,Diabetes,7.07,363674128,8.83,60,Africa,Emerging
+South Africa,2019,Diabetes,7.18,444297467,8.95,60,Africa,Emerging
+South Africa,2020,Diabetes,7.82,568118788,9.08,60,Africa,Emerging
+South Africa,2021,Diabetes,7.29,560620384,9.5,60,Africa,Emerging
+South Africa,2022,Diabetes,7.62,629806194,9.91,60,Africa,Emerging
+South Africa,2023,Diabetes,7.47,554798530,9.92,60,Africa,Emerging
+South Africa,2015,Cardiovascular Disease,9.24,688193143,7.75,60,Africa,Emerging
+South Africa,2016,Cardiovascular Disease,8.65,683170772,8.43,60,Africa,Emerging
+South Africa,2017,Cardiovascular Disease,13.41,958790764,8.39,60,Africa,Emerging
+South Africa,2018,Cardiovascular Disease,9.86,850129671,8.68,60,Africa,Emerging
+South Africa,2019,Cardiovascular Disease,8.53,821149989,9.15,60,Africa,Emerging
+South Africa,2020,Cardiovascular Disease,13.44,1495193251,9.43,60,Africa,Emerging
+South Africa,2021,Cardiovascular Disease,6.92,730951808,9.37,60,Africa,Emerging
+South Africa,2022,Cardiovascular Disease,11.98,1386809934,9.74,60,Africa,Emerging
+South Africa,2023,Cardiovascular Disease,11.27,1326259229,9.99,60,Africa,Emerging
+South Africa,2015,Oncology,8.24,1053889427,8.05,60,Africa,Emerging
+South Africa,2016,Oncology,7.71,833726551,8.32,60,Africa,Emerging
+South Africa,2017,Oncology,7.94,834709408,8.94,60,Africa,Emerging
+South Africa,2018,Oncology,9.31,1287509781,9.02,60,Africa,Emerging
+South Africa,2019,Oncology,6.28,871273955,9.07,60,Africa,Emerging
+South Africa,2020,Oncology,10.97,1457523080,9.36,60,Africa,Emerging
+South Africa,2021,Oncology,6.64,928628299,9.48,60,Africa,Emerging
+South Africa,2022,Oncology,9.83,1605461704,9.78,60,Africa,Emerging
+South Africa,2023,Oncology,10.55,2178615935,10.03,60,Africa,Emerging
+South Africa,2015,Respiratory Disease,9.98,434506691,7.92,60,Africa,Emerging
+South Africa,2016,Respiratory Disease,5.68,238528676,8.64,60,Africa,Emerging
+South Africa,2017,Respiratory Disease,12.92,519073556,8.23,60,Africa,Emerging
+South Africa,2018,Respiratory Disease,11.59,442514476,8.79,60,Africa,Emerging
+South Africa,2019,Respiratory Disease,9.07,397810167,9.02,60,Africa,Emerging
+South Africa,2020,Respiratory Disease,10.25,458348183,9.35,60,Africa,Emerging
+South Africa,2021,Respiratory Disease,9.52,366942092,9.35,60,Africa,Emerging
+South Africa,2022,Respiratory Disease,8.86,344117720,9.76,60,Africa,Emerging
+South Africa,2023,Respiratory Disease,11.27,495598659,10.3,60,Africa,Emerging
+South Africa,2015,Mental Health Disorders,5.69,256856548,7.92,60,Africa,Emerging
+South Africa,2016,Mental Health Disorders,12.17,663722780,8.39,60,Africa,Emerging
+South Africa,2017,Mental Health Disorders,6.29,342768999,8.84,60,Africa,Emerging
+South Africa,2018,Mental Health Disorders,13.0,713747290,8.63,60,Africa,Emerging
+South Africa,2019,Mental Health Disorders,12.35,690330368,9.2,60,Africa,Emerging
+South Africa,2020,Mental Health Disorders,13.29,830809827,9.38,60,Africa,Emerging
+South Africa,2021,Mental Health Disorders,13.72,906774457,9.76,60,Africa,Emerging
+South Africa,2022,Mental Health Disorders,12.23,762117488,9.78,60,Africa,Emerging
+South Africa,2023,Mental Health Disorders,12.08,806636094,9.91,60,Africa,Emerging
+South Africa,2015,Infectious Diseases,6.91,214427042,8.24,60,Africa,Emerging
+South Africa,2016,Infectious Diseases,7.15,226739804,8.26,60,Africa,Emerging
+South Africa,2017,Infectious Diseases,12.91,347984537,8.75,60,Africa,Emerging
+South Africa,2018,Infectious Diseases,12.69,393580657,9.02,60,Africa,Emerging
+South Africa,2019,Infectious Diseases,7.28,248943409,8.8,60,Africa,Emerging
+South Africa,2020,Infectious Diseases,13.42,397020826,9.46,60,Africa,Emerging
+South Africa,2021,Infectious Diseases,8.93,262356085,9.47,60,Africa,Emerging
+South Africa,2022,Infectious Diseases,6.19,198499547,9.9,60,Africa,Emerging
+South Africa,2023,Infectious Diseases,8.91,305856451,10.18,60,Africa,Emerging
+South Africa,2015,Neurological Disorders,11.89,686481787,8.2,60,Africa,Emerging
+South Africa,2016,Neurological Disorders,6.34,431510917,8.47,60,Africa,Emerging
+South Africa,2017,Neurological Disorders,12.73,960442403,8.5,60,Africa,Emerging
+South Africa,2018,Neurological Disorders,10.18,663807945,9.02,60,Africa,Emerging
+South Africa,2019,Neurological Disorders,8.27,693745154,9.19,60,Africa,Emerging
+South Africa,2020,Neurological Disorders,12.44,1103675667,9.36,60,Africa,Emerging
+South Africa,2021,Neurological Disorders,12.04,932390937,9.46,60,Africa,Emerging
+South Africa,2022,Neurological Disorders,11.05,846000244,9.87,60,Africa,Emerging
+South Africa,2023,Neurological Disorders,8.46,870688611,10.15,60,Africa,Emerging
+South Africa,2015,Musculoskeletal,6.34,217337090,8.42,60,Africa,Emerging
+South Africa,2016,Musculoskeletal,11.43,408192127,8.32,60,Africa,Emerging
+South Africa,2017,Musculoskeletal,10.66,421515375,8.76,60,Africa,Emerging
+South Africa,2018,Musculoskeletal,8.18,263710599,8.65,60,Africa,Emerging
+South Africa,2019,Musculoskeletal,12.06,412085418,9.43,60,Africa,Emerging
+South Africa,2020,Musculoskeletal,13.5,514607626,9.56,60,Africa,Emerging
+South Africa,2021,Musculoskeletal,13.36,498240795,9.57,60,Africa,Emerging
+South Africa,2022,Musculoskeletal,9.82,304057806,9.74,60,Africa,Emerging
+South Africa,2023,Musculoskeletal,14.87,597761260,10.4,60,Africa,Emerging
+Japan,2015,Diabetes,7.42,784027345,10.87,125,East Asia,Established
+Japan,2016,Diabetes,7.46,789012056,11.27,125,East Asia,Established
+Japan,2017,Diabetes,7.23,906334647,11.7,125,East Asia,Established
+Japan,2018,Diabetes,7.38,886988203,12.09,125,East Asia,Established
+Japan,2019,Diabetes,7.82,1046150966,12.41,125,East Asia,Established
+Japan,2020,Diabetes,7.93,1109747687,12.41,125,East Asia,Established
+Japan,2021,Diabetes,7.7,1144724685,12.67,125,East Asia,Established
+Japan,2022,Diabetes,7.21,1125657735,13.06,125,East Asia,Established
+Japan,2023,Diabetes,7.75,1305296342,13.45,125,East Asia,Established
+Japan,2015,Cardiovascular Disease,8.83,1423239224,10.77,125,East Asia,Established
+Japan,2016,Cardiovascular Disease,8.63,1276934706,11.15,125,East Asia,Established
+Japan,2017,Cardiovascular Disease,11.53,1977599027,11.47,125,East Asia,Established
+Japan,2018,Cardiovascular Disease,9.3,1723384439,11.68,125,East Asia,Established
+Japan,2019,Cardiovascular Disease,12.41,2132292102,12.27,125,East Asia,Established
+Japan,2020,Cardiovascular Disease,11.1,2192012206,12.28,125,East Asia,Established
+Japan,2021,Cardiovascular Disease,6.37,1302690744,12.38,125,East Asia,Established
+Japan,2022,Cardiovascular Disease,13.88,3537199005,13.02,125,East Asia,Established
+Japan,2023,Cardiovascular Disease,11.5,2874438236,13.82,125,East Asia,Established
+Japan,2015,Oncology,14.22,3101576561,10.48,125,East Asia,Established
+Japan,2016,Oncology,8.22,1933643392,11.61,125,East Asia,Established
+Japan,2017,Oncology,11.32,3054347621,11.54,125,East Asia,Established
+Japan,2018,Oncology,9.73,2178580331,11.76,125,East Asia,Established
+Japan,2019,Oncology,13.08,4246468681,12.13,125,East Asia,Established
+Japan,2020,Oncology,11.63,3656985868,12.23,125,East Asia,Established
+Japan,2021,Oncology,12.23,3938317351,12.56,125,East Asia,Established
+Japan,2022,Oncology,7.55,2388576725,12.95,125,East Asia,Established
+Japan,2023,Oncology,7.78,2522104996,13.74,125,East Asia,Established
+Japan,2015,Respiratory Disease,9.6,894073791,10.78,125,East Asia,Established
+Japan,2016,Respiratory Disease,7.31,594794727,11.27,125,East Asia,Established
+Japan,2017,Respiratory Disease,12.61,1013929439,11.4,125,East Asia,Established
+Japan,2018,Respiratory Disease,13.62,1207636748,11.67,125,East Asia,Established
+Japan,2019,Respiratory Disease,13.94,1072467723,12.17,125,East Asia,Established
+Japan,2020,Respiratory Disease,9.46,743507894,12.31,125,East Asia,Established
+Japan,2021,Respiratory Disease,8.17,743869804,12.84,125,East Asia,Established
+Japan,2022,Respiratory Disease,10.3,683266947,13.31,125,East Asia,Established
+Japan,2023,Respiratory Disease,11.6,957224202,13.83,125,East Asia,Established
+Japan,2015,Mental Health Disorders,7.69,780629759,10.44,125,East Asia,Established
+Japan,2016,Mental Health Disorders,10.89,1103879903,11.08,125,East Asia,Established
+Japan,2017,Mental Health Disorders,5.78,606493695,11.95,125,East Asia,Established
+Japan,2018,Mental Health Disorders,6.48,719706556,11.51,125,East Asia,Established
+Japan,2019,Mental Health Disorders,6.45,684004085,12.29,125,East Asia,Established
+Japan,2020,Mental Health Disorders,8.11,997386672,12.84,125,East Asia,Established
+Japan,2021,Mental Health Disorders,9.63,1229276217,12.95,125,East Asia,Established
+Japan,2022,Mental Health Disorders,13.08,1898253099,13.38,125,East Asia,Established
+Japan,2023,Mental Health Disorders,9.97,1432589266,13.87,125,East Asia,Established
+Japan,2015,Infectious Diseases,9.57,598864903,11.01,125,East Asia,Established
+Japan,2016,Infectious Diseases,11.02,725467741,11.48,125,East Asia,Established
+Japan,2017,Infectious Diseases,9.13,665778790,11.78,125,East Asia,Established
+Japan,2018,Infectious Diseases,14.46,736619214,11.58,125,East Asia,Established
+Japan,2019,Infectious Diseases,9.18,601118567,12.09,125,East Asia,Established
+Japan,2020,Infectious Diseases,6.41,469590817,12.61,125,East Asia,Established
+Japan,2021,Infectious Diseases,7.26,488162357,13.4,125,East Asia,Established
+Japan,2022,Infectious Diseases,13.9,904223152,13.23,125,East Asia,Established
+Japan,2023,Infectious Diseases,10.95,784138429,13.44,125,East Asia,Established
+Japan,2015,Neurological Disorders,8.34,992508247,10.79,125,East Asia,Established
+Japan,2016,Neurological Disorders,12.42,1602050232,11.31,125,East Asia,Established
+Japan,2017,Neurological Disorders,10.98,1671173205,11.13,125,East Asia,Established
+Japan,2018,Neurological Disorders,9.33,1429153631,12.1,125,East Asia,Established
+Japan,2019,Neurological Disorders,9.76,1811803054,12.51,125,East Asia,Established
+Japan,2020,Neurological Disorders,15.15,2386524120,12.12,125,East Asia,Established
+Japan,2021,Neurological Disorders,6.48,1187872076,12.99,125,East Asia,Established
+Japan,2022,Neurological Disorders,10.12,2033622472,13.59,125,East Asia,Established
+Japan,2023,Neurological Disorders,6.72,1175415658,14.08,125,East Asia,Established
+Japan,2015,Musculoskeletal,15.06,1043238074,10.48,125,East Asia,Established
+Japan,2016,Musculoskeletal,6.61,431676504,11.16,125,East Asia,Established
+Japan,2017,Musculoskeletal,11.64,758257932,11.67,125,East Asia,Established
+Japan,2018,Musculoskeletal,9.67,594807075,11.98,125,East Asia,Established
+Japan,2019,Musculoskeletal,9.38,755665419,12.07,125,East Asia,Established
+Japan,2020,Musculoskeletal,8.12,663521086,12.32,125,East Asia,Established
+Japan,2021,Musculoskeletal,8.27,592088581,13.17,125,East Asia,Established
+Japan,2022,Musculoskeletal,13.42,1031140800,12.6,125,East Asia,Established
+Japan,2023,Musculoskeletal,7.33,564405183,13.57,125,East Asia,Established
+France,2015,Diabetes,8.09,374445580,11.31,68,Europe,Established
+France,2016,Diabetes,8.07,455406932,11.74,68,Europe,Established
+France,2017,Diabetes,8.41,531081573,12.09,68,Europe,Established
+France,2018,Diabetes,8.5,575266655,12.08,68,Europe,Established
+France,2019,Diabetes,8.73,606840288,12.7,68,Europe,Established
+France,2020,Diabetes,8.6,556436988,13.18,68,Europe,Established
+France,2021,Diabetes,9.05,767080878,13.24,68,Europe,Established
+France,2022,Diabetes,9.11,746763815,13.3,68,Europe,Established
+France,2023,Diabetes,8.51,893131642,13.79,68,Europe,Established
+France,2015,Cardiovascular Disease,12.63,966472420,11.26,68,Europe,Established
+France,2016,Cardiovascular Disease,8.63,734503058,11.56,68,Europe,Established
+France,2017,Cardiovascular Disease,8.18,803963670,12.01,68,Europe,Established
+France,2018,Cardiovascular Disease,9.88,968979868,12.32,68,Europe,Established
+France,2019,Cardiovascular Disease,13.63,1329827745,13.03,68,Europe,Established
+France,2020,Cardiovascular Disease,11.78,1355284198,13.47,68,Europe,Established
+France,2021,Cardiovascular Disease,8.58,1083136060,13.37,68,Europe,Established
+France,2022,Cardiovascular Disease,14.05,1684649780,13.37,68,Europe,Established
+France,2023,Cardiovascular Disease,15.9,1613964771,14.67,68,Europe,Established
+France,2015,Oncology,8.83,1063626263,11.47,68,Europe,Established
+France,2016,Oncology,14.26,1661359217,11.94,68,Europe,Established
+France,2017,Oncology,14.71,1893142617,12.12,68,Europe,Established
+France,2018,Oncology,17.47,2457475176,12.34,68,Europe,Established
+France,2019,Oncology,12.98,1783728691,12.75,68,Europe,Established
+France,2020,Oncology,10.23,1829269568,12.41,68,Europe,Established
+France,2021,Oncology,8.36,1483927677,13.01,68,Europe,Established
+France,2022,Oncology,7.84,1405329188,13.44,68,Europe,Established
+France,2023,Oncology,7.45,1386208404,14.48,68,Europe,Established
+France,2015,Respiratory Disease,6.67,295712119,11.22,68,Europe,Established
+France,2016,Respiratory Disease,15.26,597789034,11.81,68,Europe,Established
+France,2017,Respiratory Disease,7.46,345616457,11.93,68,Europe,Established
+France,2018,Respiratory Disease,14.63,582997251,12.31,68,Europe,Established
+France,2019,Respiratory Disease,17.91,850946720,12.22,68,Europe,Established
+France,2020,Respiratory Disease,14.38,710210196,12.93,68,Europe,Established
+France,2021,Respiratory Disease,6.58,297612519,13.66,68,Europe,Established
+France,2022,Respiratory Disease,14.65,671327011,13.48,68,Europe,Established
+France,2023,Respiratory Disease,9.94,431194259,14.2,68,Europe,Established
+France,2015,Mental Health Disorders,6.11,291506758,11.22,68,Europe,Established
+France,2016,Mental Health Disorders,11.0,549042224,11.7,68,Europe,Established
+France,2017,Mental Health Disorders,14.36,808511061,12.09,68,Europe,Established
+France,2018,Mental Health Disorders,10.03,578404715,12.74,68,Europe,Established
+France,2019,Mental Health Disorders,7.31,444010042,12.55,68,Europe,Established
+France,2020,Mental Health Disorders,13.76,933260598,13.13,68,Europe,Established
+France,2021,Mental Health Disorders,15.23,991987969,13.13,68,Europe,Established
+France,2022,Mental Health Disorders,13.46,1135161639,13.81,68,Europe,Established
+France,2023,Mental Health Disorders,14.6,1135129534,13.92,68,Europe,Established
+France,2015,Infectious Diseases,14.21,556564881,11.21,68,Europe,Established
+France,2016,Infectious Diseases,8.49,297302133,11.9,68,Europe,Established
+France,2017,Infectious Diseases,11.82,470979353,11.66,68,Europe,Established
+France,2018,Infectious Diseases,10.66,356422319,12.37,68,Europe,Established
+France,2019,Infectious Diseases,15.46,496192534,13.03,68,Europe,Established
+France,2020,Infectious Diseases,15.67,561088596,12.81,68,Europe,Established
+France,2021,Infectious Diseases,10.4,430165590,13.57,68,Europe,Established
+France,2022,Infectious Diseases,12.72,402252128,14.17,68,Europe,Established
+France,2023,Infectious Diseases,14.6,492150543,14.19,68,Europe,Established
+France,2015,Neurological Disorders,9.29,629700947,11.37,68,Europe,Established
+France,2016,Neurological Disorders,14.28,879866966,11.54,68,Europe,Established
+France,2017,Neurological Disorders,6.78,531646438,11.9,68,Europe,Established
+France,2018,Neurological Disorders,10.9,914116989,12.0,68,Europe,Established
+France,2019,Neurological Disorders,9.89,978195329,12.68,68,Europe,Established
+France,2020,Neurological Disorders,13.08,1316784171,12.56,68,Europe,Established
+France,2021,Neurological Disorders,15.39,1393117607,13.26,68,Europe,Established
+France,2022,Neurological Disorders,12.93,1380963056,13.84,68,Europe,Established
+France,2023,Neurological Disorders,16.02,1754129549,14.34,68,Europe,Established
+France,2015,Musculoskeletal,6.74,256974703,11.1,68,Europe,Established
+France,2016,Musculoskeletal,14.1,623846819,12.04,68,Europe,Established
+France,2017,Musculoskeletal,11.54,452760078,11.77,68,Europe,Established
+France,2018,Musculoskeletal,7.4,336275082,12.39,68,Europe,Established
+France,2019,Musculoskeletal,14.21,637484167,12.42,68,Europe,Established
+France,2020,Musculoskeletal,9.42,399598920,12.92,68,Europe,Established
+France,2021,Musculoskeletal,8.78,380212896,12.76,68,Europe,Established
+France,2022,Musculoskeletal,12.23,483448260,13.51,68,Europe,Established
+France,2023,Musculoskeletal,7.67,248472998,14.41,68,Europe,Established
+Russia,2015,Diabetes,6.6,734440794,5.34,145,Europe,Emerging
+Russia,2016,Diabetes,5.93,715559027,5.64,145,Europe,Emerging
+Russia,2017,Diabetes,5.96,847702208,5.75,145,Europe,Emerging
+Russia,2018,Diabetes,6.09,820379299,5.8,145,Europe,Emerging
+Russia,2019,Diabetes,6.81,1104226599,6.06,145,Europe,Emerging
+Russia,2020,Diabetes,6.63,1094175844,6.31,145,Europe,Emerging
+Russia,2021,Diabetes,6.19,1263327710,6.31,145,Europe,Emerging
+Russia,2022,Diabetes,6.31,1208337960,6.37,145,Europe,Emerging
+Russia,2023,Diabetes,6.7,1433345052,6.44,145,Europe,Emerging
+Russia,2015,Cardiovascular Disease,6.25,1274945399,5.43,145,Europe,Emerging
+Russia,2016,Cardiovascular Disease,7.14,1305578394,5.51,145,Europe,Emerging
+Russia,2017,Cardiovascular Disease,9.99,1769235953,5.52,145,Europe,Emerging
+Russia,2018,Cardiovascular Disease,10.59,2420998060,5.84,145,Europe,Emerging
+Russia,2019,Cardiovascular Disease,8.18,1651164400,6.01,145,Europe,Emerging
+Russia,2020,Cardiovascular Disease,9.9,2098726772,6.07,145,Europe,Emerging
+Russia,2021,Cardiovascular Disease,11.25,2626827316,6.43,145,Europe,Emerging
+Russia,2022,Cardiovascular Disease,9.24,2298756539,6.4,145,Europe,Emerging
+Russia,2023,Cardiovascular Disease,9.91,2798757714,6.56,145,Europe,Emerging
+Russia,2015,Oncology,5.44,1460382111,5.07,145,Europe,Emerging
+Russia,2016,Oncology,11.89,3084197647,5.23,145,Europe,Emerging
+Russia,2017,Oncology,7.37,2022907055,5.47,145,Europe,Emerging
+Russia,2018,Oncology,11.06,3549921456,5.8,145,Europe,Emerging
+Russia,2019,Oncology,12.5,4559755794,5.79,145,Europe,Emerging
+Russia,2020,Oncology,9.11,3063095371,5.99,145,Europe,Emerging
+Russia,2021,Oncology,8.57,3691646496,6.16,145,Europe,Emerging
+Russia,2022,Oncology,13.0,5432940433,6.18,145,Europe,Emerging
+Russia,2023,Oncology,11.36,5008103610,6.58,145,Europe,Emerging
+Russia,2015,Respiratory Disease,7.96,757548548,5.22,145,Europe,Emerging
+Russia,2016,Respiratory Disease,6.75,692874245,5.31,145,Europe,Emerging
+Russia,2017,Respiratory Disease,12.19,1122190105,5.61,145,Europe,Emerging
+Russia,2018,Respiratory Disease,10.18,1019893772,5.84,145,Europe,Emerging
+Russia,2019,Respiratory Disease,6.09,561746404,6.0,145,Europe,Emerging
+Russia,2020,Respiratory Disease,5.65,587334781,5.79,145,Europe,Emerging
+Russia,2021,Respiratory Disease,10.64,1042213147,6.43,145,Europe,Emerging
+Russia,2022,Respiratory Disease,12.46,1424816636,6.36,145,Europe,Emerging
+Russia,2023,Respiratory Disease,8.09,759953368,6.59,145,Europe,Emerging
+Russia,2015,Mental Health Disorders,10.92,1152380729,5.24,145,Europe,Emerging
+Russia,2016,Mental Health Disorders,11.13,1435425482,5.49,145,Europe,Emerging
+Russia,2017,Mental Health Disorders,7.84,1011519268,5.77,145,Europe,Emerging
+Russia,2018,Mental Health Disorders,11.74,1767088237,5.6,145,Europe,Emerging
+Russia,2019,Mental Health Disorders,14.01,2051581637,6.04,145,Europe,Emerging
+Russia,2020,Mental Health Disorders,9.06,1405264515,6.27,145,Europe,Emerging
+Russia,2021,Mental Health Disorders,9.73,1516665759,6.11,145,Europe,Emerging
+Russia,2022,Mental Health Disorders,6.35,1013379311,6.35,145,Europe,Emerging
+Russia,2023,Mental Health Disorders,8.43,1141428832,6.5,145,Europe,Emerging
+Russia,2015,Infectious Diseases,8.61,663373902,5.28,145,Europe,Emerging
+Russia,2016,Infectious Diseases,5.51,429730610,5.38,145,Europe,Emerging
+Russia,2017,Infectious Diseases,12.98,916265563,5.85,145,Europe,Emerging
+Russia,2018,Infectious Diseases,12.06,813865277,5.87,145,Europe,Emerging
+Russia,2019,Infectious Diseases,6.09,449990512,5.74,145,Europe,Emerging
+Russia,2020,Infectious Diseases,13.16,981560464,6.11,145,Europe,Emerging
+Russia,2021,Infectious Diseases,5.25,453426552,6.11,145,Europe,Emerging
+Russia,2022,Infectious Diseases,8.68,643195427,6.48,145,Europe,Emerging
+Russia,2023,Infectious Diseases,6.7,556262294,6.65,145,Europe,Emerging
+Russia,2015,Neurological Disorders,8.11,1248242739,5.16,145,Europe,Emerging
+Russia,2016,Neurological Disorders,11.06,1542884143,5.4,145,Europe,Emerging
+Russia,2017,Neurological Disorders,7.92,1258591457,5.74,145,Europe,Emerging
+Russia,2018,Neurological Disorders,10.31,1884603380,5.83,145,Europe,Emerging
+Russia,2019,Neurological Disorders,11.96,2189230761,5.89,145,Europe,Emerging
+Russia,2020,Neurological Disorders,8.99,1425110094,6.16,145,Europe,Emerging
+Russia,2021,Neurological Disorders,13.4,2585604239,6.15,145,Europe,Emerging
+Russia,2022,Neurological Disorders,6.49,1307871145,6.34,145,Europe,Emerging
+Russia,2023,Neurological Disorders,9.35,2405258873,6.5,145,Europe,Emerging
+Russia,2015,Musculoskeletal,8.44,656120224,5.29,145,Europe,Emerging
+Russia,2016,Musculoskeletal,8.53,806680626,5.5,145,Europe,Emerging
+Russia,2017,Musculoskeletal,9.05,713330974,5.72,145,Europe,Emerging
+Russia,2018,Musculoskeletal,9.77,825256372,5.87,145,Europe,Emerging
+Russia,2019,Musculoskeletal,6.95,524286236,5.87,145,Europe,Emerging
+Russia,2020,Musculoskeletal,8.98,775059605,6.11,145,Europe,Emerging
+Russia,2021,Musculoskeletal,7.44,647790996,6.33,145,Europe,Emerging
+Russia,2022,Musculoskeletal,6.41,590746850,6.41,145,Europe,Emerging
+Russia,2023,Musculoskeletal,9.57,829093786,6.7,145,Europe,Emerging
+Canada,2015,Diabetes,9.91,325911631,11.03,38,North America,Established
+Canada,2016,Diabetes,10.31,390220198,11.06,38,North America,Established
+Canada,2017,Diabetes,10.1,329213132,11.49,38,North America,Established
+Canada,2018,Diabetes,10.15,370560436,11.58,38,North America,Established
+Canada,2019,Diabetes,9.67,461181969,11.84,38,North America,Established
+Canada,2020,Diabetes,10.82,422066624,12.9,38,North America,Established
+Canada,2021,Diabetes,10.26,443726670,12.41,38,North America,Established
+Canada,2022,Diabetes,9.82,461718860,13.39,38,North America,Established
+Canada,2023,Diabetes,10.92,665534975,13.55,38,North America,Established
+Canada,2015,Cardiovascular Disease,14.48,665229279,10.9,38,North America,Established
+Canada,2016,Cardiovascular Disease,18.74,922534468,11.35,38,North America,Established
+Canada,2017,Cardiovascular Disease,10.88,536632258,11.34,38,North America,Established
+Canada,2018,Cardiovascular Disease,20.2,1156026973,11.77,38,North America,Established
+Canada,2019,Cardiovascular Disease,16.57,817877750,11.9,38,North America,Established
+Canada,2020,Cardiovascular Disease,10.69,637626730,12.45,38,North America,Established
+Canada,2021,Cardiovascular Disease,18.11,1259991167,12.94,38,North America,Established
+Canada,2022,Cardiovascular Disease,19.16,1427510103,12.99,38,North America,Established
+Canada,2023,Cardiovascular Disease,16.13,1026773129,13.4,38,North America,Established
+Canada,2015,Oncology,12.6,797843833,10.6,38,North America,Established
+Canada,2016,Oncology,13.18,899239641,10.94,38,North America,Established
+Canada,2017,Oncology,17.09,1346275458,11.62,38,North America,Established
+Canada,2018,Oncology,18.41,1349548095,11.42,38,North America,Established
+Canada,2019,Oncology,8.38,671083845,12.09,38,North America,Established
+Canada,2020,Oncology,16.97,1628486208,12.33,38,North America,Established
+Canada,2021,Oncology,19.09,1901826515,12.88,38,North America,Established
+Canada,2022,Oncology,19.08,2137480453,12.77,38,North America,Established
+Canada,2023,Oncology,14.63,1536216984,13.98,38,North America,Established
+Canada,2015,Respiratory Disease,16.65,441888146,10.77,38,North America,Established
+Canada,2016,Respiratory Disease,16.31,416753378,11.26,38,North America,Established
+Canada,2017,Respiratory Disease,18.5,450332953,11.54,38,North America,Established
+Canada,2018,Respiratory Disease,15.95,409994874,11.97,38,North America,Established
+Canada,2019,Respiratory Disease,8.74,258544587,12.05,38,North America,Established
+Canada,2020,Respiratory Disease,17.42,456694661,12.32,38,North America,Established
+Canada,2021,Respiratory Disease,11.14,329464788,12.77,38,North America,Established
+Canada,2022,Respiratory Disease,16.7,449819857,13.03,38,North America,Established
+Canada,2023,Respiratory Disease,10.0,277875782,13.52,38,North America,Established
+Canada,2015,Mental Health Disorders,16.74,464272871,10.73,38,North America,Established
+Canada,2016,Mental Health Disorders,12.94,404570193,11.14,38,North America,Established
+Canada,2017,Mental Health Disorders,14.77,477023059,11.26,38,North America,Established
+Canada,2018,Mental Health Disorders,17.58,594085115,11.53,38,North America,Established
+Canada,2019,Mental Health Disorders,8.37,271734799,12.11,38,North America,Established
+Canada,2020,Mental Health Disorders,11.5,481051950,11.74,38,North America,Established
+Canada,2021,Mental Health Disorders,22.04,895675418,13.33,38,North America,Established
+Canada,2022,Mental Health Disorders,16.33,813680702,12.66,38,North America,Established
+Canada,2023,Mental Health Disorders,13.12,631995088,13.55,38,North America,Established
+Canada,2015,Infectious Diseases,13.45,277128499,10.44,38,North America,Established
+Canada,2016,Infectious Diseases,14.59,345591316,10.75,38,North America,Established
+Canada,2017,Infectious Diseases,11.99,202321171,11.13,38,North America,Established
+Canada,2018,Infectious Diseases,19.45,364170029,11.93,38,North America,Established
+Canada,2019,Infectious Diseases,13.38,234645983,12.1,38,North America,Established
+Canada,2020,Infectious Diseases,13.61,269117243,12.62,38,North America,Established
+Canada,2021,Infectious Diseases,12.08,228887142,13.23,38,North America,Established
+Canada,2022,Infectious Diseases,18.67,425771599,13.46,38,North America,Established
+Canada,2023,Infectious Diseases,17.66,341878801,13.46,38,North America,Established
+Canada,2015,Neurological Disorders,18.18,624647287,10.68,38,North America,Established
+Canada,2016,Neurological Disorders,17.14,676069752,11.35,38,North America,Established
+Canada,2017,Neurological Disorders,7.53,334291321,11.27,38,North America,Established
+Canada,2018,Neurological Disorders,10.74,447158204,11.34,38,North America,Established
+Canada,2019,Neurological Disorders,18.64,859376741,12.32,38,North America,Established
+Canada,2020,Neurological Disorders,19.42,981006231,12.38,38,North America,Established
+Canada,2021,Neurological Disorders,11.29,601403597,12.62,38,North America,Established
+Canada,2022,Neurological Disorders,16.3,1049305806,13.12,38,North America,Established
+Canada,2023,Neurological Disorders,9.16,637240197,13.45,38,North America,Established
+Canada,2015,Musculoskeletal,18.9,434529749,10.76,38,North America,Established
+Canada,2016,Musculoskeletal,10.78,261934900,10.8,38,North America,Established
+Canada,2017,Musculoskeletal,8.76,206110109,11.24,38,North America,Established
+Canada,2018,Musculoskeletal,12.58,302427107,11.78,38,North America,Established
+Canada,2019,Musculoskeletal,10.59,241362908,11.89,38,North America,Established
+Canada,2020,Musculoskeletal,12.39,277209735,12.4,38,North America,Established
+Canada,2021,Musculoskeletal,8.88,181819313,12.64,38,North America,Established
+Canada,2022,Musculoskeletal,20.34,508212998,12.92,38,North America,Established
+Canada,2023,Musculoskeletal,12.2,286487995,13.08,38,North America,Established
+Australia,2015,Diabetes,9.43,204938228,9.39,26,Oceania,Established
+Australia,2016,Diabetes,8.72,180956085,9.78,26,Oceania,Established
+Australia,2017,Diabetes,8.57,233882906,9.78,26,Oceania,Established
+Australia,2018,Diabetes,9.23,236998599,9.94,26,Oceania,Established
+Australia,2019,Diabetes,8.84,265823112,10.27,26,Oceania,Established
+Australia,2020,Diabetes,8.54,269343306,11.04,26,Oceania,Established
+Australia,2021,Diabetes,9.73,301320523,10.87,26,Oceania,Established
+Australia,2022,Diabetes,8.62,297603960,11.13,26,Oceania,Established
+Australia,2023,Diabetes,9.94,339933555,11.28,26,Oceania,Established
+Australia,2015,Cardiovascular Disease,13.53,372277676,9.19,26,Oceania,Established
+Australia,2016,Cardiovascular Disease,7.85,257210378,9.43,26,Oceania,Established
+Australia,2017,Cardiovascular Disease,8.45,288596439,9.95,26,Oceania,Established
+Australia,2018,Cardiovascular Disease,9.15,340988391,10.47,26,Oceania,Established
+Australia,2019,Cardiovascular Disease,13.79,520321271,10.32,26,Oceania,Established
+Australia,2020,Cardiovascular Disease,16.47,641427021,10.38,26,Oceania,Established
+Australia,2021,Cardiovascular Disease,18.99,933985240,11.11,26,Oceania,Established
+Australia,2022,Cardiovascular Disease,15.91,758223989,11.21,26,Oceania,Established
+Australia,2023,Cardiovascular Disease,12.32,602794583,11.6,26,Oceania,Established
+Australia,2015,Oncology,10.57,496050649,9.27,26,Oceania,Established
+Australia,2016,Oncology,16.0,854492554,9.48,26,Oceania,Established
+Australia,2017,Oncology,11.66,675780906,10.06,26,Oceania,Established
+Australia,2018,Oncology,16.57,996143118,10.07,26,Oceania,Established
+Australia,2019,Oncology,8.51,562930413,10.22,26,Oceania,Established
+Australia,2020,Oncology,11.08,715208393,10.45,26,Oceania,Established
+Australia,2021,Oncology,14.57,1036417899,11.02,26,Oceania,Established
+Australia,2022,Oncology,12.26,678293310,11.05,26,Oceania,Established
+Australia,2023,Oncology,19.16,1377678193,11.58,26,Oceania,Established
+Australia,2015,Respiratory Disease,7.76,124139298,9.44,26,Oceania,Established
+Australia,2016,Respiratory Disease,15.22,283621740,9.61,26,Oceania,Established
+Australia,2017,Respiratory Disease,16.26,307425319,9.49,26,Oceania,Established
+Australia,2018,Respiratory Disease,14.05,255940367,9.98,26,Oceania,Established
+Australia,2019,Respiratory Disease,12.31,216151086,10.66,26,Oceania,Established
+Australia,2020,Respiratory Disease,11.38,196613238,10.79,26,Oceania,Established
+Australia,2021,Respiratory Disease,8.62,174876536,11.04,26,Oceania,Established
+Australia,2022,Respiratory Disease,14.08,247064578,11.12,26,Oceania,Established
+Australia,2023,Respiratory Disease,13.58,256919316,11.63,26,Oceania,Established
+Australia,2015,Mental Health Disorders,11.8,223263880,9.44,26,Oceania,Established
+Australia,2016,Mental Health Disorders,10.6,245992092,10.06,26,Oceania,Established
+Australia,2017,Mental Health Disorders,13.43,308371969,9.64,26,Oceania,Established
+Australia,2018,Mental Health Disorders,15.23,364284875,10.15,26,Oceania,Established
+Australia,2019,Mental Health Disorders,14.16,394214181,10.2,26,Oceania,Established
+Australia,2020,Mental Health Disorders,13.77,376960499,10.25,26,Oceania,Established
+Australia,2021,Mental Health Disorders,13.49,439251885,10.85,26,Oceania,Established
+Australia,2022,Mental Health Disorders,11.82,305440096,11.35,26,Oceania,Established
+Australia,2023,Mental Health Disorders,10.18,269185239,11.54,26,Oceania,Established
+Australia,2015,Infectious Diseases,16.68,234821797,9.31,26,Oceania,Established
+Australia,2016,Infectious Diseases,13.85,138068413,9.65,26,Oceania,Established
+Australia,2017,Infectious Diseases,7.76,100480082,9.72,26,Oceania,Established
+Australia,2018,Infectious Diseases,15.7,192344678,10.0,26,Oceania,Established
+Australia,2019,Infectious Diseases,16.05,169132551,10.31,26,Oceania,Established
+Australia,2020,Infectious Diseases,13.31,164115150,11.09,26,Oceania,Established
+Australia,2021,Infectious Diseases,11.26,165972243,11.02,26,Oceania,Established
+Australia,2022,Infectious Diseases,18.48,281705028,11.48,26,Oceania,Established
+Australia,2023,Infectious Diseases,11.68,148990119,11.91,26,Oceania,Established
+Australia,2015,Neurological Disorders,10.98,312668481,9.29,26,Oceania,Established
+Australia,2016,Neurological Disorders,10.93,297082847,9.76,26,Oceania,Established
+Australia,2017,Neurological Disorders,12.63,417496031,9.86,26,Oceania,Established
+Australia,2018,Neurological Disorders,7.45,239081368,10.23,26,Oceania,Established
+Australia,2019,Neurological Disorders,13.74,441562773,10.21,26,Oceania,Established
+Australia,2020,Neurological Disorders,18.23,661506704,10.86,26,Oceania,Established
+Australia,2021,Neurological Disorders,14.0,558832322,10.81,26,Oceania,Established
+Australia,2022,Neurological Disorders,11.38,428347084,11.38,26,Oceania,Established
+Australia,2023,Neurological Disorders,13.14,551329377,11.23,26,Oceania,Established
+Australia,2015,Musculoskeletal,11.98,180725927,9.23,26,Oceania,Established
+Australia,2016,Musculoskeletal,9.16,137568202,9.86,26,Oceania,Established
+Australia,2017,Musculoskeletal,7.6,115411498,10.12,26,Oceania,Established
+Australia,2018,Musculoskeletal,16.94,257767427,9.96,26,Oceania,Established
+Australia,2019,Musculoskeletal,16.99,292685774,10.19,26,Oceania,Established
+Australia,2020,Musculoskeletal,16.86,281983203,10.43,26,Oceania,Established
+Australia,2021,Musculoskeletal,18.35,270469781,11.1,26,Oceania,Established
+Australia,2022,Musculoskeletal,15.52,221306526,11.11,26,Oceania,Established
+Australia,2023,Musculoskeletal,17.47,289501686,11.84,26,Oceania,Established
