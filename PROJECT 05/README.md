@@ -76,6 +76,6 @@ jupyter notebook notebooks/market_intelligence_analysis.ipynb
 
 ---
 
-## 👤 Author
+## 👤 Author - DEVESH
 
 Built as a pharmaceutical market intelligence consulting project.
